@@ -1,0 +1,12 @@
+.register-container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    border: red 1px solid;
+
+}

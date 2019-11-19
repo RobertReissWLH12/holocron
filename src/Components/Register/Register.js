@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
-// import './Register.css'
+import './Register.css'
 // import {updateUserInfo} from '../ducks/reducer'
 // import {connect} from 'react-redux'
 
@@ -38,7 +38,7 @@ export default class Register extends Component {
 
   render() {
     return (
-      <div className='register'>
+      <div className='register-container'>
         <input
           value={this.state.email}
           onChange={e => this.handleChange('email', e.target.value)}

@@ -5,7 +5,7 @@ export default class Home extends Component {
 
     render() {
         return (
-                <div className="header">
+                <div className="home-container">
                     {/* <img src={whateverItsCalled} className="whateverItsCalled" alt="" /> */}
                     Home
                 </div>
