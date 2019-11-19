@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 // import "./Header.css"
-// import {Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 // import axios from 'axios';
 
 //  ***  DONATE LINK AND LOGIN GO IN HERE ***
@@ -8,16 +8,20 @@ import React, {Component} from 'react'
 
 export default class Header extends Component {
 
-    
+
 
     render() {
         return (
             <header>
                 <div className="header">
                     {/* <img src={whateverItsCalled} className="whateverItsCalled" alt="" /> */}
+                    <button onClick={this.register}>Register</button>
+                    <Link to="/login">
+                        <h4>Already have an account? Login here</h4>
+                    </Link>
                     Header
                 </div>
-            </header>
+            </header >
         )
     }
 }

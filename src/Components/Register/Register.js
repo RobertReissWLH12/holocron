@@ -64,7 +64,7 @@ export default class Register extends Component {
           type="password"
         />
         <button onClick={this.register}>Register</button>
-        <Link to="/">
+        <Link to="/login">
           <h4>Already have an account? Login here</h4>
         </Link>
       </div>
