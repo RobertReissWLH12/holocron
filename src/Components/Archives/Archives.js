@@ -9,6 +9,7 @@ export default class Archives extends Component {
             author: '',
             pages: '',
             characters: [],
+            summary: '',
             img: ''
         }
     }
