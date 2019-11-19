@@ -2,9 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session')
 const authCtrl = require('./controllers/authController')
-const guestsCtrl = require('./controllers/guestsController')
+// const guestsCtrl = require('./controllers/guestsController')
 // const treasuresCtrl = require('./controllers/treasuresController')
-const archivesCtrl = require('./controllers/treasuresController')
+// const archivesCtrl = require('./controllers/treasuresController')
 const massive = require('massive')
 const {SERVER_PORT, CONNECTION_STRING, SESSION_SECRET} = process.env;
 const app = express()
@@ -28,7 +28,7 @@ app.use(session({
 // app.delete('/api/archives/:id', archivesCtrl.removeBook)
 
 // REGISTERING, LOGGING IN AND LOGGING OUT
-// app.post('./auth/register', authCtrl.register)
+app.post('./auth/register', authCtrl.register)
 // app.post('./auth/login', authCtrl.login)
 // app.get('./auth/logout', authCtrl.logout)
 

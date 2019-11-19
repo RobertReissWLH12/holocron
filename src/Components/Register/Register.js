@@ -46,9 +46,9 @@ export default class Register extends Component {
           type="text"
         />
         <input
-          value={this.state.name}
-          onChange={e => this.handleChange('name', e.target.value)}
-          placeholder="Name"
+          value={this.state.username}
+          onChange={e => this.handleChange('username', e.target.value)}
+          placeholder="Username"
           type="text"
         />
         <input

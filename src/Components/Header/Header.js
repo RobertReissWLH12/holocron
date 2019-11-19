@@ -33,7 +33,7 @@ export default class Header extends Component {
                         </div>
                     </div>
                     <div className="navbar-container">
-                        <Link to="/home">
+                        <Link to="/">
                             <button id="home-button" onClick={this.home}>Home</button>
                         </Link>
                         <Link to="/search">
