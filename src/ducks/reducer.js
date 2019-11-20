@@ -16,7 +16,7 @@ export function updateUserInfo(userObj) {
     }
 }
 
-expoert default function reducer(state = initialState, action) {
+export default function reducer(state = initialState, action) {
     switch(action.type) {
         case UPDATE_USER_INFO:
             return {...state, ...action.payload}

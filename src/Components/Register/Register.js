@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 import './Register.css'
-import {updateUserInfo} from '../ducks/reducer'
+import {updateUserInfo} from './../../ducks/reducer'
 import {connect} from 'react-redux'
 
 class Register extends Component {

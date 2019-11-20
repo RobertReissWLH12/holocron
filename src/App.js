@@ -10,7 +10,7 @@ import store from './ducks/store'
 
 function App() {
   return (
-    <Provider>
+    <Provider store={store}>
       <HashRouter>
         <div className="App">
           <Header />

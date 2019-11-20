@@ -28,9 +28,9 @@ app.use(session({
 // app.delete('/api/archives/:id', archivesCtrl.removeBook)
 
 // REGISTERING, LOGGING IN AND LOGGING OUT
-app.post('./auth/register', authCtrl.register)
-// app.post('./auth/login', authCtrl.login)
-// app.get('./auth/logout', authCtrl.logout)
+app.post('/auth/register', authCtrl.register)
+app.post('/auth/login', authCtrl.login)
+app.get('/auth/logout', authCtrl.logout)
 
 // BROWSING AND CHANGING PROFILE PICTURES
 // app.get('/api/guests', guestsCtrl.getProfilePics)
