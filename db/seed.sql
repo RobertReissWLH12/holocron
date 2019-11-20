@@ -46,6 +46,12 @@ CREATE TABLE user_favorites (
 	archives_id INT REFERENCES archives(archives_id)
 );
 
+SELECT * FROM users;
+SELECT * FROM users_hash;
+SELECT * FROM profile_pics;
+SELECT * FROM badges;
+SELECT * FROM archives;
+SELECT * FROM user_favorites;
 
 
 INSERT INTO users (email, username, profile_img)
