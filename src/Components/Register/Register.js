@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 import './Register.css'
-// import {updateUserInfo} from '../ducks/reducer'
-// import {connect} from 'react-redux'
+import {updateUserInfo} from '../ducks/reducer'
+import {connect} from 'react-redux'
 
-export default class Register extends Component {
+class Register extends Component {
   state = {
     email: '',
     name: '',
@@ -72,11 +72,11 @@ export default class Register extends Component {
   }
 }
 
-// function mapStateToProps(reduxState) {
-//   return reduxState
-// }
-// const mapDispatchToProps = {
-//   updateUserInfo
-// }
+function mapStateToProps(reduxState) {
+  return reduxState
+}
+const mapDispatchToProps = {
+  updateUserInfo
+}
 
-// export default connect(mapStateToProps, mapDispatchToProps)(Register)
+export default connect(mapStateToProps, mapDispatchToProps)(Register)
