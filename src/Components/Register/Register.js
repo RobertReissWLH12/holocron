@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 import './Register.css'
-import {updateUserInfo} from './../../ducks/reducer'
-import {connect} from 'react-redux'
+import { updateUserInfo } from './../../ducks/reducer'
+import { connect } from 'react-redux'
 
 class Register extends Component {
   constructor() {
@@ -24,9 +24,9 @@ class Register extends Component {
 
   register = () => {
     if (this.state.password1 === this.state.password2) {
-      const {email, username, password1, password2} = this.state
+      const { email, username, password1, password2 } = this.state
       axios
-        .post('/auth/register', {email, username, password1, password2})
+        .post('/auth/register', { email, username, password1, password2 })
         .then(res => {
           console.log(res.data)
           this.props.updateUserInfo(res.data.user)
@@ -41,35 +41,42 @@ class Register extends Component {
 
   render() {
     return (
-      <div className='register-container' alt=''>
-        <input
-          value={this.state.email}
-          onChange={e => this.handleChange('email', e.target.value)}
-          placeholder="Email"
-          type="text"
-        />
-        <input
-          value={this.state.username}
-          onChange={e => this.handleChange('username', e.target.value)}
-          placeholder="Username"
-          type="text"
-        />
-        <input
-          value={this.state.password1}
-          onChange={e => this.handleChange('password1', e.target.value)}
-          placeholder="Password"
-          type="password"
-        />
-        <input
-          value={this.state.password2}
-          onChange={e => this.handleChange('password2', e.target.value)}
-          placeholder="Retype password"
-          type="password"
-        />
-        <button onClick={this.register}>Register</button>
-        <Link to="/login">
-          <h4>Already have an account? Login here</h4>
-        </Link>
+      <div className="Register">
+        <div className='register-container' alt=''>
+          <h1>Welcome to the Holocron!</h1>
+          <div className="four-inputs">
+            <input
+              value={this.state.email}
+              onChange={e => this.handleChange('email', e.target.value)}
+              placeholder="Email"
+              type="text"
+            />
+            <input
+              value={this.state.username}
+              onChange={e => this.handleChange('username', e.target.value)}
+              placeholder="Username"
+              type="text"
+            />
+            <input
+              value={this.state.password1}
+              onChange={e => this.handleChange('password1', e.target.value)}
+              placeholder="Password"
+              type="password"
+            />
+            <input
+              value={this.state.password2}
+              onChange={e => this.handleChange('password2', e.target.value)}
+              placeholder="Retype password"
+              type="password"
+            />
+          </div>
+          <Link to="/">
+            <button onClick={this.home}>Register</button>
+          </Link>
+          <Link to="/login">
+            <h4>Already have an account? Login here!</h4>
+          </Link>
+        </div>
       </div>
     )
   }

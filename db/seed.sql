@@ -9,7 +9,6 @@ CREATE TABLE users (
 	user_id SERIAL PRIMARY KEY,
 	email VARCHAR,
 	username VARCHAR(100),
-    -- password VARCHAR(250),
 	profile_img TEXT
 );
 

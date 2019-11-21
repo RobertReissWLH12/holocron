@@ -30,7 +30,9 @@ app.use(session({
 // REGISTERING, LOGGING IN AND LOGGING OUT
 app.post('/auth/register', authCtrl.register)
 app.post('/auth/login', authCtrl.login)
-app.get('/auth/logout', authCtrl.logout)
+app.delete('/auth/logout', authCtrl.logout)
+app.get('/auth/getUser', authCtrl.getUser)
+// app.put('/auth/updateProfile', authCtrl.updateProfile)
 
 // BROWSING AND CHANGING PROFILE PICTURES
 // app.get('/api/guests', guestsCtrl.getProfilePics)
@@ -38,8 +40,8 @@ app.get('/auth/logout', authCtrl.logout)
 
 //  MASSIVE
 massive(CONNECTION_STRING)
-.then(db => {
-    app.set('db', db);
+.then(dbInstance => {
+    app.set('db', dbInstance);
         console.log('database is connected')
         app.listen(SERVER_PORT, () =>
         console.log(`Server is listening on port ${SERVER_PORT}.`))
