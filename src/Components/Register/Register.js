@@ -6,11 +6,14 @@ import {updateUserInfo} from './../../ducks/reducer'
 import {connect} from 'react-redux'
 
 class Register extends Component {
-  state = {
-    email: '',
-    name: '',
-    password1: '',
-    password2: ''
+  constructor() {
+    super();
+    this.state = {
+      email: '',
+      username: '',
+      password1: '',
+      password2: ''
+    }
   }
 
   handleChange = (key, value) => {
@@ -21,9 +24,9 @@ class Register extends Component {
 
   register = () => {
     if (this.state.password1 === this.state.password2) {
-      const {name, email, password1:password} = this.state
+      const {email, username, password1, password2} = this.state
       axios
-        .post('/auth/register', {name, email, password})
+        .post('/auth/register', {email, username, password1, password2})
         .then(res => {
           console.log(res.data)
           this.props.updateUserInfo(res.data.user)
@@ -32,13 +35,13 @@ class Register extends Component {
           console.log(err.response.data.message)
         })
     } else {
-      console.log('passwords dont match')
+      console.log('passwords do not match')
     }
   }
 
   render() {
     return (
-      <div className='register-container'>
+      <div className='register-container' alt=''>
         <input
           value={this.state.email}
           onChange={e => this.handleChange('email', e.target.value)}

@@ -3,23 +3,22 @@ const bcrypt = require('bcryptjs')
 module.exports = {
     register: async (req, res) => {
         console.log(req.body)
-        const {username, password1, password2} = req.body
+        const {email, username, password, profile_img} = req.body
         const db = req.app.get('db')
 
-        const result = await db.get_user([username])
-        const existingUser = result[0];
-        if (existingUser) {
-            return res.status(409).send(`Already taken that username is.`)
-        }
-        const salt = bcrypt.genSaltSync(10)
-        const hash = bcrypt.hashSync(password, salt)
-        const registeredUser = await db.register_user([username, hash])
-            const user = registeredUser[0]
-            req.session.user = {
-                username: user.username,
-                id: user.id
+        const result = await db.get_user(username)
+        result = result[0];
+        if (result) {
+             res.status(409).send(`Already taken that username is.`)
+        } else {
+            const salt = bcrypt.genSaltSync(10)
+            const hash = bcrypt.hashSync(password, salt)
+            const registeredUser = await db.register({username, password:hash, })
+            registeredUser = registeredUser[0]
+            req.session.user = {...registeredUser
             }
-            return res.status(200).send(req.session.user);
+            res.status(200).send(req.session.user);
+        }
     },
 
     login: async (req, res) => {

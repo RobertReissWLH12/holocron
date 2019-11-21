@@ -9,14 +9,15 @@ CREATE TABLE users (
 	user_id SERIAL PRIMARY KEY,
 	email VARCHAR,
 	username VARCHAR(100),
+    password VARCHAR(250),
 	profile_img TEXT,
 );
 
-CREATE TABLE users_hash (
-	hash_id SERIAL PRIMARY KEY,
-	hash TEXT,
-	user_id INT REFERENCES users(user_id)
-);
+-- CREATE TABLE users_hash (
+-- 	hash_id SERIAL PRIMARY KEY,
+-- 	hash TEXT,
+-- 	user_id INT REFERENCES users(user_id)
+-- );
 
 CREATE TABLE profile_pics (
 	picture_id SERIAL PRIMARY KEY,

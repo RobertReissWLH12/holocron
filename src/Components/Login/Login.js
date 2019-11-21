@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './Login.css';
+import './Login.css';
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 import { updateUserInfo } from './../../ducks/reducer'
@@ -10,7 +10,7 @@ import Swal from 'sweetalert2'
 class Login extends Component {
 
   state = {
-    email: '',
+    username: '',
     password: ''
   }
 
@@ -34,11 +34,11 @@ class Login extends Component {
 
   render() {
     return (
-      <div>
+      <div className="login-container" alt=''>
         <input
-          onChange={e => this.handleChange('email', e.target.value)}
-          value={this.state.email}
-          placeholder="Email"
+          onChange={e => this.handleChange('username', e.target.value)}
+          value={this.state.username}
+          placeholder="Username"
           type="text"
         />
         <input
