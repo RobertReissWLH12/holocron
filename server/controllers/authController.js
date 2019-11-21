@@ -3,25 +3,25 @@ const bcrypt = require('bcryptjs')
 module.exports = {
     register: async (req, res) => {
         console.log(req.body)
-        const {email, username, password, profile_img} = req.body
         const db = req.app.get('db')
+        const {email, username, password, profile_img} = req.body
 
-        const result = await db.get_user(username)
-        result = result[0];
-        if (result) {
-             res.status(409).send(`Already taken that username is.`)
-        } else {
+        const found = await db.get_user([username])
+        // result = result[0];
+        // if (result) {
+        if (+found[0].count !==0) {
+             return res.status(409).send(`Already taken that username is.`)
+        } 
+            const user_id = await db.register({username, email})
             const salt = bcrypt.genSaltSync(10)
             const hash = bcrypt.hashSync(password, salt)
-            const registeredUser = await db.register({username, password:hash, })
-            registeredUser = registeredUser[0]
-            req.session.user = {...registeredUser
-            }
-            res.status(200).send(req.session.user);
-        }
-    },
+            db.add_hash({user_id: user_id[0].user_id, hash})
+            req.session.user = {user_id: user_id[0].user_id, email, username}
+            res.status(201).send({message:  'Logged In', user: req.session.user});
+        },
 
     login: async (req, res) => {
+        const db = req.app.get('db')
         const {username, password} = req.body
         const foundUser = await req.app.get('db').get_user([username])
         const user = foundUser[0]
@@ -34,14 +34,16 @@ module.exports = {
         }
         req.session.user = {
             id: user.id,
-            username: user.username
+            email: user.email,
+            username: user.username,
+            password: user.password,
+            profile_img: user.profile_img
         }
-        return res.send(req.session.user)
+        res.status(200).send({message: 'Logged in successfully!', user: req.session.user})
     },
 
     logout: (req, res) => {
         req.session.destroy()
-        return res.status(200)
-        .send({message: 'Logged Out'})
+        res.status(200).send({message: 'Logged Out'})
     }
 }

@@ -1,25 +1,27 @@
 * {
     margin: 0;
+    
 }
 
-body {
+/* body {
     border: red 2px solid;
-}
+} */
 
-.home-background {
+/* .home-background {
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
     z-index: -1;
-    /* background-image: ; */
-}
+} */
 
-/* html {
+body {
+    background-image: url('./../../assets/background_complete.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
     background: src("/assets/background_complete.jpg")
-    no-repeat center center fixed;
+    /* no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
+    -o-background-size: cover; */
+} 
