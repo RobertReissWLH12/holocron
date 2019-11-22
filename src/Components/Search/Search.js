@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-// import "./Search.css"
+import "./Search.css"
 
 export default class Search extends Component {
     constructor() {
@@ -15,7 +15,7 @@ export default class Search extends Component {
 
     render() {
         return (
-            <div>Search</div>
+            <div id="search-background"></div>
         )
     }
 }
