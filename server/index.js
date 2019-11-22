@@ -4,7 +4,7 @@ const session = require('express-session')
 const authCtrl = require('./controllers/authController')
 // const guestsCtrl = require('./controllers/guestsController')
 // const treasuresCtrl = require('./controllers/treasuresController')
-// const archivesCtrl = require('./controllers/treasuresController')
+const archivesCtrl = require('./controllers/treasuresController')
 const massive = require('massive')
 const {SERVER_PORT, CONNECTION_STRING, SESSION_SECRET} = process.env;
 const app = express()
@@ -22,7 +22,7 @@ app.use(session({
 // ***  ENDPOINTS  ***
 
 // ARCHIVES
-// app.get('/api/archives', archivesCtrl.getBooks)
+app.get('/api/archives', archivesCtrl.getBooks)
 // app.post('/api/archives', archivesCtrl.addBook)
 // app.put('/api/archives/:id', archivesCtrl.editBook)
 // app.delete('/api/archives/:id', archivesCtrl.removeBook)
