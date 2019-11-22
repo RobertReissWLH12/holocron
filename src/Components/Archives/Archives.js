@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "./Archives.css";
-import {Link} from "react-router-dom";
+import Book from "./../Book/Book";
+// import {Link} from "react-router-dom";
 import axios from 'axios';
 
 export default class Archives extends Component {
@@ -16,17 +17,18 @@ export default class Archives extends Component {
             // img: ''
         }
 
-        this.getArchives = this.getArchives.bind(this)
+        this.getBooks = this.getBooks.bind(this)
     }
 
     componentDidMount() {
-        this.getArchives();
+        this.getBooks();
     }
 
-    getArchives = () => {
+    getBooks = () => {
         axios
         .get("/api/archives")
         .then(res => {
+            console.log(res.data)
             this.setState({
                 archives: res.data
             })
@@ -39,7 +41,16 @@ export default class Archives extends Component {
 
     render() {
         return (
-            <div id="archives-background"></div>
+            <div id="archives-background">
+                <div>
+                    {this.state.archives.map((book, i) => {
+                        return (
+                            <Book
+                            image={book.image} />
+                        )
+                    })}
+                </div>
+            </div>
         )
     }
 }
