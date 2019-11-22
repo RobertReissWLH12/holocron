@@ -18,10 +18,10 @@ export default class Header extends Component {
                     <div className="header-topHalf-container">
                         <h4 className="donate-button-styling">
                             <Link to="/donate">
-                                <button className="donate-button" onClick={this.donate}>Make a Donation</button>
+                                <button className="donate-button" onClick={this.donate}></button>
                             </Link>
                         </h4>
-                        <div className="title-div">The Holocron</div>
+                        <div className="title-div"></div>
                         <div className="login-div">
                             <Link to="/login">
                                 <button id="login-button" onClick={this.login}>Login</button>

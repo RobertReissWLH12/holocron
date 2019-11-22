@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-// import "./Archives.css"
+import "./Archives.css"
 
 export default class Archives extends Component {
     constructor() {
@@ -16,7 +16,7 @@ export default class Archives extends Component {
 
     render() {
         return (
-            <div>Archives</div>
+            <div id="archives-background"></div>
         )
     }
 }
