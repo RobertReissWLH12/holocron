@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import './Book.css'
 
 export default class Book extends Component {
     
@@ -12,14 +13,11 @@ export default class Book extends Component {
                     <div className="buttonbox">
                         
                     </div>
-                    <h2>{this.props.title}</h2>
-                    <p>{this.props.author}</p>
-                    <p>{this.props.pages}</p>
-                    <p>{this.props.characters}</p>
                     <img
+                    onClick={() => this.props.onClick(this.props.book)}
                     className="book-cover"
                     alt="book cover"
-                    src={`../../assets/${this.props.image}`} />
+                    src={`../../assets/${this.props.book.image}`} />
                 </div>
             </div>
         )

@@ -3,10 +3,98 @@
     
 }
 
-#archives-background{
+.archives-background{
     background-image: url('../../assets/background_complete.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100vh;
 } 
+
+#books-display {
+    width: 65vw;
+    height: 76vh;
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    /* padding-top: 150px; */
+    /* padding-left: 250px; */
+    display: flex;
+    flex-wrap: wrap;
+    border: red 1px solid;
+}
+
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px #888 solid;
+    width: 80%;
+} */
+
+/* close button */
+
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {
+    padding: 2px 16px;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Animation */
+/* @keyframes animateleft {
+    from {left: -300px; opacity: 0}
+    to {right: 0; opacity: 1}
+} */

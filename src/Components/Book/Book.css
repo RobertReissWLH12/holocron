@@ -1,0 +1,12 @@
+.book-cover {
+    width: 150px;
+    height: auto;
+    margin-left: 30px;
+    /* border: red 1px solid; */
+}
+
+/* .book-cover:hover {
+    width: 300px;
+    height: auto;
+} */
+
