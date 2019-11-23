@@ -47,8 +47,6 @@ export default class Archives extends Component {
     }
 
 
-
-
     render() {
         return (
             <div className="archives-background">
@@ -56,7 +54,7 @@ export default class Archives extends Component {
                     {this.state.archives.map((book, i) => {
                         return (
                             <Book
-                            onClick={this.modalFn}
+                                onClick={this.modalFn}
                                 book={book} />
 
                         )
@@ -89,7 +87,6 @@ export default class Archives extends Component {
                             </div>
                         </div>
                     </div>
-
                 }
             </div>
         )
