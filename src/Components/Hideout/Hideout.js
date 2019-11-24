@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
+import './Hideout.css'
 // import {Link} from 'react-router-dom'
 // import Contracts from './Contracts/Contracts'
 // import Guests from './Guests/Guests'
@@ -10,7 +11,9 @@ export default class Hideout extends Component {
 
     render() {
         return (
-            <div>Hideout</div>
+            <div className="hideout-background-noLogin">
+                <div id="fingerWave"></div>
+            </div>
         )
     }
 }

@@ -81,11 +81,13 @@ export default class Archives extends Component {
                                 <p>{this.state.book.author}</p>
                                 <p>{this.state.book.pages}</p>
                                 <p>{this.state.book.characters}</p>
+                                <p>{this.state.book.summary}</p>
                             </div>
                             <div class="modal-footer">
-                                <h3>Modal Footer</h3>
+                                <h3>{this.state.book.image}</h3>
                             </div>
                         </div>
+                        {/* <div class="overlay"></div> */}
                     </div>
                 }
             </div>

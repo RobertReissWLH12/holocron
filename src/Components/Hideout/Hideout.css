@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    
+}
+
+.hideout-background-noLogin {
+    background-image: url('../../assets/Hideout_MustLogIn.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+} 
+
+#fingerWave {
+    width: 150px;
+    height: 150px;
+    margin-top: 535px;
+    margin-left: 550px;
+    background-image: url('../../assets/Wagging-Finger.gif');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
