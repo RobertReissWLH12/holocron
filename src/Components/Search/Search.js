@@ -5,11 +5,11 @@ export default class Search extends Component {
     constructor() {
         super()
         this.state = {
-            title: '',
-            author: '',
-            pages: '',
-            characters: [],
-            img: ''
+            // title: '',
+            // author: '',
+            // pages: '',
+            // characters: [],
+            // img: ''
         }
     }
 
@@ -17,7 +17,6 @@ export default class Search extends Component {
         return (
             <div className="search-background">
                 <div className="R2"></div>
-                <div className="table"></div> 
             </div>
         )
     }
