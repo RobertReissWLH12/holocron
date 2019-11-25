@@ -15,7 +15,10 @@ export default class Search extends Component {
 
     render() {
         return (
-            <div id="search-background"></div>
+            <div className="search-background">
+                <div className="R2"></div>
+                <div className="table"></div> 
+            </div>
         )
     }
 }

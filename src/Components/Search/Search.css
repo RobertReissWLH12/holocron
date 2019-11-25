@@ -4,10 +4,27 @@
 
 
 
-#search-background {
+.search-background {
     background-image: url("../../assets/SearchBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: stretch;
     height: 100vh;
 }  
+
+.R2 {
+    width: 800px;
+    height: 560px;
+    background-image: url("../../assets/R2&Table.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-right: 100px;
+    border: 1px red solid;
+}
