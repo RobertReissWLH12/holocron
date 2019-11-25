@@ -1,3 +1,3 @@
 SELECT * FROM users h
-JOIN hash hh ON h.user_id = hh.user_id
+JOIN users_hash hh ON h.user_id = hh.user_id
 WHERE username = $1;

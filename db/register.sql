@@ -1,13 +1,11 @@
 INSERT INTO users (
     email,
-    username,
-    profile_img
+    username
 )
 
 VALUES(
     ${email},
-    ${username},
-    ${profile_img}
+    ${username}
 );
 
 SELECT user_id FROM users

@@ -1,12 +1,34 @@
+* {
+    margin: 0;
+}
+
+.login-background {
+        background-image: url('../../assets/Login_BG.jpg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+} 
+
+
+
 .login-container {
-    height: 400px;
-    width: 100%;
+    height: 120px;
+    width: 50%;
     display: flex;
-	flex-direction: row;
+    position: absolute;
+	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: center;
+    justify-content: center;
 	align-items: center;
     align-content: stretch;
-    /* border: blue 5px solid; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: blue 5px solid;
+    color: white;
 
 }

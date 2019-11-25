@@ -1,7 +1,41 @@
 import React, { Component } from 'react'
 import "./Home.css"
+// import { Link } from 'react-router-dom'
+import {connect} from 'react-redux'
+import { updateUserInfo } from '../../ducks/reducer'
+import axios from 'axios'
+// import LoggedInUser from '../Header/LoggedInUser'
 
-export default class Home extends Component {
+
+class Home extends Component {
+    constructor() {
+        super()
+        this.state = {
+            user_id: '',
+            email: '',
+            username: '',
+            profile_img: ''
+        }
+        this.getUser = this.getUser.bind(this)
+    }
+
+    componentDidMount() {
+        this.getUser();
+    }
+
+    getUser = () => {
+        axios
+        .get("/auth/getUser")
+        .then(res => {
+            console.log(res.data)
+            this.props.updateUserInfo({
+                username: res.data.username,
+                user_id: res.data.user_id,
+                profile_img: res.data.profile_img,
+                email: res.data.email
+            })
+        })
+    }
 
     render() {
         return (
@@ -13,3 +47,9 @@ export default class Home extends Component {
         )
     }
 }
+
+function mapStateToProps(reduxState) {
+    return reduxState
+}
+
+export default connect(mapStateToProps, {updateUserInfo})(Home)

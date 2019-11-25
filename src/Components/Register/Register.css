@@ -1,14 +1,42 @@
+* {
+    margin: 0;
+}
+
+.register-background{
+    background-image: url('../../assets/ConstructionBG.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+} 
+
 .register-container {
-    height: 400px;
-    width: 100%;
+    height: 200px;
+    width: 50%;
     display: flex;
-	flex-direction: row;
+    position: absolute;
+	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: center;
+    justify-content: flex-start;
 	align-items: center;
     align-content: stretch;
-    /* border: blue 5px solid; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: blue 5px solid;
     color: white;
 
 }
 
+.four-inputs {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+    align-content: stretch;
+}
+
+
+h4 {
+    color: white;
+    font-size: 30px;
+}

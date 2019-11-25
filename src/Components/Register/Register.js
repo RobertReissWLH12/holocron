@@ -16,6 +16,7 @@ class Register extends Component {
     }
   }
 
+
   handleChange = (key, value) => {
     this.setState({
       [key]: value
@@ -41,29 +42,29 @@ class Register extends Component {
 
   render() {
     return (
-      <div className="Register">
+      <div className="register-background">
         <div className='register-container' alt=''>
           <h1>Welcome to the Holocron!</h1>
           <div className="four-inputs">
-            <input
+            <input id="email"
               value={this.state.email}
               onChange={e => this.handleChange('email', e.target.value)}
               placeholder="Email"
               type="text"
             />
-            <input
+            <input id="username"
               value={this.state.username}
               onChange={e => this.handleChange('username', e.target.value)}
               placeholder="Username"
               type="text"
             />
-            <input
+            <input id="password1"
               value={this.state.password1}
               onChange={e => this.handleChange('password1', e.target.value)}
               placeholder="Password"
               type="password"
             />
-            <input
+            <input id="password2"
               value={this.state.password2}
               onChange={e => this.handleChange('password2', e.target.value)}
               placeholder="Retype password"
@@ -71,7 +72,7 @@ class Register extends Component {
             />
           </div>
           <Link to="/">
-            <button onClick={this.home}>Register</button>
+            <button onClick={this.register}>Register</button>
           </Link>
           <Link to="/login">
             <h4>Already have an account? Login here!</h4>

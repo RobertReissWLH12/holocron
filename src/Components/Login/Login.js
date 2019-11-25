@@ -19,13 +19,14 @@ class Login extends Component {
   }
 
   login = () => {
-    const { email, password } = this.state
+    const { username, password } = this.state
     axios
-      .post('/auth/login', { email, password })
+      .post('/auth/login', { username, password })
       .then(res => {
+        console.log(res.data.user)
         this.props.updateUserInfo(res.data.user)
         Swal.fire(res.data.message)
-        this.props.history.push('/dashboard')
+        this.props.history.push('/')
       })
       .catch(err => {
         Swal.fire(err.response.data.message)
@@ -34,23 +35,25 @@ class Login extends Component {
 
   render() {
     return (
-      <div className="login-container" alt=''>
-        <input
-          onChange={e => this.handleChange('username', e.target.value)}
-          value={this.state.username}
-          placeholder="Username"
-          type="text"
-        />
-        <input
-          onChange={e => this.handleChange('password', e.target.value)}
-          value={this.state.password}
-          placeholder="Password"
-          type="password"
-        />
-        <button onClick={this.login}>Login!</button>
-        <Link to="/register">
-          <h4>Need an account? Register here!</h4>
-        </Link>
+      <div className="login-background">
+        <div className="login-container" alt=''>
+          <input
+            onChange={e => this.handleChange('username', e.target.value)}
+            value={this.state.username}
+            placeholder="Username"
+            type="text"
+          />
+          <input
+            onChange={e => this.handleChange('password', e.target.value)}
+            value={this.state.password}
+            placeholder="Password"
+            type="password"
+          />
+          <button onClick={this.login}>Login!</button>
+          <Link to="/register">
+            <h4>Need an account? Register here!</h4>
+          </Link>
+        </div>
       </div>
     )
   }

@@ -1,18 +1,28 @@
 import React, { Component } from 'react'
 import "./Header.css"
 import { Link } from "react-router-dom"
-// import axios from 'axios';
+import { connect } from 'react-redux'
+import { updateUserInfo } from '../../ducks/reducer'
+import axios from 'axios';
+import LoggedInUser from './LoggedInUser'
 
-//  ***  DONATE LINK AND LOGIN GO IN HERE ***
-//  ***  ALL OF FOUR NAVBAR LINKS WILL GO IN HERE AS WELL!!! ***
-
-export default class Header extends Component {
-
-
-
-    render() {
-        return (
-            <header>
+class Header extends Component {
+        
+        Logout = () => {
+            axios
+            .delete('/auth/logout')
+            .then(res => {
+                this.props.updateUserInfo({
+                    username: '',
+                    user_id: ''
+                })
+            })
+        }
+        
+        render() {
+            
+            return (
+                <div>
                 <div className="header">
                     {/* <img src={whateverItsCalled} className="whateverItsCalled" alt="" /> */}
                     <div className="header-topHalf-container">
@@ -46,7 +56,16 @@ export default class Header extends Component {
                         </Link>
                     </div>
                 </div>
-            </header >
+                <LoggedInUser
+                    logout={this.logout}
+                    />
+            </div >
         )
     }
 }
+    
+    function mapStateToProps(reduxState) {
+        return reduxState
+    }
+    
+    export default connect(mapStateToProps, { updateUserInfo })(Header)
