@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+.donate-background{
+    background-image: url('../../assets/ConstructionBG.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+} 
