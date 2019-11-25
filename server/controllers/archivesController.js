@@ -5,4 +5,8 @@ module.exports = {
         .then(archives => res.status(200).send(archives))
         .catch(err => console.log(err))
     }
+
+    // accessArchives: (req, res) => {
+    //     res.status(200).send(books)
+    // }
 }
