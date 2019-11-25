@@ -15,10 +15,10 @@
 } 
 
 #fingerWave {
-    width: 150px;
-    height: 150px;
-    margin-top: 535px;
-    margin-left: 550px;
+    width: 160px;
+    height: 160px;
+    margin-top: 530px;
+    margin-left: 555px;
     background-image: url('../../assets/Wagging-Finger.gif');
     background-size: 50%;
     background-repeat: no-repeat;
