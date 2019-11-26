@@ -14,7 +14,8 @@ function App() {
     <Provider store={store}>
       <HashRouter>
         <div className="App">
-          {/* <Header /> */}
+            
+          <Header />
           <Routes/>
         </div>
       </HashRouter>

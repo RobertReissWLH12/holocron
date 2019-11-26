@@ -34,18 +34,20 @@ class Header extends Component {
     }
 
     logout = () => {
+        
         axios
-            .delete('/auth/logout')
-            .then(res => {
-                this.props.updateUserInfo({
-                    username: '',
-                    user_id: ''
-                })
+        .delete('/auth/logout')
+        .then(res => {
+            console.log(res.data)
+            this.props.updateUserInfo({
+                username: '',
+                user_id: ''
             })
+        })
     }
 
     render() {
-        // console.log(window.location.hash)
+        console.log(this.props.hello)
         return (
             <div>
                 <div className="header">
@@ -60,7 +62,7 @@ class Header extends Component {
                         <div className="login-div">
 
                             {
-                                window.location.hash !== "#/login" && window.location.hash !== "#/register" ?
+                                this.props.user_id ?
                                     (
                                         <Link to="/">
                                         <button id="logout-button" onClick={() => this.logout()}></button>

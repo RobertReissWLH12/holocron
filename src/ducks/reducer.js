@@ -1,8 +1,6 @@
 const initialState = {
     email: '',
-    username: '',
-    password1: '',
-    password2: ''
+    username: ''
 }
 
 // ACTION CONSTANTS
@@ -10,7 +8,6 @@ const UPDATE_USER_INFO = 'UPDATE_USER_INFO'
 
 // ACTION BUILDERS
 export function updateUserInfo(userObj) {
-    console.log(userObj)
     return {
         type: UPDATE_USER_INFO,
         payload: userObj
