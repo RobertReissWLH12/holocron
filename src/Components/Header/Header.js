@@ -7,9 +7,34 @@ import axios from 'axios';
 import LoggedInUser from './LoggedInUser'
 
 class Header extends Component {
-        
-        Logout = () => {
-            axios
+    constructor() {
+        super()
+        this.state = {
+            username: '',
+            user_id: ''
+        }
+        this.getUser = this.getUser.bind(this)
+    }
+
+    componentDidMount() {
+        this.getUser();
+    }
+
+    getUser = () => {
+        axios
+            .get("/auth/getUser")
+            .then(res => {
+                console.log(res.data)
+                this.setState({
+                    username: '',
+                    user_id: ''
+                })
+            })
+            .catch(err => console.log(err))
+    }
+
+    logout = () => {
+        axios
             .delete('/auth/logout')
             .then(res => {
                 this.props.updateUserInfo({
@@ -17,12 +42,12 @@ class Header extends Component {
                     user_id: ''
                 })
             })
-        }
-        
-        render() {
-            
-            return (
-                <div>
+    }
+
+    render() {
+        // console.log(window.location.hash)
+        return (
+            <div>
                 <div className="header">
                     {/* <img src={whateverItsCalled} className="whateverItsCalled" alt="" /> */}
                     <div className="header-topHalf-container">
@@ -33,39 +58,51 @@ class Header extends Component {
                         </h4>
                         <div className="title-div"></div>
                         <div className="login-div">
-                            <Link to="/login">
-                                <button id="login-button" onClick={this.login}>Login</button>
-                            </Link>
-                            <Link to="/register">
-                                <button id="register-button" onClick={this.register}>Register</button>
-                            </Link>
+
+                            {
+                                window.location.hash !== "#/login" && window.location.hash !== "#/register" ?
+                                    (
+                                        <Link to="/">
+                                        <button id="logout-button" onClick={() => this.logout()}></button>
+                                        </Link>
+                                    ) : (
+                                        <div>
+                                            <Link to="/login">
+                                                <button id="login-button" onClick={this.login}></button>
+                                            </Link>
+                                            <Link to="/register">
+                                                <button id="register-button" onClick={this.register}></button>
+                                            </Link>
+                                        </div>
+                                    )
+                            }
                         </div>
                     </div>
                     <div className="navbar-container">
                         <Link to="/">
-                            <button id="home-button" onClick={this.home}>Home</button>
+                            <button id="home-button" onClick={this.home}></button>
                         </Link>
                         <Link to="/search">
-                            <button id="search-button" onClick={this.search}>Search</button>
+                            <button id="search-button" onClick={this.search}></button>
                         </Link>
                         <Link to="/archives">
-                            <button id="archives-button" onClick={this.archives}>Archives</button>
+                            <button id="archives-button" onClick={this.archives}></button>
                         </Link>
                         <Link to="/hideout">
-                            <button id="hideout-button" onClick={this.hideout}>Hideout</button>
+                            <button id="hideout-button" onClick={this.hideout}></button>
                         </Link>
                     </div>
                 </div>
                 <LoggedInUser
                     logout={this.logout}
-                    />
+                />
             </div >
         )
     }
 }
-    
-    function mapStateToProps(reduxState) {
-        return reduxState
-    }
-    
-    export default connect(mapStateToProps, { updateUserInfo })(Header)
+
+function mapStateToProps(reduxState) {
+    return reduxState
+}
+
+export default connect(mapStateToProps, { updateUserInfo })(Header)

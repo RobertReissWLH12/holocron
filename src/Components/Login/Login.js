@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Login.css';
-import { Link } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 import axios from 'axios'
 import { updateUserInfo } from './../../ducks/reducer'
 import { connect } from 'react-redux'
@@ -19,17 +19,18 @@ class Login extends Component {
   }
 
   login = () => {
+    console.log(this.state.username, this.state.password)
     const { username, password } = this.state
     axios
       .post('/auth/login', { username, password })
       .then(res => {
         console.log(res.data.user)
+        this.props.history.push('/')
         this.props.updateUserInfo(res.data.user)
         Swal.fire(res.data.message)
-        this.props.history.push('/')
       })
       .catch(err => {
-        Swal.fire(err.response.data.message)
+        // Swal.fire(err.response.data.message)
       })
   }
 
@@ -49,7 +50,8 @@ class Login extends Component {
             placeholder="Password"
             type="password"
           />
-          <button onClick={this.login}>Login!</button>
+            <button onClick={this.login}>Login!</button>
+          
           <Link to="/register">
             <h4>Need an account? Register here!</h4>
           </Link>
@@ -59,8 +61,8 @@ class Login extends Component {
   }
 }
 
-export default connect(null, { updateUserInfo })(Login)
-
+export default withRouter(connect(null, { updateUserInfo })(Login)
+)
 // render() {
 
 //   return (

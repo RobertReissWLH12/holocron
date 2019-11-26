@@ -134,6 +134,25 @@
     background-size: 100%;
 }
 
+#logout-button {
+    right: 0;
+    width: 175px;
+    height: 60px;
+    margin-right: -17px;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url('../../assets/Buttons/Logout2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#logout-button:hover {
+    transition-duration: 0.3s;
+    background-image: url('../../assets/Buttons/Logout_HL2.png');
+    background-size: 100%;
+}
+
 .navbar-container {
     width: 1130px;
     height: 58px;

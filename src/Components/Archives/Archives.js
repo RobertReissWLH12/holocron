@@ -94,7 +94,7 @@ export default class Archives extends Component {
                                 </div>
                                 <div className="modal-body">
                                     <p>{this.state.book.author}</p>
-                                    <p>{this.state.book.pages}</p>
+                                    <p>{this.state.book.pages} pages</p>
                                     <p>{this.state.book.characters}</p>
                                     <p>{this.state.book.summary}</p>
                                 </div>

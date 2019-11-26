@@ -2,19 +2,20 @@ import React from 'react';
 import './App.css';
 import Header from './Components/Header/Header'
 import { HashRouter } from 'react-router-dom'
-import routes from './routes'
+import Routes from './Routes'
 import { Provider } from 'react-redux'
 import store from './ducks/store'
 
 
 
 function App() {
+  console.log(window.location.hash)
   return (
     <Provider store={store}>
       <HashRouter>
         <div className="App">
-          <Header />
-          {routes}
+          {/* <Header /> */}
+          <Routes/>
         </div>
       </HashRouter>
     </Provider>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Switch, Route} from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import Home from './Components/Home/Home'
 import Donate from './Components/Donate/Donate'
 import Login from './Components/Login/Login'
@@ -11,19 +11,80 @@ import Contracts from './Components/Hideout/Contracts/Contracts'
 import Guests from './Components/Hideout/Guests/Guests'
 import Quiz from './Components/Hideout/Quiz/Quiz'
 import Treasures from './Components/Hideout/Treasures/Treasures'
+import Header from './Components/Header/Header'
 
-export default (
-    <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/donate' component={Donate} />
-        <Route path='/login' component={Login} />
-        <Route path='/register' component={Register} />
-        <Route path='/search' component={Search} />
-        <Route path='/archives' component={Archives} />
-        <Route path='/hideout' component={Hideout} />
-        <Route path='/contracts' component={Contracts} />
-        <Route path='/guests' component={Guests} />
-        <Route path='/quiz' component={Quiz} />
-        <Route path='/treasures' component={Treasures} />
-    </Switch>
-)
+export default function Routes() {
+  return (
+    
+      <Switch>
+        <Route exact path='/' component={() => {return(
+            <>
+              <Header />
+              <Home />
+            </>
+      )   }}
+           />
+        <Route path='/donate' component={() => (
+          <>
+            <Header />
+            <Donate />
+          </>
+        )} />
+        <Route path='/login' component={() => (
+          <>
+            <Header />
+            <Login />
+          </>
+        )} />
+        <Route path='/register' component={() => (
+          <>
+            <Header />
+            <Register />
+          </>
+        )} />
+        <Route path='/search' component={() => (
+          <>
+            <Header />
+            <Search />
+          </>
+        )} />
+        <Route path='/archives' component={() => (
+          <>
+            <Header />
+            <Archives />
+          </>
+        )} />
+        <Route path='/hideout' component={() => (
+          <>
+            <Header />
+            <Hideout />
+          </>
+        )} />
+        <Route path='/contracts' component={() => (
+          <>
+            <Header />
+            <Contracts />
+          </>
+        )} />
+        <Route path='/guests' component={() => (
+          <>
+            <Header />
+            <Guests />
+          </>
+        )} />
+        <Route path='/quiz' component={() => (
+          <>
+            <Header />
+            <Quiz />
+          </>
+        )} />
+        <Route path='/treasures' component={() => (
+          <>
+            <Header />
+            <Treasures />
+          </>
+        )} />
+      </Switch>
+    
+  )
+}
