@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.donate-background{
+    background-image: url('../../assets/Donate_BG.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+} 
+
+.donate {
+    position: absolute;
+    margin-top:  350px;
+    margin-left: 600px;
+    box-sizing: border-box;
+    height: 250px;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    // background-color: rgba(255, 255, 255, .3);
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 36px;
+    color: white;
+    z-index: 2;
+    // box-shadow: 0 1px 3px 0 #E6EBF1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.InputElement {
+    color: red !important;
+}
+
+.donate-mobile {
+    background-image: url('../../assets/Buttons/DonateMobile.png')
+}
+
+h1 {
+    position: absolute;
+    margin-top:  250px;
+    margin-left: 800px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 48px;
+}

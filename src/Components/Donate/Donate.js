@@ -1,11 +1,25 @@
-import React, {Component} from 'react'
-import './Donate.css'
+import React, { Component } from 'react'
+import './Donate.scss'
+import { Elements, StripeProvider } from 'react-stripe-elements';
+import CheckoutForm from './../Donate/Stripe/CheckoutForm';
 
 export default class Donate extends Component {
 
     render() {
         return (
-            <div className="donate-background"></div>
+            <div className="donate-background">
+                <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"></link>
+                <div>
+                    <h1>Donate to the Holocron!</h1>
+                    <StripeProvider apiKey="pk_test_ClZZ4tEa3nSFbIkdNeNdpRDI00l3NvF6kY">
+                        <div className="donate">
+                            <Elements>
+                                <CheckoutForm />
+                            </Elements>
+                        </div>
+                    </StripeProvider>
+                </div>
+            </div>
         )
     }
 }
