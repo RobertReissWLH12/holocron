@@ -10,39 +10,71 @@
     height: 100vh;
 } 
 
-.donate {
+h1 {
     position: absolute;
-    margin-top:  350px;
-    margin-left: 600px;
+    margin-top:  170px;
+    margin-left: 470px;
     box-sizing: border-box;
-    height: 250px;
-    padding: 0;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    // background-color: rgba(255, 255, 255, .3);
+    color: gold;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 36px;
-    color: white;
-    z-index: 2;
-    // box-shadow: 0 1px 3px 0 #E6EBF1;
-    -webkit-transition: box-shadow 150ms ease;
-    transition: box-shadow 150ms ease;
+    font-size: 42px;
+    // border: 1px solid red;
 }
 
-.InputElement {
-    color: red !important;
+h2 {
+    position: absolute;
+    margin-top:  350px;
+    margin-left: 850px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 36px;
+    // border: 1px solid red;
+}
+
+.donate {
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    margin-top:  450px;
+    margin-left: 800px;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, .3);
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 32px;
+    color: white;
+    z-index: 2;
+    box-shadow: 0 1px 3px 0 #E6EBF1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+    justify-content: center center;
 }
 
 .donate-mobile {
-    background-image: url('../../assets/Buttons/DonateMobile.png')
+    width: 150px;
+    height: 50px;
+    color: transparent;
+    background: transparent;
+    background-image: url('../../assets/Buttons/DonateMobile.png');
+    background-repeat: no-repeat;
+    border: transparent;
+    background-size: 100%; 
+    border: 1px blue solid;  
 }
 
-h1 {
-    position: absolute;
-    margin-top:  250px;
-    margin-left: 800px;
-    box-sizing: border-box;
-    color: white;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 48px;
+.donate-mobile:hover {
+    transition-duration: 0.5s;
+    background-image: url('../../assets/Buttons/DonateMobile_HL.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor:pointer;
+}
+
+.checkout {
+    // margin-top:  100px;
+    // margin-left: 186px;
+    border: 1px green solid;
 }
