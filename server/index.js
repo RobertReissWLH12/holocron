@@ -8,6 +8,9 @@ const archivesCtrl = require('./controllers/archivesController')
 const massive = require('massive')
 const {SERVER_PORT, CONNECTION_STRING, SESSION_SECRET} = process.env;
 const app = express()
+const stripe = require("stripe")("sk_test_6RF2mu6OLiTwnXY0PVMaChbo00p4BjSGMJ");
+
+app.use(require("body-parser").text());
 
 
 // TOP-LEVEL MIDDLEWARE
@@ -37,6 +40,23 @@ app.get('/auth/getUser', authCtrl.getUser)
 // BROWSING AND CHANGING PROFILE PICTURES
 // app.get('/api/guests', guestsCtrl.getProfilePics)
 // app.put('/api/guests', guestsCtrl.changeProfilePicture)
+
+// STRIPE ENDPOINTS
+app.post("/charge", async (req, res) => {
+    try {
+        let{status} = await stripe.charges.create({
+            amount: 2000,
+            currency: "usd",
+            description: "An example charge",
+            source: req.body
+        });
+
+        res.json({status});
+    } catch(err) {
+        console.log(err);
+        res.status(500).end();
+    }
+});
 
 //  MASSIVE
 massive(CONNECTION_STRING)
