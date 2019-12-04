@@ -13,12 +13,6 @@ export default class Archives extends Component {
             book: '',
             smallNum: 0,
             bigNum: 10
-            // title: '',
-            // author: '',
-            // pages: '',
-            // characters: '',
-            // summary: '',
-            // img: ''
         }
 
         this.getBooks = this.getBooks.bind(this)
@@ -80,12 +74,14 @@ export default class Archives extends Component {
                 {/* Modal will go here */}
                 {this.state.modalActivate &&
                     <div>
-                        <button id="myBtn"></button>
                         <div className="modal-content">
                             {/* Modal Body */}
                             <div className="modal-body">
                                 <div className="modal-header">
-                                    <span className="close">&times;</span>
+                                    <span className="close" onClick={() => this.setState({
+                                        modalActivate: false
+                                    })
+                                    }>&times;</span>
                                     <h2>{this.state.book.title}</h2>
                                 </div>
                                 <div className="modal-bookInfo">
