@@ -65,9 +65,3 @@ class Login extends Component {
 
 export default withRouter(connect(null, { updateUserInfo })(Login)
 )
-// render() {
-
-//   return (
-//     <div className="title">Login</div>
-//   );
-// }

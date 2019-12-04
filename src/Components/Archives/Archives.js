@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import "./Archives.css";
+import { Link, withRouter } from 'react-router-dom'
 import Book from "./../Book/Book";
-// import {Link} from "react-router-dom";
+import { connect } from 'react-redux'
 import axios from 'axios';
+import { userInfo } from 'os';
 
-export default class Archives extends Component {
+class Archives extends Component {
     constructor() {
         super()
         this.state = {
@@ -57,6 +59,7 @@ export default class Archives extends Component {
     }
 
     render() {
+        console.log(this.props)
         let filteredArchives = this.state.archives.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
         return (
             <div className="archives-background">
@@ -93,7 +96,9 @@ export default class Archives extends Component {
                                 <div className="modal-image">
                                     <img className="popup-image" src={`./../../assets/${this.state.book.image}`} alt="book-cover" />
                                 </div>
-                                <button className="add"></button>
+                                {this.props.user_id &&
+                                    <button className="add"></button>
+                                } 
                             </div>
                         </div>
                         {/* <div class="overlay"></div> */}
@@ -106,20 +111,8 @@ export default class Archives extends Component {
     }
 }
 
-// let modal = document.getElementById("myModal");
-// let btn = document.getElementById("myBtn");
-// let span = document.getElementsByClassName("close")[0];
+function mapStateToProps(reduxState) {
+    return reduxState
+}
 
-// btn.onClick = function () {
-//     modal.style.display = "block";
-// }
-
-// span.onClick = function () {
-//     modal.style.display = "none";
-// }
-
-// window.onClick = function (event) {
-//     if (event.target === modal) {
-//         modal.style.display = "none"
-//     }
-// }
+export default withRouter(connect(mapStateToProps, {})(Archives))
