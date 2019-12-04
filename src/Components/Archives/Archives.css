@@ -99,6 +99,7 @@
     align-content: stretch;
     font-size: 36px;
     font-weight: bold;
+    transition: 0.3s;
     /* border: 1px red solid; */
 }
 
@@ -129,7 +130,7 @@
 
 /* Modal Footer */
 .modal-image {
-    height: 475px;
+    height: 410px;
     width: 475px;
     padding: 0px;
     margin-top: -480px;
@@ -139,9 +140,16 @@
 }
 
 .popup-image {
-    height: 450px;
+    height: 400px;
     width: auto;
 }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
 
 
 
@@ -166,10 +174,56 @@
     position: relative;
     top: 650px;
     left: -50px;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url('./../../assets/Buttons/Prev.png');
+    background-size: 100%;
+}
+
+.prev:hover {
+    transition-duration: 0.5s;
+    background-image: url('./../../assets/Buttons/Prev_HL.png');
+    background-size: 100%;
+    cursor:pointer;
 }
 
 .next {
     position: relative;
     top: 650px;
     left: 20px;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url('./../../assets/Buttons/Next.png');
+    background-size: 100%;
+}
+
+.next:hover {
+    transition-duration: 0.5s;
+    background-image: url('./../../assets/Buttons/Next_HL.png');
+    background-size: 100%;
+    cursor:pointer;
+}
+
+.add {
+    position: relative;
+    height: 40px;
+    width: 220px;
+    top: 0px;
+    margin-left: -750px;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url('./../../assets/Buttons/Add.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+}
+
+.add:hover {
+    transition-duration: 0.5s;
+    background-image: url('./../../assets/Buttons/Add_HL.png');
+    background-size: 100%;
+    cursor:pointer;
 }

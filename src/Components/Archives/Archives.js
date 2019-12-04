@@ -97,6 +97,7 @@ export default class Archives extends Component {
                                 <div className="modal-image">
                                     <img className="popup-image" src={`./../../assets/${this.state.book.image}`} alt="book-cover" />
                                 </div>
+                                <button className="add"></button>
                             </div>
                         </div>
                         {/* <div class="overlay"></div> */}
