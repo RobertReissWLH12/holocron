@@ -43,9 +43,10 @@ class Register extends Component {
   render() {
     return (
       <div className="register-background">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"></link>
         <div className='register-container' alt=''>
-          <h1>Welcome to the Holocron!</h1>
-          <div className="four-inputs">
+          <h1>" Who is this?  What's your operating number? "</h1>
+          {/* <div className="four-inputs"> */}
             <input id="email"
               value={this.state.email}
               onChange={e => this.handleChange('email', e.target.value)}
@@ -70,9 +71,9 @@ class Register extends Component {
               placeholder="Retype password"
               type="password"
             />
-          </div>
+          {/* </div> */}
           <Link to="/">
-            <button onClick={this.register}>Register</button>
+            <button className="register-submit" onClick={this.register}>Register</button>
           </Link>
           <Link to="/login">
             <h4>Already have an account? Login here!</h4>

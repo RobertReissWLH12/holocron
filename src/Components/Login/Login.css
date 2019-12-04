@@ -3,32 +3,70 @@
 }
 
 .login-background {
-        background-image: url('../../assets/Login_BG.jpg') ;
+        background-image: url('../../assets/Backgrounds/Login_BG.jpg') ;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        display: flex;
-        justify-content: center;
-        align-content: center;
         height: 100vh;
 } 
 
 
 
 .login-container {
-    height: 120px;
-    width: 50%;
-    display: flex;
+    height: 350px;
+    width: 47%;
+    top: 45%;
+    left: 72%;
     position: absolute;
+    display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
 	align-items: center;
-    align-content: stretch;
-    top: 50%;
-    left: 50%;
+    align-content: space-around;
     transform: translate(-50%, -50%);
-    border: blue 5px solid;
+    /* border: blue 1px solid; */
     color: white;
+}
 
+#username {
+    height: 30px;
+    width: 200px;
+}
+
+#password {
+    height: 30px;
+    width: 200px;
+}
+
+.login-background h1 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: black;
+    font-size: 60px;
+}
+
+.login-submit {
+    width: 130px;
+    height: 65px;
+    margin: 10px;
+    color: transparent;
+    background: transparent;
+    background-image: url('../../assets/Buttons/Login.png');
+    background-repeat: no-repeat;
+    border: transparent;
+    background-size: 100%;
+    /* border: 1px blue solid;  */
+}
+
+.login-submit:hover {
+    transition-duration: 0.5s;
+    background-image: url('../../assets/Buttons/Login_HL.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor:pointer;
+}
+
+.login-background h4 {
+    color: black;
+    font-size: 30px;
 }

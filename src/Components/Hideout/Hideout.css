@@ -4,7 +4,7 @@
 }
 
 .hideout-background-noLogin {
-    background-image: url('../../assets/Hideout_MustLogIn.jpg') ;
+    background-image: url('../../assets/Backgrounds/Hideout_MustLogIn.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

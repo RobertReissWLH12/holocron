@@ -37,20 +37,22 @@ class Login extends Component {
   render() {
     return (
       <div className="login-background">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"></link>
         <div className="login-container" alt=''>
-          <input
+        <h1>" Let me see your identification. "</h1>
+          <input id="username"
             onChange={e => this.handleChange('username', e.target.value)}
             value={this.state.username}
             placeholder="Username"
             type="text"
           />
-          <input
+          <input id="password"
             onChange={e => this.handleChange('password', e.target.value)}
             value={this.state.password}
             placeholder="Password"
             type="password"
           />
-            <button onClick={this.login}>Login!</button>
+            <button className="login-submit" onClick={this.login}>Login!</button>
           
           <Link to="/register">
             <h4>Need an account? Register here!</h4>
