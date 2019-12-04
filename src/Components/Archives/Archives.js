@@ -81,25 +81,21 @@ export default class Archives extends Component {
                 {this.state.modalActivate &&
                     <div>
                         <button id="myBtn"></button>
-                        <div className="modal">
-                            <div className="modal-content">
-                                <span className="close">&times;</span>
-                                <p></p>
-                            </div>
-                            {/* Modal Content */}
-                            <div className="modal-content">
+                        <div className="modal-content">
+                            {/* Modal Body */}
+                            <div className="modal-body">
                                 <div className="modal-header">
                                     <span className="close">&times;</span>
                                     <h2>{this.state.book.title}</h2>
                                 </div>
-                                <div className="modal-body">
-                                    <p>{this.state.book.author}</p>
+                                <div className="modal-bookInfo">
+                                    <p>Author: {this.state.book.author}</p>
                                     <p>{this.state.book.pages} pages</p>
-                                    <p>{this.state.book.characters}</p>
-                                    <p>{this.state.book.summary}</p>
+                                    <p>Major Characters: {this.state.book.characters}</p>
+                                    <p id="summary">{this.state.book.summary}</p>
                                 </div>
-                                <div className="modal-footer">
-                                    <h3>{this.state.book.image}</h3>
+                                <div className="modal-image">
+                                    <img className="popup-image" src={`./../../assets/${this.state.book.image}`} alt="book-cover" />
                                 </div>
                             </div>
                         </div>

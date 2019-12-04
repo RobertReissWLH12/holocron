@@ -10,10 +10,15 @@ import './Hideout.css'
 export default class Hideout extends Component {
 
     render() {
-        return (
-            <div className="hideout-background-noLogin">
-                <div id="fingerWave"></div>
-            </div>
-        )
-    }
+        // if (this.props.user_id) {
+
+            return (
+                <div className="hideout-background-noLogin">
+                    <div id="fingerWave"></div>
+                </div>
+            )
+        } //else {
+            // return
+        // }
+    // }
 }

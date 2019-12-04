@@ -10,7 +10,7 @@ summary
 'Tim Lebbon', 
 320, 
 'Lanoree Brock, Dalien Brock, Tre Sana, Lorus', 
-'SB-DawnOTJedi.png', 
+'Arch_DawnJediIntoVoid.png', 
 'On the planet Tython, the ancient Je"daii order was founded. And at the feet of its wise Masters, Lanoree Brock learned the mysteries and methods of the Force - and found her calling as one of its most powerful disciples. But as strongly as the Force flowed within Lanoree and her parents, it remained absent in her brother, who grew to despise and shun the Je"daii, and whose training in its ancient ways ended in tragedy.  Now, from her solitary life as a Ranger keeping order across the galaxy, Lanoree has been summoned by the Je"daii Council on a matter of utmost urgency. The leader of a fanatical cult, obsessed with traveling beyond the reaches of known space, is bent on opening a cosmic gateway using dreaded dark matter as the key - risking a cataclysmic reaction that will consume the entire star system. But more shocking to Lanoree than even the prospect of total galactic annihilation, is the decision of her Je"daii Masters to task her with the mission of preventing it. Until a staggering revelation makes clear why she was chosen: The brilliant, dangerous madman she must track down and stop at any cost is the brother whose death she has long grieved - and whose life she must now fear.' 
 ),
 
@@ -19,7 +19,7 @@ summary
 'James Luceno', 
 379, 
 'Darth Plagueis, Sheev Palpatine, Darth Maul, Padme Amidala, Obi-Wan Kenobi, Qui-Gon Jinn', 
-'SB-DarthPlagueis.png', 
+'Arch_DarthPlagueis.png', 
 'Darth Plagueis: one of the most brilliant Sith Lords who ever lived. Possessing power is all he desires. Losing it is the only thing he fears. As an apprentice, he embraces the ruthless ways of the Sith. And when the time is right, he destroys his Master—but vows never to suffer the same fate. For like no other disciple of the dark side, Darth Plagueis learns to command the ultimate power... over life and death.  Darth Sidious: Plagueis" chosen apprentice. Under the guidance of his Master, he secretly studies the ways of the Sith, while publicly rising to power in the galactic government, first as Senator, then as Chancellor, and eventually as Emperor.  Darth Plagueis and Darth Sidious, Master and acolyte, target the galaxy for domination — and the Jedi Order for annihilation. But can they defy the merciless Sith tradition? Or will the desire of one to rule supreme, and the dream of the other to live forever, sow the seeds of their destruction?'
 ),
 
