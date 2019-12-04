@@ -16,6 +16,10 @@
 } 
 
 .welcome {
+    /* position: absolute; */
+    height: 100px;
+    width: 52%;
+    /* margin-top: 100px; */
     /* border: 1px red solid; */
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 72px;

@@ -14,7 +14,7 @@ export default class Donate extends Component {
                     <h2>Donate to the Holocron!</h2>
                     <StripeProvider apiKey="pk_test_ClZZ4tEa3nSFbIkdNeNdpRDI00l3NvF6kY">
                         <div className="donate">
-                            <Elements>
+                            <Elements className="card-info">
                                 <CheckoutForm />
                             </Elements>
                         </div>

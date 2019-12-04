@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+.complete {
+    position: absolute;
+    margin-top:  350px;
+    margin-left: 880px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 36px;
+    // border: 1px solid red;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { CardElement, injectStripe } from 'react-stripe-elements';
+import './CheckoutForm.js'
 // import Swal from 'sweetalert2'
 // import swal from '@sweetalert/with-react'
 // import withReactContent from 'sweetalert2-react-content'
@@ -34,7 +35,7 @@ class CheckoutForm extends Component {
 
 
     render() {
-        if (this.state.complete) return <h1>Donation Complete</h1>
+        if (this.state.complete) return <div className="complete">Donation Complete!</div>
 
         return (
             <div>

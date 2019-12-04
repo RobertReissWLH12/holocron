@@ -10,7 +10,7 @@
     height: 100vh;
 } 
 
-h1 {
+.donate-background h1 {
     position: absolute;
     margin-top:  170px;
     margin-left: 470px;
@@ -21,10 +21,10 @@ h1 {
     // border: 1px solid red;
 }
 
-h2 {
+.donate-background h2 {
     position: absolute;
     margin-top:  350px;
-    margin-left: 850px;
+    margin-left: 880px;
     box-sizing: border-box;
     color: white;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -34,15 +34,15 @@ h2 {
 
 .donate {
     position: absolute;
-    height: 150px;
+    height: 100px;
     width: 400px;
-    margin-top:  450px;
-    margin-left: 800px;
+    margin-top: 450px;
+    margin-left: 825px;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    // border: 0px solid transparent;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .8);
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 32px;
     color: white;
@@ -50,19 +50,22 @@ h2 {
     box-shadow: 0 1px 3px 0 #E6EBF1;
     -webkit-transition: box-shadow 150ms ease;
     transition: box-shadow 150ms ease;
-    justify-content: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .donate-mobile {
     width: 150px;
     height: 50px;
+    margin: 10px;
     color: transparent;
     background: transparent;
     background-image: url('../../assets/Buttons/DonateMobile.png');
     background-repeat: no-repeat;
     border: transparent;
     background-size: 100%; 
-    border: 1px blue solid;  
+    // border: 1px blue solid;  
 }
 
 .donate-mobile:hover {
@@ -74,7 +77,25 @@ h2 {
 }
 
 .checkout {
-    // margin-top:  100px;
-    // margin-left: 186px;
+    height: 20px;
+    width: 300px;
+    margin: 50px;
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: nowrap;
+    // justify-content: flex-end;
+    // align-items: center;
+    // align-content: stretch;
     border: 1px green solid;
+}
+
+.complete {
+    position: absolute;
+    margin-top:  -30px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    color: maroon;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 36px;
+    // border: 1px solid red;
 }
