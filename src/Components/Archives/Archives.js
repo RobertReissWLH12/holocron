@@ -10,6 +10,7 @@ class Archives extends Component {
         super()
         this.state = {
             archives: [],
+            user_favorites: [],
             modalActivate: false,
             book: '',
             smallNum: 0,

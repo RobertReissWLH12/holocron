@@ -8,7 +8,6 @@ module.exports = {
 
     addFavorite: (req, res) => {
         const db = req.app.get("db")
-        console.log(req.session)
         const {user_id} = req.session.user
         const {archives_id} = req.body;
         db.add_favorite([user_id, archives_id])
@@ -17,10 +16,12 @@ module.exports = {
         })
         .catch(err => console.log(err))
     },
-
+    
     getFavorites: (req, res) => {
-        const db = req.app.get("db");
-        db.get_favorites()
+        const db = req.app.get("db")
+        console.log(req.session)
+        const {user_id} = req.session.user
+        db.get_favorites([user_id])
         .then(favorites => res.status(200).send(favorites))
         .catch(err => console.log(err))
     },
