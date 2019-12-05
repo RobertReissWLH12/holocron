@@ -4,7 +4,6 @@ import { Link, withRouter } from 'react-router-dom'
 import Book from "./../Book/Book";
 import { connect } from 'react-redux'
 import axios from 'axios';
-import { userInfo } from 'os';
 
 class Archives extends Component {
     constructor() {
@@ -65,6 +64,7 @@ class Archives extends Component {
             <div className="archives-background">
                 <div id="books-display">
                     {filteredArchives.map((book, i) => {
+                        console.log(book)
                         return (
                             <Book
                                 onClick={this.modalFn}
@@ -94,7 +94,7 @@ class Archives extends Component {
                                     <p id="summary">{this.state.book.summary}</p>
                                 </div>
                                 <div className="modal-image">
-                                    <img className="popup-image" src={`./../../assets/${this.state.book.image}`} alt="book-cover" />
+                                    <img className="popup-image" src={`/assets/Archives_Books/${this.state.book.image}`} alt="book-cover" />
                                 </div>
                                 {this.props.user_id &&
                                     <button className="add"></button>
@@ -104,8 +104,8 @@ class Archives extends Component {
                         {/* <div class="overlay"></div> */}
                     </div>
                 }
-                <button onClick={() => this.decrement()} className="prev">PREV</button>
-                <button onClick={() => this.increment()} className="next">NEXT</button>
+                <button onClick={() => this.decrement()} className="prev"></button>
+                <button onClick={() => this.increment()} className="next"></button>
             </div>
         )
     }

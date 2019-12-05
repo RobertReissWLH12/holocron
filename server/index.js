@@ -26,9 +26,14 @@ app.use(session({
 
 // ARCHIVES
 app.get('/api/archives', archivesCtrl.getBooks)
-// app.post('/api/archives', archivesCtrl.addBook)
+
+// FAVORITES (ARCHIVES)
+app.post('/api/archives', archivesCtrl.addFavorite)
+
+// FAVORITES (CONTRACTS)
+// app.get('/api/user_favorites', archivesCtrl.getFavorites)
 // app.put('/api/archives/:id', archivesCtrl.editBook)
-// app.delete('/api/archives/:id', archivesCtrl.removeBook)
+// app.delete('/api/archives/:id', archivesCtrl.removeFavorite)
 
 // REGISTERING, LOGGING IN AND LOGGING OUT
 app.post('/auth/register', authCtrl.register)

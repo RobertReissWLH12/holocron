@@ -53,7 +53,7 @@ class Register extends Component {
               placeholder="Email"
               type="text"
             />
-            <input id="username"
+            <input id="username-register"
               value={this.state.username}
               onChange={e => this.handleChange('username', e.target.value)}
               placeholder="Username"

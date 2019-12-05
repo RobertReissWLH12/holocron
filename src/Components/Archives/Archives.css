@@ -152,8 +152,6 @@
   }
 
 
-
-
 /* Animation */
 @keyframes animateleft {
     from {left: -300px; opacity: 0}
@@ -172,6 +170,8 @@
 
 .prev {
     position: relative;
+    height: 40px;
+    width: 100px;
     top: 650px;
     left: -50px;
     color: transparent;
@@ -179,6 +179,8 @@
     border: transparent;
     background-image: url('./../../assets/Buttons/Prev.png');
     background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
 }
 
 .prev:hover {
@@ -190,6 +192,8 @@
 
 .next {
     position: relative;
+    height: 40px;
+    width: 100px;
     top: 650px;
     left: 20px;
     color: transparent;
@@ -197,6 +201,9 @@
     border: transparent;
     background-image: url('./../../assets/Buttons/Next.png');
     background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+
 }
 
 .next:hover {

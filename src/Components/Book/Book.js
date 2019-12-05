@@ -17,7 +17,7 @@ export default class Book extends Component {
                     onClick={() => this.props.onClick(this.props.book)}
                     className="book-cover"
                     alt="book cover"
-                    src={`../../assets/${this.props.book.image}`} />
+                    src={`/assets/Archives_Books/${this.props.book.image}`} />
                 </div>
             </div>
         )

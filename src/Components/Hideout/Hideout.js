@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Hideout.css'
 import axios from 'axios'
-import { updateUserInfo } from '../../ducks/reducer'
+// import { updateUserInfo } from '../../ducks/reducer'
 // import LoggedInUser from './LoggedInUser'
 // import {Link} from 'react-router-dom'
 // import Contracts from './Contracts/Contracts'
