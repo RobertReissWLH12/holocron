@@ -10,3 +10,14 @@
     background-position: center center;
     height: 100vh;
 } 
+
+#portraits-display {
+    position: absolute;
+    width: 65vw;
+    height: 63vh;
+    bottom: 100px;
+    left: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    border: red 1px solid;
+}

@@ -1,0 +1,10 @@
+.portrait-frame {
+    width: 100px;
+    height: auto;
+    margin-left: 40px;
+    /* border: red 1px solid; */
+}
+
+.portrait-frame:hover {
+    background-image: url('/assets/ProfilePics/PortraitHL-Ring.png');
+}

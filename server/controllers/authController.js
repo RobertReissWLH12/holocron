@@ -31,7 +31,7 @@ module.exports = {
             return res.status(401).send('User not found.  Please register as a new user before logging in.')
         }
         const foundUser = await db.get_hash([username])
-        const {hash, user_id, profile_img, email} = foundUser[0]
+        const {hash, user_id, portrait, email} = foundUser[0]
         const result = bcrypt.compareSync(password, hash)
         if (!result) {
             return res.status(403).send('Incorrect password!')
@@ -41,9 +41,9 @@ module.exports = {
         //     email: user.email,
         //     username: user.username,
         //     password: user.password,
-        //     profile_img: user.profile_img
+        //     portrait: user.portrait
         // }
-        req.session.user = {user_id, username, profile_img, email}
+        req.session.user = {user_id, username, portrait, email}
         res.status(200).send({ message: 'Logged in successfully!', user: req.session.user })
     },
 
@@ -55,9 +55,9 @@ module.exports = {
     getUser: (req, res) => {
         res.status(200).send(req.session.user)
     }
-    // updateProfilePic: (req, res) => {
+    // updatePortrait: (req, res) => {
     //     const db = req.app.get('db')
-    //     const {profile_img, user_id}
+    //     const {portrait, user_id}
     //     .then(result => {
     //         res.status(200).send(result)
     //     })

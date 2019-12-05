@@ -1,5 +1,6 @@
-import React, {Component} from 'react'
-import "./Search.css"
+import React, {Component} from 'react';
+import "./Search.css";
+import Search from './Search';
 import axios from 'axios';
 
 export default class Search extends Component {
@@ -9,11 +10,6 @@ export default class Search extends Component {
             searchTerm: '',
             archives: [],
             newBooks: []
-            // title: '',
-            // author: '',
-            // pages: '',
-            // characters: [],
-            // img: ''
         }
         this.handleChange = this.handleChange.bind(this)
         this.updateArray = this.updateArray.bind(this)
@@ -59,7 +55,7 @@ export default class Search extends Component {
                 <div className="lightsaber-blade">
                     <input type="text"
                     className="searchbar"
-                    onChange={(ev) => this.handleChange(ev)}
+                    onChange={(ev) => this.props.handleChange(ev)}
                     placeholder="Find an Entry..." />
                 </div>
                 {this.state.newBooks.map(el => (

@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS users_hash;
-DROP TABLE IF EXISTS profile_pics;
+DROP TABLE IF EXISTS portraits;
 DROP TABLE IF EXISTS badges;
 DROP TABLE IF EXISTS user_favorites;
 DROP TABLE IF EXISTS archives;
@@ -9,7 +9,7 @@ CREATE TABLE users (
 	user_id SERIAL PRIMARY KEY,
 	email VARCHAR,
 	username VARCHAR(100),
-	profile_img TEXT
+	portrait TEXT
 );
 
 CREATE TABLE users_hash (
@@ -18,9 +18,9 @@ CREATE TABLE users_hash (
 	user_id INT REFERENCES users(user_id)
 );
 
-CREATE TABLE profile_pics (
+CREATE TABLE portraits (
 	picture_id SERIAL PRIMARY KEY,
-	img_url TEXT,
+	image TEXT,
 	user_id INT REFERENCES users(user_id)
 );
 
@@ -48,13 +48,13 @@ CREATE TABLE user_favorites (
 
 SELECT * FROM users;
 SELECT * FROM users_hash;
-SELECT * FROM profile_pics;
+SELECT * FROM portraits;
 SELECT * FROM badges;
 SELECT * FROM archives;
 SELECT * FROM user_favorites;
 
 
-INSERT INTO users (email, username, profile_img)
+INSERT INTO users (email, username, portrait)
 VALUES 
 ('dorianvey85@gmail.com', 'DorianVey', 'https://tmssl.akamaized.net/images/portrait/originals/38232-1556523583.jpg'),
 ('josh', 'josh@josh.com', 'https://josh-mccann.com/images/pic11.JPG');
@@ -62,6 +62,22 @@ VALUES
 INSERT INTO users_hash (hash, user_id)
 VALUES ('password', 1),
 ('s3cret', 2);
+
+INSERT INTO portraits (image) 
+VALUES 
+('DarthVader.png'),
+('FrozenSolo.png'),
+('FunBoba.png'),
+('FunR2D2.png'),
+('FunYoda.png'),
+('Hondo.png'),
+('Leia.png'),
+('Portrait_CadBane.png'),
+('Red5.png'),
+('Thrawn.png'),
+('TieFighter.png'),
+('XWing.png'),
+('Yoda.png');
 
 -- INSERT INTO archives (
 -- title, 	

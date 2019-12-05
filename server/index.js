@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session')
 const authCtrl = require('./controllers/authController')
-// const guestsCtrl = require('./controllers/guestsController')
+const guestsCtrl = require('./controllers/guestsController')
 // const treasuresCtrl = require('./controllers/treasuresController')
 const archivesCtrl = require('./controllers/archivesController')
 const massive = require('massive')
@@ -46,7 +46,7 @@ app.get('/auth/getUser', authCtrl.getUser)
 // app.put('/auth/updateProfile', authCtrl.updateProfile)
 
 // BROWSING AND CHANGING PROFILE PICTURES
-// app.get('/api/guests', guestsCtrl.getProfilePics)
+app.get('/api/portraits', guestsCtrl.getPortraits)
 // app.put('/api/guests', guestsCtrl.changeProfilePicture)
 
 // STRIPE ENDPOINTS
