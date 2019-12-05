@@ -34,7 +34,7 @@ app.get('/api/archives', archivesCtrl.getBooks)
 app.post('/api/archives', archivesCtrl.addFavorite)
 
 // FAVORITES (CONTRACTS)
-// app.get('/api/user_favorites', archivesCtrl.getFavorites)
+app.get('/api/user_favorites', archivesCtrl.getFavorites)
 // app.put('/api/archives/:id', archivesCtrl.editBook)
 // app.delete('/api/archives/:id', archivesCtrl.removeFavorite)
 

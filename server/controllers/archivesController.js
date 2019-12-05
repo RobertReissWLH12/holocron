@@ -7,9 +7,11 @@ module.exports = {
     },
 
     addFavorite: (req, res) => {
-        const db = req.app.get("db"),
-        {archives_id} = req.body;
-        db.add_favorite([archives_id])
+        const db = req.app.get("db")
+        console.log(req.session)
+        const {user_id} = req.session.user
+        const {archives_id} = req.body;
+        db.add_favorite([user_id, archives_id])
         .then(favorites => {
             res.sendStatus(200);
         })
@@ -17,7 +19,10 @@ module.exports = {
     },
 
     getFavorites: (req, res) => {
-        res.status(200).send(favorites)
+        const db = req.app.get("db");
+        db.get_favorites()
+        .then(favorites => res.status(200).send(favorites))
+        .catch(err => console.log(err))
     },
 
     removeFavorite: (req, res) => {

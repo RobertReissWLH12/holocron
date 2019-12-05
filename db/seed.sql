@@ -43,6 +43,7 @@ CREATE TABLE archives (
 
 CREATE TABLE user_favorites (
 	favorite_id SERIAL PRIMARY KEY,
+	user_id INT REFERENCES users(user_id),
 	archives_id INT REFERENCES archives(archives_id)
 );
 

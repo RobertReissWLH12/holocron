@@ -1,5 +1,5 @@
 INSERT INTO user_favorites (
-    archives_id
+     user_id, archives_id
 ) VALUES (
-    $1,
+    $1, $2
 );

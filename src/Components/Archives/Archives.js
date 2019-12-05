@@ -35,6 +35,12 @@ class Archives extends Component {
             .catch(err => console.log(err))
     }
 
+    addFavorite = (id) => {
+        axios
+        .post("/api/archives", {archives_id: id})
+        }
+    
+
     modalFn = (currentBook) => {
         console.log(currentBook)
         this.setState({
@@ -97,7 +103,9 @@ class Archives extends Component {
                                     <img className="popup-image" src={`/assets/Archives_Books/${this.state.book.image}`} alt="book-cover" />
                                 </div>
                                 {this.props.user_id &&
-                                    <button className="add"></button>
+                                    <button className="add"
+                                    onClick={() => this.addFavorite(this.state.book.archives_id)}    
+                                    ></button>
                                 } 
                             </div>
                         </div>
