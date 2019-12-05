@@ -6,7 +6,7 @@ export default class Portrait extends Component {
     // NO STATE!!!
 
     render() {
-        console.log(this.props)
+        // console.log(this.props)
         return (
             <div className="portrait-list">
                 <div className="portrait-textbox">

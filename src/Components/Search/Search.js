@@ -30,10 +30,10 @@ export default class Search extends Component {
     }
 
     handleChange(e) {
-        console.log(e.target.value)
+        // console.log(e.target.value)
         let update = () => {
             let filteredResults = this.state.archives.filter(entry => entry.title.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
-            console.log(filteredResults)
+            // console.log(filteredResults)
             this.setState({
                 newBooks: filteredResults
             })

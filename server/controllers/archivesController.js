@@ -28,7 +28,7 @@ module.exports = {
 
     removeFavorite: (req, res) => {
         const db = req.app.get("db")
-        console.log(req.params)
+        // console.log(req.params)
         // const {user_id} = req.session.user
         const { favorite_id } = req.params;
         db.remove_favorite([favorite_id])

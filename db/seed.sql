@@ -55,10 +55,10 @@ SELECT * FROM archives;
 SELECT * FROM user_favorites;
 
 
-INSERT INTO users (email, username, portrait)
-VALUES 
-('dorianvey85@gmail.com', 'DorianVey', 'https://tmssl.akamaized.net/images/portrait/originals/38232-1556523583.jpg'),
-('josh', 'josh@josh.com', 'https://josh-mccann.com/images/pic11.JPG');
+-- INSERT INTO users (email, username, portrait)
+-- VALUES 
+-- ('dorianvey85@gmail.com', 'DorianVey', 'https://tmssl.akamaized.net/images/portrait/originals/38232-1556523583.jpg'),
+-- ('josh', 'josh@josh.com', 'https://josh-mccann.com/images/pic11.JPG');
 
 INSERT INTO users_hash (hash, user_id)
 VALUES ('password', 1),

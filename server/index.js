@@ -47,7 +47,7 @@ app.get('/auth/getUser', authCtrl.getUser)
 
 // BROWSING AND CHANGING PROFILE PICTURES
 app.get('/api/portraits', guestsCtrl.getPortraits)
-// app.put('/api/guests', guestsCtrl.changeProfilePicture)
+app.put('/api/portraits', guestsCtrl.updatePortrait)
 
 // STRIPE ENDPOINTS
 app.post("/charge", async (req, res) => {

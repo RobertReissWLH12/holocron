@@ -24,7 +24,7 @@ class Header extends Component {
         axios
             .get("/auth/getUser")
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 this.setState({
                     username: '',
                     user_id: ''
@@ -38,7 +38,7 @@ class Header extends Component {
         axios
         .delete('/auth/logout')
         .then(res => {
-            console.log(res.data)
+            // console.log(res.data)
             this.props.updateUserInfo({
                 username: '',
                 user_id: ''
@@ -47,7 +47,7 @@ class Header extends Component {
     }
 
     render() {
-        console.log(this.props.hello)
+        // console.log(this.props.profile_img)
         return (
             <div>
                 <div className="header">
@@ -65,7 +65,7 @@ class Header extends Component {
                                 this.props.user_id ?
                                     (
                                         <Link to="/">
-                                        <button id="logout-button" onClick={() => this.logout()}></button>
+                                        <button className=""id="logout-button" onClick={() => this.logout()}></button>
                                         </Link>
                                     ) : (
                                         <div>

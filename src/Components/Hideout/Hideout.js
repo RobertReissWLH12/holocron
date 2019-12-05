@@ -26,7 +26,7 @@ class Hideout extends Component {
         axios
             .get("/auth/getUser")
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 this.setState({
                     username: '',
                     user_id: ''

@@ -27,7 +27,7 @@ class Contracts extends Component {
         axios
         .get("/api/user_favorites")
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 this.setState({
                     user_favorites: res.data
                 })
@@ -36,7 +36,7 @@ class Contracts extends Component {
     }
 
     modalFn = (currentBook) => {
-        console.log(currentBook)
+        // console.log(currentBook)
         this.setState({
             book: currentBook,
             modalActivate: !this.state.modalActivate
@@ -67,13 +67,13 @@ class Contracts extends Component {
     }
 
     render() {
-        console.log(this.props)
+        // console.log(this.props)
         let filteredFavorites = this.state.user_favorites.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
         return (
             <div className="contracts-background">
                 <div id="books-display">
                     {filteredFavorites.map((book, i) => {
-                        console.log(book)
+                        // console.log(book)
                         return (
                             <Book
                                 onClick={this.modalFn}

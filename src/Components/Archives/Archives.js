@@ -28,7 +28,7 @@ class Archives extends Component {
         axios
             .get("/api/archives")
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 this.setState({
                     archives: res.data
                 })
@@ -43,7 +43,7 @@ class Archives extends Component {
     
 
     modalFn = (currentBook) => {
-        console.log(currentBook)
+        // console.log(currentBook)
         this.setState({
             book: currentBook,
             modalActivate: !this.state.modalActivate
@@ -65,13 +65,13 @@ class Archives extends Component {
     }
 
     render() {
-        console.log(this.props)
+        // console.log(this.props)
         let filteredArchives = this.state.archives.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
         return (
             <div className="archives-background">
                 <div id="books-display">
                     {filteredArchives.map((book, i) => {
-                        console.log(book)
+                        // console.log(book)
                         return (
                             <Book
                                 onClick={this.modalFn}

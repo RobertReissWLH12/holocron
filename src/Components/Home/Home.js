@@ -27,7 +27,7 @@ class Home extends Component {
         axios
             .get("/auth/getUser")
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 this.props.updateUserInfo({
                     username: res.data.username,
                     user_id: res.data.user_id,

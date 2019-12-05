@@ -29,7 +29,7 @@ class Register extends Component {
       axios
         .post('/auth/register', { email, username, password1, password2 })
         .then(res => {
-          console.log(res.data)
+          // console.log(res.data)
           this.props.updateUserInfo(res.data.user)
         })
         .catch(err => {
