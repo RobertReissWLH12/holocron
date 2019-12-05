@@ -25,9 +25,9 @@
 .portrait {
     width: 100px;
     height: 100px;
-    margin-left: 80px;
-    size: 90%;
-    border: 1px red solid;
+    margin-left: 50px;
+    padding: 20px;
+    /* border: 1px red solid; */
 }
 
 .portrait:hover {
