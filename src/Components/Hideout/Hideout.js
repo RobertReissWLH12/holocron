@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Hideout.css'
+import { connect } from 'react-redux'
 import axios from 'axios'
 // import { updateUserInfo } from '../../ducks/reducer'
 // import LoggedInUser from './LoggedInUser'
@@ -9,7 +10,7 @@ import axios from 'axios'
 // import Quiz from './Quiz/Quiz'
 // import Treasures from './Treasures/Treasures'
 
-export default class Hideout extends Component {
+class Hideout extends Component {
     constructor() {
         super()
         this.state = {
@@ -37,15 +38,25 @@ export default class Hideout extends Component {
     }
 
     render() {
-        // if (this.props.user_id) {
-
-            return (
-                <div className="hideout-background-noLogin">
-                    <div id="fingerWave"></div>
-                </div>
-            )
-        } //else {
-            // return
-        // }
-    // }
+        return (
+            <div>
+                {
+                    this.props.user_id ?
+                        (
+                            <div className="hideout-background-Login"></div>
+                        ) : (
+                            <div className="hideout-background-noLogin">
+                                <div id="fingerWave"></div>
+                            </div>
+                        )
+                }
+            </div>
+        )
+    }
 }
+
+function mapStateToProps(reduxState) {
+    return reduxState
+}
+
+export default connect(mapStateToProps, { })(Hideout)
