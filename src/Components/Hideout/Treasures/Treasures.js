@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import "./Treasures.css"
 
 export default class Treasures extends Component {
     constructor() {
@@ -10,7 +11,7 @@ export default class Treasures extends Component {
 
     render() {
         return (
-            <div>Treasures</div>
+            <div className="treasures-background"></div>
         )
     }
 }

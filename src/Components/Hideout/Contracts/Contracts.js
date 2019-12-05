@@ -34,7 +34,7 @@ export default class Contracts extends Component {
 
     render() {
         return (
-            <div>Contracts</div>
+            <div className="contracts-background"></div>
         )
     }
 }

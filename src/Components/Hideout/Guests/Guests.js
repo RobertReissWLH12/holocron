@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import "./Guests.css"
 
 export default class Guests extends Component {
     constructor() {
@@ -10,7 +11,7 @@ export default class Guests extends Component {
 
     render() {
         return (
-            <div>Guests</div>
+            <div className="guests-background"></div>
         )
     }
 }

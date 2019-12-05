@@ -1,6 +1,7 @@
 //  IS THE REST OF YOUR PROJECT DONE?  IF NOT, THEN GO AWAY!!!
 
 import React, {Component} from 'react'
+import "./Quiz.css"
 
 export default class Quiz extends Component {
     constructor() {
@@ -12,7 +13,7 @@ export default class Quiz extends Component {
 
     render() {
         return (
-            <div>Quiz</div>
+            <div className="quiz-background"></div>
         )
     }
 }
