@@ -19,7 +19,7 @@ module.exports = {
     
     getFavorites: (req, res) => {
         const db = req.app.get("db")
-        console.log(req.session)
+        // console.log(req.session)
         const {user_id} = req.session.user
         db.get_favorites([user_id])
         .then(favorites => res.status(200).send(favorites))
@@ -27,9 +27,11 @@ module.exports = {
     },
 
     removeFavorite: (req, res) => {
-        const db = req.app.get("db"),
-        { id } = req.params;
-        db.delete_favorite(id)
+        const db = req.app.get("db")
+        console.log(req.params)
+        // const {user_id} = req.session.user
+        const { favorite_id } = req.params;
+        db.remove_favorite([favorite_id])
         .then(() => {
             res.sendStatus(200);
         })

@@ -36,7 +36,7 @@ app.post('/api/archives', archivesCtrl.addFavorite)
 // FAVORITES (CONTRACTS)
 app.get('/api/user_favorites', archivesCtrl.getFavorites)
 // app.put('/api/archives/:id', archivesCtrl.editBook)
-// app.delete('/api/archives/:id', archivesCtrl.removeFavorite)
+app.delete('/api/user_favorites/:favorite_id', archivesCtrl.removeFavorite)
 
 // REGISTERING, LOGGING IN AND LOGGING OUT
 app.post('/auth/register', authCtrl.register)

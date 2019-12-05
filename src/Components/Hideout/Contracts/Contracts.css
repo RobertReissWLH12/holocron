@@ -5,8 +5,42 @@
 
 .contracts-background {
     background-image: url('/assets/Backgrounds/Contracts_BG.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100vh;
 } 
+
+#favorites_display {
+    position: absolute;
+    width: 65vw;
+    height: 63vh;
+    bottom: 100px;
+    left: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    border: red 1px solid;
+}
+
+.remove {
+    position: relative;
+    height: 63px;
+    width: 220px;
+    top: 0px;
+    margin-left: -750px;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url('/assets/Buttons/Remove.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+}
+
+.remove:hover {
+    transition-duration: 0.5s;
+    background-image: url('/assets/Buttons/Remove_HL.png');
+    background-size: 100%;
+    cursor:pointer;
+}

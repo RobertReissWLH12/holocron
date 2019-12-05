@@ -57,6 +57,15 @@ class Contracts extends Component {
         })
     }
 
+    removeFavorite = favorite_id => {
+        axios
+        .delete(`/api/user_favorites/${favorite_id}`)
+        .then(() => {
+            this.getFavorites();
+        })
+        .catch(err => console.log(err))
+    }
+
     render() {
         console.log(this.props)
         let filteredFavorites = this.state.user_favorites.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
@@ -97,8 +106,8 @@ class Contracts extends Component {
                                     <img className="popup-image" src={`/assets/Archives_Books/${this.state.book.image}`} alt="book-cover" />
                                 </div>
                                 {this.props.user_id &&
-                                    <button className="add"
-                                    onClick={() => this.addFavorite(this.state.book.archives_id)}    
+                                    <button className="remove"
+                                    onClick={() => this.removeFavorite(this.state.book.favorite_id)}    
                                     ></button>
                                 } 
                             </div>
