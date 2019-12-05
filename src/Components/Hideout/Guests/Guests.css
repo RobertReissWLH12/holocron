@@ -19,5 +19,21 @@
     left: 250px;
     display: flex;
     flex-wrap: wrap;
-    border: red 1px solid;
+    /* border: red 1px solid; */
+}
+
+.portrait {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    size: 90%;
+    border: 1px red solid;
+}
+
+.portrait:hover {
+    transition-duration: 0.5s;
+    background-image: url('/assets/ProfilePics/Blue_Circle_Frame.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor:pointer;
 }

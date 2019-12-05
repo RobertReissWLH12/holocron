@@ -9,7 +9,7 @@ CREATE TABLE users (
 	user_id SERIAL PRIMARY KEY,
 	email VARCHAR,
 	username VARCHAR(100),
-	portrait TEXT
+	portrait TEXT 
 );
 
 CREATE TABLE users_hash (
