@@ -31,7 +31,7 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url("../../assets/Buttons/Donation.png");
+    background-image: url("/assets/Buttons/Donation.png");
     background-repeat: no-repeat;
     background-size: 100%;   
 }
@@ -54,7 +54,7 @@
 .donate-button:hover {
     /* -webkit-transition-duration: 0.6s; */
     transition-duration: 0.5s;
-    background-image: url("../../assets/Buttons/Donation_HL.png");
+    background-image: url("/assets/Buttons/Donation_HL.png");
     cursor:pointer;
 }
 
@@ -70,7 +70,7 @@
     justify-content: center;
     align-items: center;
     align-content: stretch;
-    background-image: url("../../assets/Buttons/Holocron_Title.png");
+    background-image: url("/assets/Buttons/Holocron_Title.png");
     background-repeat: no-repeat;
     background-size: 100%;
     /* border: red 1px solid; */
@@ -104,14 +104,14 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('../../assets/Buttons/Login.png');
+    background-image: url('/assets/Buttons/Login.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 #login-button:hover {
     transition-duration: 0.5s;
-    background-image: url('../../assets/Buttons/Login_HL.png');
+    background-image: url('/assets/Buttons/Login_HL.png');
     background-size: 100%;
     cursor:pointer;
 }
@@ -124,14 +124,14 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('../../assets/Buttons/Register.png');
+    background-image: url('/assets/Buttons/Register.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 #register-button:hover {
     transition-duration: 0.5s;
-    background-image: url('../../assets/Buttons/Register_HL.png');
+    background-image: url('/assets/Buttons/Register_HL.png');
     background-size: 100%;
     cursor:pointer;
 }
@@ -144,14 +144,14 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('../../assets/Buttons/Logout2.png');
+    background-image: url('/assets/Buttons/Logout2.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 #logout-button:hover {
     transition-duration: 0.5s;
-    background-image: url('../../assets/Buttons/Logout_HL2.png');
+    background-image: url('/assets/Buttons/Logout_HL2.png');
     background-size: 100%;
 }
 
@@ -163,7 +163,7 @@
 	flex-wrap: nowrap;
 	justify-content: space-between;
     align-items: center;
-    background-image: url("../../assets/Task_Bar_Frame2.png");
+    background-image: url("/assets/Boxes/Task_Bar_Frame2.png");
     background-repeat: no-repeat;
     background-size: 100%;
     /* border: green 1px solid; */
@@ -176,13 +176,13 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url("../../assets/Buttons/Home.png");
+    background-image: url("/assets/Buttons/Home.png");
     background-size: 100%;
 }
 
 #home-button:hover {
     transition-duration: 0.5s;
-    background-image: url('../../assets/Buttons/Home_HL.png');
+    background-image: url('/assets/Buttons/Home_HL.png');
     background-size: 100%;
     cursor:pointer;
 }
@@ -194,13 +194,13 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url("../../assets/Buttons/Search.png");
+    background-image: url("/assets/Buttons/Search.png");
     background-size: 100%;    
 }
 
 #search-button:hover {
     transition-duration: 0.5s;
-    background-image: url('../../assets/Buttons/Search_HL.png');
+    background-image: url('/assets/Buttons/Search_HL.png');
     background-size: 100%;
     cursor:pointer;
 }
@@ -212,13 +212,13 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url("../../assets/Buttons/Archives.png");
+    background-image: url("/assets/Buttons/Archives.png");
     background-size: 100%;
 }
 
 #archives-button:hover {
     transition-duration: 0.5s;
-    background-image: url('../../assets/Buttons/Archives_HL.png');
+    background-image: url('/assets/Buttons/Archives_HL.png');
     background-size: 100%;
     cursor:pointer;
 }
@@ -230,13 +230,13 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url("../../assets/Buttons/Hideout.png");
+    background-image: url("/assets/Buttons/Hideout.png");
     background-size: 100%;
 }
 
 #hideout-button:hover {
     transition-duration: 0.5s;
-    background-image: url('../../assets/Buttons/Hideout_HL.png');
+    background-image: url('/assets/Buttons/Hideout_HL.png');
     background-size: 100%;
     cursor:pointer;
 }

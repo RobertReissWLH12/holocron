@@ -5,7 +5,7 @@
 
 
 .search-background {
-    background-image: url("../../assets/Backgrounds/Search_BG.jpg");
+    background-image: url("/assets/Backgrounds/Search_BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,7 +22,7 @@
     width: 80%;
     height: 550px;
     overflow: hidden;
-    background-image: url("../../assets/R2&Table_cropped.png");
+    background-image: url("/assets/Search/R2&Table_cropped.png");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -38,7 +38,7 @@
 .R2-beam {
     width: 614px;
     height: 614px;
-    background-image: url("../../assets/R2BeamFlicker.gif");
+    background-image: url("/assets/Search/R2BeamFlicker.gif");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -52,7 +52,7 @@
 .lightsaber-hilt {
     width: 180px;
     height: 150px;
-    background-image: url("../../assets/lightsaber_hilt.png");
+    background-image: url("/assets/Search/lightsaber_hilt.png");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -68,7 +68,7 @@
 .lightsaber-blade {
     width: 500px;
     height: 100px;
-    background-image: url("../../assets/lightsaber_blade.png");
+    background-image: url("/assets/Search/lightsaber_blade.png");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;

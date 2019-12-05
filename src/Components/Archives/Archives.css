@@ -10,7 +10,7 @@
 } */
 
 .archives-background{
-    background-image: url('../../assets/Backgrounds/Archives_BG.jpg') ;
+    background-image: url('/assets/Backgrounds/Archives_BG.jpg') ;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('./../../assets/Buttons/Prev.png');
+    background-image: url('/assets/Buttons/Prev.png');
     background-size: 100%;
     background-repeat: no-repeat;
     /* border: 1px red solid; */
@@ -185,7 +185,7 @@
 
 .prev:hover {
     transition-duration: 0.5s;
-    background-image: url('./../../assets/Buttons/Prev_HL.png');
+    background-image: url('/assets/Buttons/Prev_HL.png');
     background-size: 100%;
     cursor:pointer;
 }
@@ -199,7 +199,7 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('./../../assets/Buttons/Next.png');
+    background-image: url('/assets/Buttons/Next.png');
     background-size: 100%;
     background-repeat: no-repeat;
     /* border: 1px red solid; */
@@ -208,7 +208,7 @@
 
 .next:hover {
     transition-duration: 0.5s;
-    background-image: url('./../../assets/Buttons/Next_HL.png');
+    background-image: url('/assets/Buttons/Next_HL.png');
     background-size: 100%;
     cursor:pointer;
 }
@@ -222,7 +222,7 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('./../../assets/Buttons/Add.png');
+    background-image: url('/assets/Buttons/Add.png');
     background-size: 100%;
     background-repeat: no-repeat;
     /* border: 1px red solid; */
@@ -230,7 +230,7 @@
 
 .add:hover {
     transition-duration: 0.5s;
-    background-image: url('./../../assets/Buttons/Add_HL.png');
+    background-image: url('/assets/Buttons/Add_HL.png');
     background-size: 100%;
     cursor:pointer;
 }

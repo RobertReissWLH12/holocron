@@ -3,7 +3,7 @@
 }
 
 .donate-background{
-    background-image: url('../../assets/Backgrounds/Donate_BG.jpg') ;
+    background-image: url('/assets/Backgrounds/Donate_BG.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -61,7 +61,7 @@
     margin: 10px;
     color: transparent;
     background: transparent;
-    background-image: url('../../assets/Buttons/DonateMobile.png');
+    background-image: url('/assets/Buttons/DonateMobile.png');
     background-repeat: no-repeat;
     border: transparent;
     background-size: 100%; 
@@ -70,7 +70,7 @@
 
 .donate-mobile:hover {
     transition-duration: 0.5s;
-    background-image: url('../../assets/Buttons/DonateMobile_HL.png');
+    background-image: url('/assets/Buttons/DonateMobile_HL.png');
     background-repeat: no-repeat;
     background-size: 100%;
     cursor:pointer;
