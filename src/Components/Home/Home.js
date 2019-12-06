@@ -31,7 +31,7 @@ class Home extends Component {
                 this.props.updateUserInfo({
                     username: res.data.username,
                     user_id: res.data.user_id,
-                    profile_img: res.data.profile_img,
+                    profile_img: res.data.portrait,
                     email: res.data.email
                 })
             })

@@ -26,7 +26,12 @@ class Login extends Component {
       .then(res => {
         // console.log(res.data.user)
         this.props.history.push('/')
-        this.props.updateUserInfo(res.data.user)
+        this.props.updateUserInfo({
+          username: res.data.user.username,
+          user_id: res.data.user.user_id,
+          profile_img: res.data.user.portrait,
+          email: res.data.user.email
+      })
         Swal.fire(res.data.message)
       })
       .catch(err => {

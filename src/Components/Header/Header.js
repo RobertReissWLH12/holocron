@@ -34,20 +34,20 @@ class Header extends Component {
     }
 
     logout = () => {
-        
+
         axios
-        .delete('/auth/logout')
-        .then(res => {
-            // console.log(res.data)
-            this.props.updateUserInfo({
-                username: '',
-                user_id: ''
+            .delete('/auth/logout')
+            .then(res => {
+                // console.log(res.data)
+                this.props.updateUserInfo({
+                    username: '',
+                    user_id: ''
+                })
             })
-        })
     }
 
     render() {
-        // console.log(this.props.profile_img)
+        console.log(this.props)
         return (
             <div>
                 <div className="header">
@@ -65,7 +65,11 @@ class Header extends Component {
                                 this.props.user_id ?
                                     (
                                         <Link to="/">
-                                        <button className=""id="logout-button" onClick={() => this.logout()}></button>
+                                            <div>
+                                                <img
+                                                src={`/assets/ProfilePics/${this.props.profile_img}`}/>
+                                                <button id="logout-button" onClick={() => this.logout()}></button>
+                                            </div>
                                         </Link>
                                     ) : (
                                         <div>
