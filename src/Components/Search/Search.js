@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import "./Search.css"
 import axios from 'axios';
 
@@ -9,11 +9,6 @@ export default class Search extends Component {
             searchTerm: '',
             archives: [],
             newBooks: []
-            // title: '',
-            // author: '',
-            // pages: '',
-            // characters: [],
-            // img: ''
         }
         this.handleChange = this.handleChange.bind(this)
         this.updateArray = this.updateArray.bind(this)
@@ -21,12 +16,12 @@ export default class Search extends Component {
 
     componentDidMount() {
         axios
-        .get('/api/archives')
-        .then(res => {
-            this.setState({
-                archive: res.data
+            .get('/api/archives')
+            .then(res => {
+                this.setState({
+                    archive: res.data
+                })
             })
-        })
     }
 
     handleChange(e) {
@@ -42,11 +37,11 @@ export default class Search extends Component {
         this.setState({
             searchTerm: e.target.value
         },
-        
-        () => update())
+
+            () => update())
     }
 
-    updateArray(arr){
+    updateArray(arr) {
         this.setState({
             newBooks: arr
         })
@@ -56,18 +51,25 @@ export default class Search extends Component {
         return (
             <div className="search-background">
                 <div className="lightsaber-hilt"></div>
+                <button
+                    className="magnifying-glass"
+                    onKeyPress={this.onEnter}
+                    onClick={this.onSearchClick}
+                >
+                </button>
                 <div className="lightsaber-blade">
-                    <input type="text"
-                    className="searchbar"
-                    onChange={(ev) => this.handleChange(ev)}
-                    placeholder="Find an Entry..." />
+                    <input
+                        type="text"
+                        className="searchbar"
+                        placeholder="Find an Entry..."
+                    />
                 </div>
-                {this.state.newBooks.map(el => (
+                {this.state.archives.map(el => (
                     <p
-                    key={el.id}
-                    id={el.id}
-                    data={el}
-                    updateArray = {this.updateArray}
+                        key={el.id}
+                        id={el.id}
+                        data={el}
+                        updateArray={this.updateArray}
                     />
                 ))}
                 <div className="R2"></div>

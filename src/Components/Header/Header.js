@@ -67,8 +67,11 @@ class Header extends Component {
                                         <Link to="/">
                                             <div>
                                                 <img
-                                                className="header-portrait"
-                                                src={`/assets/ProfilePics/${this.props.profile_img}`}/>
+                                                    className="header-portrait"
+                                                    alt=''
+                                                    src={`/assets/ProfilePics/${this.props.profile_img}`} />
+                                            </div>
+                                            <div>
                                                 <button id="logout-button" onClick={() => this.logout()}></button>
                                             </div>
                                         </Link>
