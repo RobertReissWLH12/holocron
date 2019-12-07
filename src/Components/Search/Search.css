@@ -52,12 +52,20 @@
     background-position: center;
     display: flex;
     position: absolute;
-    justify-content: flex-end;
-    align-items: flex-end;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
     background-size: 100%;
     z-index: 5;
     left: 100px;
     top: 200px;
+    /* border: 1px red solid; */
+}
+
+.magnifying-glass {
+    width: 30px;
+    height: 30px;
+    margin-top: 59px;
+    margin-left: 62px;
     /* border: 1px red solid; */
 }
 

@@ -31,6 +31,8 @@
     background-image: url('/assets/Home/Rock_Left1.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -42,6 +44,8 @@
     background-image: url('/assets/Home/Rock_Left2.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -53,6 +57,8 @@
     background-image: url('/assets/Home/Rock_Left3.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -72,6 +78,8 @@
     background-image: url('/assets/Home/Rock_Right1.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -83,6 +91,8 @@
     background-image: url('/assets/Home/Rock_Right2.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -94,8 +104,20 @@
     background-image: url('/assets/Home/Rock_Right3.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
     /* border: 3px green solid; */
 }
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
 
 .welcome {
     /* position: absolute; */
@@ -130,3 +152,12 @@
     background-size: 100%;
     /* border: 1px blue solid; */
 }
+
+/* @keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 100px;
+    }
+} */

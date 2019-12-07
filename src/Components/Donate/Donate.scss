@@ -12,8 +12,8 @@
 
 .donate-background h1 {
     position: absolute;
-    margin-top:  170px;
-    margin-left: 470px;
+    margin-top:  200px;
+    margin-left: 500px;
     box-sizing: border-box;
     color: gold;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -23,45 +23,57 @@
 
 .donate-background h2 {
     position: absolute;
-    margin-top:  350px;
-    margin-left: 880px;
+    margin-top:  70px;
+    margin-left: 75px;
     box-sizing: border-box;
-    color: white;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: gold;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1.5px;
     font-size: 36px;
     // border: 1px solid red;
 }
 
-.donate {
+.donation-display {
     position: absolute;
-    height: 100px;
+    background-image:url('/assets/Boxes/B-Box3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 600px;
+    height: 330px;
+    margin-left: 780px;
+    margin-top: 300px;
+    // border: 1px red solid;
+}
+
+.donate {
+    background-image: url('/assets/Boxes/Donate_CardBox.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    height: 120px;
     width: 400px;
-    margin-top: 450px;
-    margin-left: 825px;
+    margin-top: 160px;
+    margin-left: 110px;
     padding: 0;
     box-sizing: border-box;
-    // border: 0px solid transparent;
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, .8);
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 32px;
-    color: white;
     z-index: 2;
-    box-shadow: 0 1px 3px 0 #E6EBF1;
-    -webkit-transition: box-shadow 150ms ease;
-    transition: box-shadow 150ms ease;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+    // border: 1px solid red;
 }
 
 .donate-mobile {
     width: 150px;
     height: 50px;
-    margin: 10px;
+    margin-top: 20px;
     color: transparent;
     background: transparent;
-    background-image: url('/assets/Buttons/DonateMobile.png');
+    background-image: url('/assets/Buttons/Donate_CardButton.png');
     background-repeat: no-repeat;
     border: transparent;
     background-size: 100%; 
@@ -69,8 +81,8 @@
 }
 
 .donate-mobile:hover {
-    transition-duration: 0.5s;
-    background-image: url('/assets/Buttons/DonateMobile_HL.png');
+    transition-duration: 0.2s;
+    background-image: url('/assets/Buttons/Donate_CardButton_HL.png');
     background-repeat: no-repeat;
     background-size: 100%;
     cursor:pointer;
@@ -79,22 +91,22 @@
 .checkout {
     height: 20px;
     width: 300px;
-    margin: 50px;
+    margin-top: 25px;
     // display: flex;
     // flex-direction: row;
     // flex-wrap: nowrap;
     // justify-content: flex-end;
     // align-items: center;
     // align-content: stretch;
-    border: 1px green solid;
+    // border: 1px green solid;
 }
 
 .complete {
     position: absolute;
-    margin-top:  -30px;
-    margin-left: 70px;
+    margin-top:  60px;
+    margin-left: 4px;
     box-sizing: border-box;
-    color: maroon;
+    color: black;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 36px;
     // border: 1px solid red;

@@ -17,16 +17,16 @@ class Archives extends Component {
             bigNum: 10
         }
 
-        this.getBooks = this.getBooks.bind(this)
+        this.getArchives = this.getArchives.bind(this)
     }
 
     componentDidMount() {
-        this.getBooks();
+        this.getArchives();
     }
 
-    getBooks = () => {
+    getArchives = () => {
         axios
-            .get("/api/archives")
+            .get("/api/allArchives")
             .then(res => {
                 // console.log(res.data)
                 this.setState({

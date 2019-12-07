@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "./Search.css";
-// import "./../Archives/Archives.css"
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import SearchBook from "./../Search/SearchBook";
@@ -13,7 +12,7 @@ class Search extends Component {
             archives: [],
             user_favorites: [],
             modalActivate: false,
-            searchTerm: '',
+            searchTerm: '', 
             book: '',
             filter: '', 
             smallNum: 0,
@@ -72,16 +71,23 @@ class Search extends Component {
             searchTerm: e.target.value
         })
     }
-        
+
+    displayBeam() {
+        return (
+            <div className="R2-beam">
+            </div>
+        )
+    }     
 
     render() {
         console.log(this.state.searchTerm)
         let filteredArchives = this.state.archives.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
         return (
             <div className="search-background">
-                <div className="lightsaber-hilt"
-                onClick={this.getBooks}>
-
+                <div className="lightsaber-hilt">
+                    <div className="magnifying-glass"
+                        onClick={this.getBooks}>
+                    </div>
                 </div>
                 <div className="lightsaber-blade">
                     <input
@@ -98,12 +104,21 @@ class Search extends Component {
                             <SearchBook
                                 onClick={this.modalFn}
                                 book={book} />
-
                         )
                     })}
                 </div>
                 <div className="R2"></div>
-                <div className="R2-beam"></div>
+
+                {/* CONDITIONAL RENDERING FOR R2 BEAM */}
+                    <div>
+                    {
+                        !this.state.filter ? 
+                        (
+                            this.displayBeam()
+                            // <div className="R2-beam"></div>
+                        ) : null
+                    }
+                    </div>
 
                 {/* MODAL */}
                 {this.state.modalActivate &&

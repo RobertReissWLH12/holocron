@@ -9,8 +9,9 @@ export default class Donate extends Component {
         return (
             <div className="donate-background">
                 <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"></link>
-                <div>
-                    <h1>"Republic credits are no good out here, I need something more real."</h1>
+                <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet"></link>
+                <h1>"Republic credits are no good out here, I need something more real."</h1>
+                <div className="donation-display">
                     <h2>Donate to the Holocron!</h2>
                     <StripeProvider apiKey="pk_test_ClZZ4tEa3nSFbIkdNeNdpRDI00l3NvF6kY">
                         <div className="donate">

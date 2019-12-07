@@ -8,6 +8,13 @@ module.exports = {
         .catch(err => console.log(err))
     },
 
+    getArchives: (req, res) => {
+        const db = req.app.get("db");
+        db.get_allArchives()
+        .then(archives => res.status(200).send(archives))
+        .catch(err => console.log(err))
+    },
+
     addFavorite: (req, res) => {
         const db = req.app.get("db")
         const {user_id} = req.session.user

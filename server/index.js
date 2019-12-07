@@ -28,6 +28,9 @@ app.use(session({
 // ***  ENDPOINTS  ***
 
 // ARCHIVES
+app.get('/api/allArchives', archivesCtrl.getArchives)
+
+// SEARCH PAGE
 app.get('/api/archives', archivesCtrl.getBooks)
 
 // FAVORITES (ARCHIVES)
