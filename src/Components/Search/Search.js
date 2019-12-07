@@ -16,7 +16,8 @@ class Search extends Component {
             book: '',
             filter: '', 
             smallNum: 0,
-            bigNum: 1
+            bigNum: 1,
+            toggleR2: false
         }
 
         this.getBooks = this.getBooks.bind(this)
@@ -33,7 +34,8 @@ class Search extends Component {
             .then(res => {
                 // console.log(res.data)
                 this.setState({
-                    archives: res.data
+                    archives: res.data,
+                    toggleR2: true
                 })
             })
             .catch(err => console.log(err))
@@ -112,11 +114,11 @@ class Search extends Component {
                 {/* CONDITIONAL RENDERING FOR R2 BEAM */}
                     <div>
                     {
-                        !this.state.filter ? 
-                        (
+                        this.state.toggleR2 ? 
+                        
                             this.displayBeam()
                             // <div className="R2-beam"></div>
-                        ) : null
+                         : null
                     }
                     </div>
 
