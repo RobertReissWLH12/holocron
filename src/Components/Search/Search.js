@@ -1,81 +1,152 @@
-import React, { Component } from 'react'
-import "./Search.css"
+import React, { Component } from 'react';
+import "./Search.css";
+// import "./../Archives/Archives.css"
+import { withRouter } from 'react-router-dom';
+import { connect } from 'react-redux';
+import SearchBook from "./../Search/SearchBook";
 import axios from 'axios';
 
-export default class Search extends Component {
+class Search extends Component {
     constructor() {
         super()
         this.state = {
-            searchTerm: '',
             archives: [],
-            newBooks: []
+            user_favorites: [],
+            modalActivate: false,
+            searchTerm: '',
+            book: '',
+            filter: '', 
+            smallNum: 0,
+            bigNum: 1
         }
-        this.handleChange = this.handleChange.bind(this)
-        this.updateArray = this.updateArray.bind(this)
+
+        this.getBooks = this.getBooks.bind(this)
+        // this.handleChange = this.handleChange.bind(this)
     }
 
-    componentDidMount() {
+    // componentDidMount() {
+    //     this.getBooks();
+    // }
+
+    getBooks = () => {
         axios
-            .get('/api/archives')
+            .get(`/api/archives?title=${this.state.searchTerm}`)
             .then(res => {
+                // console.log(res.data)
                 this.setState({
-                    archive: res.data
+                    archives: res.data
                 })
             })
+            .catch(err => console.log(err))
     }
 
-    handleChange(e) {
-        // console.log(e.target.value)
-        let update = () => {
-            let filteredResults = this.state.archives.filter(entry => entry.title.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
-            // console.log(filteredResults)
-            this.setState({
-                newBooks: filteredResults
-            })
-        }
-
-        this.setState({
-            searchTerm: e.target.value
-        },
-
-            () => update())
+    addFavorite = (id) => {
+        axios
+            .post("/api/archives", { archives_id: id })
     }
 
-    updateArray(arr) {
+    modalFn = (currentBook) => {
+        // console.log(currentBook)
         this.setState({
-            newBooks: arr
+            book: currentBook,
+            modalActivate: !this.state.modalActivate
         })
     }
 
+    increment = () => {
+        this.setState({
+            bigNum: this.state.bigNum + 1,
+            smallNum: this.state.smallNum + 1
+        })
+    }
+
+    decrement = () => {
+        this.setState({
+            bigNum: this.state.bigNum - 1,
+            smallNum: this.state.smallNum - 1
+        })
+    }
+
+    handleChange(e) {
+        this.setState({
+            searchTerm: e.target.value
+        })
+    }
+        
+
     render() {
+        console.log(this.state.searchTerm)
+        let filteredArchives = this.state.archives.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
         return (
             <div className="search-background">
-                <div className="lightsaber-hilt"></div>
-                <button
-                    className="magnifying-glass"
-                    onKeyPress={this.onEnter}
-                    onClick={this.onSearchClick}
-                >
-                </button>
+                <div className="lightsaber-hilt"
+                onClick={this.getBooks}>
+
+                </div>
                 <div className="lightsaber-blade">
                     <input
                         type="text"
                         className="searchbar"
                         placeholder="Find an Entry..."
+                        onChange={e => this.handleChange(e)}
                     />
                 </div>
-                {this.state.archives.map(el => (
-                    <p
-                        key={el.id}
-                        id={el.id}
-                        data={el}
-                        updateArray={this.updateArray}
-                    />
-                ))}
+                <div id="books-hologram">
+                    {filteredArchives.map((book, i) => {
+                        // console.log(book)
+                        return (
+                            <SearchBook
+                                onClick={this.modalFn}
+                                book={book} />
+
+                        )
+                    })}
+                </div>
                 <div className="R2"></div>
                 <div className="R2-beam"></div>
+
+                {/* MODAL */}
+                {this.state.modalActivate &&
+                    <div>
+                        <div className="modal-content">
+                            {/* Modal Body */}
+                            <div className="modal-body">
+                                <div className="modal-header">
+                                    <span className="close" onClick={() => this.setState({
+                                        modalActivate: false
+                                    })
+                                    }>&times;</span>
+                                    <h2>{this.state.book.title}</h2>
+                                </div>
+                                <div className="modal-bookInfo">
+                                    <p>Author: {this.state.book.author}</p>
+                                    <p>{this.state.book.pages} pages</p>
+                                    <p>Major Characters: {this.state.book.characters}</p>
+                                    <p id="summary">{this.state.book.summary}</p>
+                                </div>
+                                <div className="modal-image">
+                                    <img className="popup-image" src={`/assets/Archives_Books/${this.state.book.image}`} alt="book-cover" />
+                                </div>
+                                {this.props.user_id &&
+                                    <button className="search-add"
+                                        onClick="this.addFavorite(this.state.book.archives_id);
+                                        this.setState({ modalActivate: false })"
+                                    ></button>
+                                }
+                            </div>
+                        </div>
+                        {/* <div class="overlay"></div> */}
+                    </div>
+                }
+                <button onClick={() => this.decrement()} className="search-prev"></button>
+                <button onClick={() => this.increment()} className="search-next"></button>
             </div>
         )
     }
 }
 
+function mapStateToProps(reduxState) {
+    return reduxState
+}
+
+export default withRouter(connect(mapStateToProps, {})(Search))

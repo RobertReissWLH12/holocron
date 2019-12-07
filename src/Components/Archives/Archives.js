@@ -81,7 +81,7 @@ class Archives extends Component {
                     })}
                 </div>
 
-                {/* Modal will go here */}
+                {/* MODAL */}
                 {this.state.modalActivate &&
                     <div>
                         <div className="modal-content">

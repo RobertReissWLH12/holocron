@@ -3,6 +3,7 @@ VALUES
 ('DarthVader.png'),
 ('FrozenSolo.png'),
 ('FunBoba.png'),
+('FunC3PO.png'),
 ('FunR2D2.png'),
 ('FunYoda.png'),
 ('Hondo.png'),

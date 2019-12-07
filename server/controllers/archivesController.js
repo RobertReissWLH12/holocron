@@ -1,7 +1,9 @@
 module.exports = {
     getBooks: (req, res) => {
+        console.log(req.query)
         const db = req.app.get("db");
-        db.get_archives()
+        const {title} = req.query
+        db.get_archives(title)
         .then(archives => res.status(200).send(archives))
         .catch(err => console.log(err))
     },

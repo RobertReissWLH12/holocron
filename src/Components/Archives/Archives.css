@@ -19,9 +19,9 @@
 } 
 
 #books-display {
+    position: absolute;
     width: 65vw;
     height: 63vh;
-    position: absolute;
     bottom: 100px;
     left: 250px;
     /* padding-top: 150px; */
