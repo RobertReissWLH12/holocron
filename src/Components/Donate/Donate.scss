@@ -12,13 +12,23 @@
 
 .donate-background h1 {
     position: absolute;
-    margin-top:  200px;
+    width: 1000px;
+    height: 100px;
+    margin-top:  190px;
     margin-left: 500px;
     box-sizing: border-box;
     color: gold;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 42px;
     // border: 1px solid red;
+}
+
+#watto-line {
+    height: 120px;
+    width: 100%;
+    background-image: url('/assets/Boxes/B-Line3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .donate-background h2 {
@@ -40,8 +50,8 @@
     background-size: 100%;
     width: 600px;
     height: 330px;
-    margin-left: 780px;
-    margin-top: 300px;
+    margin-left: 700px;
+    margin-top: 320px;
     // border: 1px red solid;
 }
 
