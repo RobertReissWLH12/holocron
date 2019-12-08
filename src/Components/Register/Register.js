@@ -44,9 +44,10 @@ class Register extends Component {
     return (
       <div className="register-background">
         <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"></link>
+        <div className="box-artwork"></div>
         <div className='register-container' alt=''>
           <h1>" Who is this?  What's your operating number? "</h1>
-          {/* <div className="four-inputs"> */}
+          <div className="four-inputs">
             <input id="email"
               value={this.state.email}
               onChange={e => this.handleChange('email', e.target.value)}
@@ -71,7 +72,7 @@ class Register extends Component {
               placeholder="Retype password"
               type="password"
             />
-          {/* </div> */}
+          </div>
           <Link to="/">
             <button className="register-submit" onClick={this.register}>Register</button>
           </Link>

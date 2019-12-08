@@ -82,7 +82,7 @@ class Search extends Component {
     }     
 
     render() {
-        console.log(this.state.searchTerm)
+        // console.log(this.state.searchTerm)
         let filteredArchives = this.state.archives.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
         return (
             <div className="search-background">

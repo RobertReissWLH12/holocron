@@ -51,6 +51,8 @@
     overflow: auto;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
+    -webkit-animation: fadein 1s;
+    animation: fadein 1s;
     /* border: 1px salmon solid; */
 }
 
@@ -64,8 +66,6 @@
     color: gold;
     margin-top: 0px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    animation-name: animatetop;
-    animation-duration: 0.4s;
     /* border: 3px green solid; */
 }
 
@@ -89,7 +89,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    margin-left: 1130px;
+    margin-left: 1150px;
     color: #aaa;
     display: flex;
     flex-direction: row;
@@ -99,7 +99,9 @@
     align-content: stretch;
     font-size: 36px;
     font-weight: bold;
-    transition: 0.3s;
+    z-index: 10;
+    /* -webkit-animation: fadeOut ease 1s;
+    animation: fadOut ease 1s; */
     /* border: 1px red solid; */
 }
 
@@ -153,9 +155,29 @@
 
 
 /* Animation */
-@keyframes animateleft {
+/* @keyframes animateleft {
     from {left: -300px; opacity: 0}
     to {right: 0; opacity: 1}
+} */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
 }
 
 .overlay {

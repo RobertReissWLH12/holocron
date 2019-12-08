@@ -13,9 +13,12 @@
 
 
 .login-container {
-    height: 350px;
+    background-image: url('/assets/Boxes/Y-Box3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 390px;
     width: 47%;
-    top: 45%;
+    top: 50%;
     left: 72%;
     position: absolute;
     display: flex;
@@ -26,23 +29,25 @@
     align-content: space-around;
     transform: translate(-50%, -50%);
     /* border: blue 1px solid; */
-    color: white;
 }
 
 #username {
+    margin-top: 20px;
     height: 30px;
     width: 200px;
 }
 
 #password {
+    margin-top: 20px;
     height: 30px;
     width: 200px;
 }
 
 .login-background h1 {
+    margin-top: 30px;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    color: black;
-    font-size: 60px;
+    color: gold;
+    font-size: 56px;
 }
 
 .login-submit {
@@ -67,6 +72,7 @@
 }
 
 .login-background h4 {
-    color: black;
+    margin-bottom: 20px;
+    color: skyblue;
     font-size: 30px;
 }

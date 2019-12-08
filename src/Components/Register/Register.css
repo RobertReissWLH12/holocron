@@ -11,34 +11,52 @@
 } 
 
 .register-container {
-    height: 400px;
+    height: 500px;
     width: 55%;
     position: absolute;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
     justify-content: space-between;
-	align-items: center;
-    align-content: space-around;
-    top: 50%;
-    left: 50%;
+    top: 55%;
+    left: 65%;
     transform: translate(-50%, -50%);
-    /* border: blue 5px solid; */
     color: white;
+    /* border: blue 5px solid; */
 
 }
 
-/* .four-inputs {
+.four-inputs {
+    height: 200px;
+    width: 300px;
+    margin-left: 250px;
     display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
     align-content: stretch;
-} */
+    /* border: 1px red solid; */
+}
+
+.box-artwork {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 210px;
+    margin-left: 800px;
+    background-image: url('/assets/Boxes/Y-Box2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+}
 
 .register-submit {
     width: 150px;
     height: 50px;
-    margin: 10px;
+    margin-bottom: 30px;
+    margin-right: 40px;
     color: transparent;
     background: transparent;
     background-image: url('/assets/Buttons/Register.png');

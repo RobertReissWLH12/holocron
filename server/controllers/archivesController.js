@@ -1,6 +1,6 @@
 module.exports = {
     getBooks: (req, res) => {
-        console.log(req.query)
+        // console.log(req.query)
         const db = req.app.get("db");
         const {title} = req.query
         db.get_archives(title)

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import "./Archives.css";
-import { withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
 import Book from "./../Book/Book";
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import axios from 'axios';
+import Swal from 'sweetalert2';
+
 
 class Archives extends Component {
     constructor() {
@@ -39,6 +41,11 @@ class Archives extends Component {
     addFavorite = (id) => {
         axios
         .post("/api/archives", {archives_id: id})
+        Swal.fire(
+            'Added book to favorites!',
+            `You can view your favorites list in the Contracts section of Hondo's Hideout.`,
+            'success'
+          )
         }
     
 

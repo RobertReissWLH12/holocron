@@ -9,7 +9,7 @@ import store from './ducks/store'
 
 
 function App() {
-  console.log(window.location.hash)
+  // console.log(window.location.hash)
   return (
     <Provider store={store}>
       <HashRouter>

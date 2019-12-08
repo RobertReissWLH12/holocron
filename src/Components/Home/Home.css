@@ -44,8 +44,8 @@
     background-image: url('/assets/Home/Rock_Left2.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+    -webkit-animation: mover 1.4s infinite  alternate;
+    animation: mover 1.4s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -57,8 +57,8 @@
     background-image: url('/assets/Home/Rock_Left3.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+    -webkit-animation: mover 1.8s infinite  alternate;
+    animation: mover 1.8s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -78,8 +78,8 @@
     background-image: url('/assets/Home/Rock_Right1.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+    -webkit-animation: mover 1.2s infinite  alternate;
+    animation: mover 1.2s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -91,8 +91,8 @@
     background-image: url('/assets/Home/Rock_Right2.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+    -webkit-animation: mover 1.6s infinite  alternate;
+    animation: mover 1.6s infinite  alternate;
     /* border: 3px green solid; */
 }
 
@@ -104,32 +104,39 @@
     background-image: url('/assets/Home/Rock_Right3.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+    -webkit-animation: mover 1.7s infinite  alternate;
+    animation: mover 1.7s infinite  alternate;
     /* border: 3px green solid; */
 }
 
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+    100% { transform: translateY(-15px); }
 }
 @keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+    100% { transform: translateY(-15px); }
 }
 
 
 .welcome {
-    /* position: absolute; */
     height: 100px;
     width: 52%;
     /* margin-top: 100px; */
-    /* border: 1px red solid; */
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 72px;
     color: gold;
     z-index: 2;
     margin-top: -50px;
+    /* border: 1px red solid; */
+}
+
+#welcome-line {
+    height: 120px;
+    width: 100%;
+    background-image: url('/assets/Boxes/B-Line2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .paragraph {

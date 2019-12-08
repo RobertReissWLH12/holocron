@@ -5,8 +5,7 @@
     /* border: red 1px solid; */
 }
 
-/* .book-cover:hover {
-    width: 300px;
-    height: auto;
-} */
+.book-cover:hover {
+    cursor:pointer;
+}
 

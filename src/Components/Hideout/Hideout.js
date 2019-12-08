@@ -42,17 +42,34 @@ class Hideout extends Component {
                     !this.props.user_id ?
                         (
                             <div className="hideout-background-noLogin">
+                                <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" 
+                                rel="stylesheet">                                    
+                                </link>
+                                <div id="warning-container">
+                                    <p id="hondo-warning">Hello there, my friend!  My name is Hondo, and this is my hideout!  What?!  You do not know of the great pirate, Hondo?  Well, that actually does not matter.  What is more important is that I do not know YOU!  Please login so that you may be allowed to see all the treasures that await you in Hondo's Hideout!</p>
+                                </div>
                                 <div id="fingerWave"></div>
                             </div>
                         ) : (
                             <div className="hideout-background-Login">
+                                <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" 
+                                rel="stylesheet">               
+                                </link>
                                 <div className="hideout-links-left">
+                                    <div className="contracts-container">
                                     <Link to="/contracts">
-                                        <button id="contracts-button" onClick={this.contracts}></button>
+                                        <button id="contracts-button" onClick={this.contracts}>
+                                            <p class="contracts-text">In this room, you can view all of the books you have added to your favorites list.  I like to think of them as "contracts"...</p>
+                                        </button>
                                     </Link>
+                                    </div>
+                                    <div className="guests-container">
                                     <Link to="/guests">
-                                        <button id="guests-button" onClick={this.guests}></button>
+                                        <button id="guests-button" onClick={this.guests}>
+                                            <p class="guests-text">This area allows you to choose which prisoner- I mean, "guest"- you would like to be!</p>
+                                        </button>
                                     </Link>
+                                    </div>
                                 </div>
                                 <div className="hideout-links-right">
                                     <Link to="/quiz">

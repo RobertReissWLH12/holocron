@@ -15,6 +15,47 @@
     height: 100vh;
 } 
 
+#warning-container {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: -400px;
+    background-image: url('/assets/Boxes/B-Box2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+    /* border: 1px blue solid; */
+
+}
+
+#hondo-warning {
+    /* position: absolute; */
+    width: 398px;
+    height: 400px;
+    margin-left: 33px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 32px;
+    color: gold;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    -webkit-animation: fadein 3s;
+    animation: fadein 3s;
+    /* border: 1px red solid; */
+
+}
+
 #fingerWave {
     width: 160px;
     height: 160px;
@@ -64,6 +105,12 @@
     /* border: 1px blue solid; */
 }
 
+.contracts-container {
+    width: 250px;
+    height: 100px;
+    /* border: 1px green solid; */
+}
+
 #contracts-button {
     width: 250px;
     height: 100px;
@@ -78,11 +125,50 @@
     /* border: 1px blue solid; */
 }
 
+.contracts-text {
+    background-image: url('/assets/Boxes/Y-Box1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: gold;
+    visibility: hidden;
+    opacity: 0;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 24px;
+    letter-spacing: 1px;
+    /* border: 3px blue solid; */
+    z-index: 5;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+}
+
 #contracts-button:hover {
     transition-duration: 0.5s;
     background-image: url('/assets/Buttons/Contracts_HL.png');
     background-size: 100%;
     cursor:pointer;
+}
+
+.contracts-container:hover .contracts-text {
+    transition-duration: 1.5s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.guests-container {
+    width: 250px;
+    height: 100px;
+    border: 1px green solid;
 }
 
 #guests-button {
@@ -99,11 +185,46 @@
     /* border: 1px blue solid; */
 }
 
+.guests-text {
+    background-image: url('/assets/Boxes/Y-Box1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: gold;
+    visibility: hidden;
+    opacity: 0;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 24px;
+    letter-spacing: 1px;
+    /* border: 3px blue solid; */
+    z-index: 5;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+}
+
 #guests-button:hover {
     transition-duration: 0.5s;
     background-image: url('/assets/Buttons/Guests_HL.png');
     background-size: 100%;
     cursor:pointer;
+}
+
+
+
+.guests-container:hover .contracts-text {
+    transition-duration: 1.5s;
+    visibility: visible;
+    opacity: 1;
 }
 
 #quiz-button {
@@ -146,4 +267,16 @@
     background-image: url('/assets/Buttons/Treasures_HL.png');
     background-size: 100%;
     cursor:pointer;
+}
+
+/* ANIMATIONS */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

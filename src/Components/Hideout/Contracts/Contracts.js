@@ -1,9 +1,11 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 import "./Contracts.css";
-import { withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom';
 import Book from "./../../Book/Book";
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import axios from 'axios';
+import Swal from 'sweetalert2';
+
 
 class Contracts extends Component {
     constructor() {
@@ -62,6 +64,11 @@ class Contracts extends Component {
         .delete(`/api/user_favorites/${favorite_id}`)
         .then(() => {
             this.getFavorites();
+            Swal.fire(
+                'Removed book from reading list.',
+                'This book has been removed from your reading list.',
+                'success'
+              )
         })
         .catch(err => console.log(err))
     }

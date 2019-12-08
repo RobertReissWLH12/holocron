@@ -25,7 +25,7 @@ class Guests extends Component {
         axios
         .get("/api/portraits")
         .then(res => {
-            console.log(res.data)
+            // console.log(res.data)
             this.setState({
                 portraits: res.data
             })
