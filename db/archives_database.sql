@@ -164,4 +164,104 @@ summary
 'Arch_OutboundFlight.png', 
 'R2-B_OutboundFlight.png', 
 'It began as the ultimate voyage of discovery–only to become the stuff of lost Republic legend.. and a dark chapter in Jedi history. Now, at last, acclaimed author Timothy Zahn returns to tell the whole extraordinary story of the remarkable–and doomed–Outbound Flight Project.  The Clone Wars have yet to erupt when Jedi Master Jorus C’baoth petitions the Senate for support of a singularly ambitious undertaking. Six Jedi Masters, twelve Jedi Knights, and fifty thousand men, women, and children will embark–aboard a gargantuan vessel, equipped for years of travel–on a mission to contact intelligent life and colonize undiscovered worlds beyond the known galaxy. The government bureaucracy threatens to scuttle the expedition before it can even start–until Master C’baoth foils a murderous conspiracy plot, winning him the political capital he needs to set in motion the dream of Outbound Flight.  Or so it would seem. For unknown to the famed Jedi Master, the successful launch of the mission is secretly being orchestrated by an unlikely ally: the evil Sith Lord, Darth Sidious, who has his own reasons for wanting Outbound Flight to move forward... and, ultimately, to fail.  Yet Darth Sidious is not the mission’s most dangerous challenge. Once underway, the starship crosses paths at the edge of Unknown Space with the forces of the alien Chiss Ascendancy and the brilliant mastermind best known as “Thrawn.” Even Jedi Knight Obi-Wan Kenobi, aboard Outbound Flight with his young Padawan student, Anakin Skywalker, cannot help avert disaster. Thus what begins as a peaceful Jedi mission is violently transformed into an all-out war for survival against staggering odds–and the most diabolical of adversaries.  Timothy Zahn’s unique mix of espionage, political gamesmanship, and deadly interstellar combat breathes electrifying life into a Star Wars legend.'
+),
+
+(
+'Kenobi',
+'John Jackson Miller',
+400,
+'Obi-Wan Kenobi, Annileen Calwell, Orrin Gault, A"Yark, Wyle Ulbreck',
+'Arch_Kenobi.png',
+'R2-B_Kenobi.png',
+'The Republic has fallen.  Sith Lords rule the galaxy.  Jedi Master Obi-Wan Kenobi has lost everything...  Everything but hope.  Tatooine — a harsh desert world where farmers toil in the heat of two suns while trying to protect themselves and their loved ones from the marauding Tusken Raiders.  A backwater planet on the edge of civilized space. And an unlikely place to find a Jedi Master in hiding, or an orphaned infant boy on whose tiny shoulders rests the future of a galaxy.  Known to locals only as “Ben,” the bearded and robed offworlder is an enigmatic stranger who keeps to himself, shares nothing of his past, and goes to great pains to remain an outsider. But as tensions escalate between the farmers and a tribe of Sand People led by a ruthless war chief, Ben finds himself drawn into the fight, endangering the very mission that brought him to Tatooine.  Ben — Jedi Master Obi-Wan Kenobi, hero of the Clone Wars, traitor to the Empire, and protector of the galaxy’s last hope — can no more turn his back on evil than he can reject his Jedi training. And when blood is unjustly spilled, innocent lives threatened, and a ruthless opponent unmasked, Ben has no choice but to call on the wisdom of the Jedi — and the formidable power of the Force — in his never-ending fight for justice.'
+),
+
+(
+'Episode IV: A New Hope',
+'George Lucas',
+418,
+'Luke Skywalker, Leia Organa, Han Solo, Darth Vader, Obi-Wan Kenobi, Chewbacca, C-3PO, R2-D2',
+'Arch_NewHope.png',
+'R2-B_NewHope.png',
+'Luke Skywalker lived and worked on his uncle"s farm on the remote planet of Tatooine — and he was bored beyond belief. He yearned for adventures out among the stars, adventures that would take him beyond the farthest galaxies to distant and alien worlds.  But Luke gets more than he bargained for when he intercepts a cryptic message from a beautiful princess held captive by a dark and powerful warlord.  Luke doesn"t know who she is, but he knows he has to save her — and soon, because time is running out.  Armed only with courage and with the lightsaber that had been his father"s, Luke is catapulted into the middle of the most savage space war ever — and headed straight for a desperate encounter on the enemy battle station known as the Death Star...'
+),
+
+(
+'Episode V: The Empire Strikes Back',
+'Donald F. Glut',
+224,
+'Luke Skywalker, Leia Organa, Han Solo, Darth Vader, Obi-Wan Kenobi, Chewbacca, Yoda, Lando Calrissian, Boba Fett, C-3PO, R2-D2',
+'Arch_EmpireStrikesBack.png',
+'R2-B_EmpireStrikesBack.png',
+'The adventures of Luke Skywalker did not end with the destruction of the Death Star.  Though the Rebel Alliance won a significant battle, the war against the Empire has only just begun.  Several months have passed, and the Rebels have established a hidden outpost on the frozen wasteland of Hoth.  But even on that icy backwater planet, they cannot escape the evil Darth Vader’s notice for long.  Soon Luke, Han, Princess Leia, and their faithful companions will be forced to flee, scattering in all directions — with the Dark Lord’s minions in fevered pursuit.'
+),
+
+(
+'Episode VI: Return of the Jedi',
+'James Kahn',
+192,
+'Luke Skywalker, Leia Organa, Han Solo, Darth Vader, Emperor Palpatine, Obi-Wan Kenobi, Chewbacca, Yoda, Lando Calrissian, Wicket, Boba Fett, Jabba the Hutt, C-3PO, R2-D2',
+'Arch_ReturnJedi.png',
+'R2-B_ReturnOTJedi.png',
+'It was a dark time for the rebel alliance...  Han Solo, frozen in carbonite, had been delivered into the hands of the vile gangster Jabba the Hutt. Determined to rescue him, Luke Skywalker, Princess Leia, and Lando Calrissian launched a hazardous mission against Jabba"s Tatooine stronghold.  The Rebel commanders gathered all the warships of the Rebel fleet into a single giant armada.  And Darth Vader and the Emperor, who had ordered construction to begin on a new and even more powerful Death Star, were making plans to crush the Rebel Alliance once and for all.'
+),
+
+(
+'Shadows of the Empire',
+'Steve Perry',
+385,
+'Luke Skywalker, Leia Organa, Darth Vader, Emperor Palpatine, Prince Xizor, Chewbacca, Lando Calrissian, C-3PO, R2-D2',
+'Arch_ShadowsEmpire.png',
+'R2-B_ShadowsOTEmpire.png',
+'It is a time of crisis.  Han Solo, frozen in carbonite, is being taken to the vile gangster Jabba the Hutt.  As Princess Leia mounts a rescue mission and Darth Vader scours the Galaxy for Luke Skywalker, another sinister figure emerges.  Cunning and ruthless, leader of a powerful crime syndicate, he will pit himself against Vader for the favor of their mutual master...  the dreaded Emperor.'
+),
+
+(
+'Scoundrels',
+'Timothy Zahn',
+385,
+'Han Solo, Chewbacca, Lando Calrissian, Boba Fett',
+'Arch_Scoundrels.png',
+'R2-B_Scoundrels.png',
+'Ocean"s Eleven meets Star Wars in this classic adventure set just after Star Wars Episode IV: A New Hope.  From #1 New York Times bestselling author Timothy Zahn, and starring Han Solo, Chewbacca, Lando Calrissian, and more favorites!  The Death Star has just been destroyed and Han Solo still needs the money to pay off the bounty on his head.  Now the opportunity to make that money and then some has walked into his life in the form of the perfect heist.  With nine like-minded scoundrels, he and Chewbacca just might be able to pull it off and live to tell the tale!'
+),
+
+(
+'Heir to the Empire',
+'Timothy Zahn',
+368,
+'Luke Skywalker, Leia Organa Solo, Han Solo, Grand Admiral Thrawn, Captain Pellaeon, Joruus C"Baoth, Talon Karrde, Mara Jade, Chewbacca, Lando Calrissian, C-3PO, R2-D2',
+'Arch_HeirToTheEmpire.png',
+'R2-B_HeirOTEmpire.png',
+'It’s five years after the Rebel Alliance destroyed the Death Star, defeated Darth Vader and the Emperor, and drove the remnants of the old Imperial Starfleet to a distant corner of the galaxy.  Princess Leia and Han Solo are married and expecting Jedi twins.  And Luke Skywalker has become the first in a long-awaited line of Jedi Knights.  But thousands of light-years away, the last of the Emperor’s warlords, Grand Admiral Thrawn, has taken command of the shattered Imperial fleet, readied it for war, and pointed it at the fragile heart of the New Republic. For this dark warrior has made two vital discoveries that could destroy everything the courageous men and women of the Rebel Alliance fought so hard to build.'
+),
+
+(
+'Dark Force Rising',
+'Timothy Zahn',
+439,
+'Luke Skywalker, Leia Organa Solo, Han Solo, Grand Admiral Thrawn, Captain Pellaeon, Joruus C"Baoth, Talon Karrde, Mara Jade, Chewbacca, Lando Calrissian, C-3PO, R2-D2',
+'Arch_DarkForceRising.png',
+'R2-B_DarkForceRising.png',
+'The dying Empire’s most cunning and ruthless warlord, Grand Admiral Thrawn, has taken command of the remnants of the Imperial fleet and launched a massive campaign aimed at the New Republic’s destruction. Meanwhile, Han Solo and Lando Calrissian race against time to find proof of treason inside the highest Republic Council — only to discover instead a ghostly fleet of warships that could bring doom to their friends and victory to their enemies.  Yet most dangerous of all is a new Dark Jedi, risen from the ashes of a shrouded past, consumed by bitterness, and scheming to corrupt Luke Skywalker to the dark side.'
+),
+
+(
+'The Last Command',
+'Timothy Zahn',
+376,
+'Luke Skywalker, Leia Organa Solo, Han Solo, Grand Admiral Thrawn, Captain Pellaeon, Joruus C"Baoth, Talon Karrde, Mara Jade, Chewbacca, Lando Calrissian, C-3PO, R2-D2',
+'Arch_LastCommand.png',
+'R2-B_TLastCommand.png',
+'The Empire is dying; but like a dog near death, the Empire is at its most dangerous, ready to lash out with nothing to lose.  Grand Admiral Thrawn may have found just the firepower needed to take a bite out of the New Republic: some two hundred Dreadnaught heavy cruisers, lost to hyperpsace in the days of the Old Republic.  Luke, Leia, Han, and Chewbacca may be up against more than they bargained for, but it"s not the first time the odds have been stacked against them!'
+),
+
+(
+'Death Troopers',
+'Joe Schreiber',
+288,
+'Aur Myss, Jareth Sartoris, Han Solo, Chewbacca, Kale Longo, Trig Longo',
+'Arch_DeathTroopers.png',
+'R2-B_DeathTroopers.png',
+'When the Imperial prison barge Purge — temporary home to five hundred of the galaxy’s most ruthless killers, rebels, scoundrels, and thieves — breaks down in a distant part of space, its only hope appears to lie with a Star Destroyer found drifting and seemingly abandoned.  But when a boarding party from the Purge is sent to scavenge for parts, only half of them come back—bringing with them a horrific disease so lethal that within hours nearly all aboard the Purge die in ways too hideous to imagine.  And death is only the beginning.  The Purge’s half-dozen survivors will do whatever it takes to stay alive.  But nothing can prepare them for what lies waiting aboard the Star Destroyer.  For the dead are rising: soulless, unstoppable, and unspeakably hungry.'
 )

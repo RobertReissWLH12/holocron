@@ -65,7 +65,7 @@ class Contracts extends Component {
         .then(() => {
             this.getFavorites();
             Swal.fire(
-                'Removed book from reading list.',
+                'Success',
                 'This book has been removed from your reading list.',
                 'success'
               )
