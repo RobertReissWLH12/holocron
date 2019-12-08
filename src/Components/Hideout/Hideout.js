@@ -66,18 +66,26 @@ class Hideout extends Component {
                                     <div className="guests-container">
                                     <Link to="/guests">
                                         <button id="guests-button" onClick={this.guests}>
-                                            <p class="guests-text">This area allows you to choose which prisoner- I mean, "guest"- you would like to be!</p>
+                                            <p class="guests-text">This area allows you to choose which prisoner - I mean "guest" - you would like to be!</p>
                                         </button>
                                     </Link>
                                     </div>
                                 </div>
                                 <div className="hideout-links-right">
+                                    <div className="quiz-container">
                                     <Link to="/quiz">
-                                        <button id="quiz-button" onClick={this.quiz}></button>
+                                        <button id="quiz-button" onClick={this.quiz}>
+                                            <p class="quiz-text">If you have finished a contract, enter The Pit and fight to show just how much you truly remember of your adventures.  Win and you will be rewarded with a badge!</p>
+                                        </button>
                                     </Link>
+                                    </div>
+                                    <div className="treasures-container">
                                     <Link to="/treasures">
-                                        <button id="treasures-button" onClick={this.treasures}></button>
+                                        <button id="treasures-button" onClick={this.treasures}>
+                                            <p class="treasures-text">If you achieve victory in the Fight Pit, any badges you receive will be available to view here.  You can also choose one to be your profile picture!</p>
+                                        </button>
                                     </Link>
+                                    </div>
                                 </div>
                             </div>
                         )
