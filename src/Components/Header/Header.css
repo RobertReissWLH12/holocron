@@ -11,37 +11,42 @@
     flex-direction: column;
     align-items: center;
     z-index: 1;
+    /* border: 1px red solid; */
 }
 
 .header-topHalf-container {
-    width: 100%;
+    width: 80%;
     height: 75px;
     display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
     /* border: purple 1px solid; */
-    justify-content: center;
-    align-items: center;
 }
 
 .donate-button {
-    margin-left: 11px;
-    /* color: white; */
-    width: 250px;
-    height: 50px;
-    /* margin-left: 90px; */
+    position: absolute;
+    margin-left: -563px;
+    margin-top: -13px;
+    width: 290px;
+    height: 60px;
     color: transparent;
     background: transparent;
     border: transparent;
     background-image: url("/assets/Buttons/Donation.png");
     background-repeat: no-repeat;
-    background-size: 100%;   
+    background-size: 100%; 
+    /* border: 1px green solid;   */
 }
 
-.donate-button-styling {
-    /* border: yellow 1px solid; */
-    width: 260px;
-    height: 55px;
-    margin-top: 30px;
-    margin-left: 167px;
+/* .donate-button-styling {
+    border: yellow 1px solid;
+    width: 305px;
+    height: 65px;
+    margin-top: 26px;
+    margin-left: 177px;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -49,7 +54,7 @@
 	align-items: center;
 	align-content: stretch;
 
-}
+} */
 
 .donate-button:hover {
     /* -webkit-transition-duration: 0.6s; */
@@ -60,11 +65,12 @@
 
 
 .title-div {
+    position: absolute;
     height: 60px;
-    width: 500px;
+    width: 520px;
     display: flex;
-    margin-left: 50px;
-    margin-top: 25px;
+    margin-left: 0px;
+    margin-top: 15px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -83,23 +89,23 @@
 } */
 
 .login-div {
+    position: absolute;
     height: 65px;
-    width: 340px;
+    width: 300px;
+    margin-left: 415px;
+    margin-top: 15px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-    margin-right: 162px;
-    margin-top: 30px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
     /* border: blue 1px solid; */
 }
 
 #login-button {
     width: 120px;
     height: 60px;
-    margin-right: 0px;
     margin-top: 5px;
     color: transparent;
     background: transparent;
@@ -120,7 +126,6 @@
     right: 0;
     width: 175px;
     height: 60px;
-    margin-right: -17px;
     color: transparent;
     background: transparent;
     border: transparent;
@@ -136,7 +141,7 @@
     cursor:pointer;
 }
 
-.profile-section {
+/* .profile-section {
     width: 300px;
     margin-left: 10px;
     display: flex;
@@ -145,20 +150,20 @@
 	justify-content: flex-end;
 	align-items: center;
     align-content: stretch;
-    /* border: 1px green solid; */
-}
+    border: 1px green solid;
+} */
 
 .header-portrait {
     position: absolute;
-    width: 45px;
-    height: 45px;
-    margin-top: 12px;
-    margin-left: -67px;
+    width: 62px;
+    height: 62px;
+    margin-top: -39px;
+    margin-left: -129.5px;
     z-index: 1;
     /* border: 1px red solid; */
 }
 
-#portrait-ring {
+/* #portrait-ring {
     background-image: url('/assets/profilePics/BlueCircle_hollow_Frame.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -166,28 +171,30 @@
     height: 50px;
     margin-left: 0px;
     z-index: 2;
-    /* border: 1px red solid; */
-}
+    border: 1px red solid;
+} */
 
 #logout-button {
+    position: absolute;
     right: 0;
-    width: 175px;
-    height: 60px;
-    margin-right: 0px;
-    margin-top: 10px;
+    width: 290px;
+    height: 90px;
+    margin-right: 3px;
+    margin-top: -52px;
     /* z-index: 5; */
     /* position: relative; */
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('/assets/Buttons/LogoutMobile.png');
+    background-image: url('/assets/Buttons/Logout2.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    /* border: 1px red solid; */
 }
 
 #logout-button:hover {
     transition-duration: 0.5s;
-    background-image: url('/assets/Buttons/LogoutMobile_HL.png');
+    background-image: url('/assets/Buttons/Logout_HL2.png');
     background-size: 100%;
 }
 

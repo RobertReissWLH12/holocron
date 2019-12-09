@@ -53,11 +53,11 @@ class Header extends Component {
                 <div className="header">
                     {/* <img src={whateverItsCalled} className="whateverItsCalled" alt="" /> */}
                     <div className="header-topHalf-container">
-                        <h4 className="donate-button-styling">
+                        {/* <h4 className="donate-button-styling"> */}
                             <Link to="/donate">
                                 <button className="donate-button" onClick={this.donate}></button>
                             </Link>
-                        </h4>
+                        {/* </h4> */}
                         <div className="title-div"></div>
                         <div className="login-div">
 
@@ -71,10 +71,10 @@ class Header extends Component {
                                                     alt=''
                                                     src={`/assets/ProfilePics/${this.props.profile_img}`} />
                                             </div>
-                                            <div className="profile-section">
-                                                <div id="portrait-ring"></div>
+                                            {/* <div className="profile-section"> */}
+                                                {/* <div id="portrait-ring"></div> */}
                                                 <button id="logout-button" onClick={() => this.logout()}></button>
-                                            </div>
+                                            {/* </div> */}
                                         </Link>
                                     ) : (
                                         <div>

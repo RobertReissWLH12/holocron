@@ -11,6 +11,7 @@ import Contracts from './Components/Hideout/Contracts/Contracts'
 import Guests from './Components/Hideout/Guests/Guests'
 import Quiz from './Components/Hideout/Quiz/Quiz'
 import Treasures from './Components/Hideout/Treasures/Treasures'
+// import Greensock from './Components/Search/Greensock/Greensock'
 
 export default function Routes() {
     return ( 
@@ -28,6 +29,7 @@ export default function Routes() {
         <Route path='/guests' component={Guests} />
         <Route path='/quiz' component={Quiz} />
         <Route path='/treasures' component={Treasures} />
+        {/* <Route path='/greensock' component={Greensock} /> */}
     </Switch>
     </div>
 )}
