@@ -133,9 +133,10 @@
 /* Modal Footer */
 .modal-image {
     height: 410px;
-    width: 475px;
+    width: 300px;
     padding: 0px;
-    margin-top: -480px;
+    margin-top: -500px;
+    margin-left: 70px; 
     background-color: black;
     color: white;
     /* border: 3px purple solid; */
@@ -191,11 +192,11 @@
 }
 
 .prev {
-    position: relative;
+    position: absolute;
     height: 40px;
     width: 100px;
     top: 650px;
-    left: -50px;
+    left: 600px;
     color: transparent;
     background: transparent;
     border: transparent;
@@ -217,7 +218,7 @@
     height: 40px;
     width: 100px;
     top: 650px;
-    left: 20px;
+    left: 800px;
     color: transparent;
     background: transparent;
     border: transparent;
@@ -236,17 +237,18 @@
 }
 
 .add {
-    position: relative;
+    position: absolute;
     height: 40px;
     width: 220px;
-    top: 0px;
-    margin-left: -750px;
+    top: 470px;
+    left: 100px;
     color: transparent;
     background: transparent;
     border: transparent;
     background-image: url('/assets/Buttons/Add.png');
     background-size: 100%;
     background-repeat: no-repeat;
+    z-index: 10;
     /* border: 1px red solid; */
 }
 

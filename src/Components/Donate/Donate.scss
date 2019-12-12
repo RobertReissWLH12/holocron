@@ -81,6 +81,7 @@
     width: 150px;
     height: 50px;
     margin-top: 20px;
+    margin-left: 70px;
     color: transparent;
     background: transparent;
     background-image: url('/assets/Buttons/Donate_CardButton.png');
@@ -99,6 +100,7 @@
 }
 
 .checkout {
+    position: relative;
     height: 20px;
     width: 300px;
     margin-top: 25px;

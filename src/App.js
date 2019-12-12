@@ -13,11 +13,8 @@ function App() {
   return (
     <Provider store={store}>
       <HashRouter>
-        <div className="App">
-            
           <Header />
           <Routes/>
-        </div>
       </HashRouter>
     </Provider>
   );

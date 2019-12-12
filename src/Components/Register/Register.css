@@ -30,6 +30,7 @@
     height: 200px;
     width: 300px;
     margin-left: 250px;
+    margin-bottom: 30px;
     display: flex;
 	flex-direction: column;
     flex-wrap: nowrap;
@@ -53,10 +54,11 @@
 }
 
 .register-submit {
+    position: absolute;
     width: 150px;
     height: 50px;
-    margin-bottom: 30px;
-    margin-right: 40px;
+    margin-top: -70px;
+    margin-left: 325px;
     color: transparent;
     background: transparent;
     background-image: url('/assets/Buttons/Register.png');

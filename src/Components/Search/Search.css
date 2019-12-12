@@ -108,11 +108,11 @@
 }
 
 .search-prev {
-    position: relative;
+    position: absolute;
     height: 40px;
     width: 100px;
     top: 580px;
-    left: 260px;
+    left: 900px;
     color: transparent;
     background: transparent;
     border: transparent;
@@ -134,7 +134,7 @@
     height: 40px;
     width: 100px;
     top: 580px;
-    left: 330px;
+    left: 1100px;
     color: transparent;
     background: transparent;
     border: transparent;

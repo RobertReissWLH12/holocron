@@ -24,11 +24,11 @@
 }
 
 .remove {
-    position: relative;
+    position: absolute;
     height: 63px;
     width: 220px;
-    top: 0px;
-    margin-left: -750px;
+    top: 470px;
+    left: 110px;
     color: transparent;
     background: transparent;
     border: transparent;
