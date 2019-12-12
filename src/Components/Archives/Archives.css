@@ -59,6 +59,7 @@
 /* Modal Body */
 .modal-body {
     position: relative;
+    overflow-y: scroll;
     height: 550px;
     width: 100%;
     padding: 0px;

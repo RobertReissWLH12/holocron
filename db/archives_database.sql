@@ -10,7 +10,6 @@ summary
 'Dawn of the Jedi: Into the Void', 
 'Tim Lebbon', 
 320, 
-
 'Lanoree Brock, Dalien Brock, Tre Sana, Lorus', 
 'Arch_DawnJediIntoVoid.png',
 'R2-B_DawnOTJedi.png', 

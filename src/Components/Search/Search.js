@@ -76,7 +76,10 @@ class Search extends Component {
 
     displayBeam() {
         return (
-            <div className="R2-beam">
+            <div>
+            <div className="R2-beam"></div>
+                <button onClick={() => this.decrement()} className="search-prev"></button>
+                <button onClick={() => this.increment()} className="search-next"></button>
             </div>
         )
     }     
@@ -155,8 +158,8 @@ class Search extends Component {
                         {/* <div class="overlay"></div> */}
                     </div>
                 }
-                <button onClick={() => this.decrement()} className="search-prev"></button>
-                <button onClick={() => this.increment()} className="search-next"></button>
+                {/* <button onClick={() => this.decrement()} className="search-prev"></button>
+                <button onClick={() => this.increment()} className="search-next"></button> */}
             </div>
         )
     }
