@@ -14,7 +14,7 @@ export default class Donate extends Component {
                 <div id="watto-line"></div>
                 </h1>
                 <div className="donation-display">
-                    <h2>Donate to the Holocron!</h2>
+                    <h2>Donate functionality coming soon!</h2>
                     <StripeProvider apiKey="pk_test_ClZZ4tEa3nSFbIkdNeNdpRDI00l3NvF6kY">
                         <div className="donate">
                             <Elements className="card-info">

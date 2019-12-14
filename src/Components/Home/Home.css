@@ -120,7 +120,7 @@
 
 
 .welcome {
-    height: 100px;
+    height: 120px;
     width: 52%;
     /* margin-top: 100px; */
     font-family: 'ZCOOL QingKe HuangYou', cursive;
@@ -128,6 +128,12 @@
     color: gold;
     z-index: 2;
     margin-top: -50px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
     /* border: 1px red solid; */
 }
 

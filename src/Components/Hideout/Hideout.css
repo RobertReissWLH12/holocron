@@ -18,7 +18,7 @@
 #warning-container {
     position: absolute;
     width: 500px;
-    height: 500px;
+    height: 510px;
     margin-top: 80px;
     margin-left: -400px;
     background-image: url('/assets/Boxes/B-Box2.png');
@@ -40,7 +40,8 @@
     /* position: absolute; */
     width: 398px;
     height: 400px;
-    margin-left: 33px;
+    padding-left: 80px;
+    padding-right: 50px;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 32px;
     color: gold;

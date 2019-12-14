@@ -33,13 +33,22 @@
 
 .donate-background h2 {
     position: absolute;
-    margin-top:  70px;
-    margin-left: 75px;
+    width: 440px;
+    height: 120px;
+    margin-top:  40px;
+    margin-left: 95px;
     box-sizing: border-box;
     color: gold;
     font-family: 'Russo One', sans-serif;
     letter-spacing: 1.5px;
     font-size: 36px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    text-align: center;
     // border: 1px solid red;
 }
 
