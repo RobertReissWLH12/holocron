@@ -78,8 +78,9 @@ class Search extends Component {
         return (
             <div>
             <div className="R2-beam"></div>
-                <button onClick={() => this.decrement()} className="search-prev"></button>
-                <button onClick={() => this.increment()} className="search-next"></button>
+            {this.state.smallNum < 1 ? (null) : <button onClick={() => this.decrement()} className="search-prev"></button>}
+                {this.state.bigNum > this.state.archives.length - 1 ? (null) : <button onClick={() => this.increment()} className="search-next"></button>}
+                
             </div>
         )
     }     

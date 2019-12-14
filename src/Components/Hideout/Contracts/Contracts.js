@@ -122,8 +122,10 @@ class Contracts extends Component {
                         {/* <div class="overlay"></div> */}
                     </div>
                 }
-                <button onClick={() => this.decrement()} className="prev"></button>
-                <button onClick={() => this.increment()} className="next"></button>
+                {this.state.smallNum < 1 ? (null) : <button onClick={() => this.decrement()} className="prev"></button>}
+                {/* <button onClick={() => this.decrement()} className="prev"></button> */}
+                {this.state.bigNum > this.state.user_favorites.length - 1 ? (null) : <button onClick={() => this.increment()} className="next"></button>}
+                {/* <button onClick={() => this.increment()} className="next"></button> */}
             </div>
         )
     }

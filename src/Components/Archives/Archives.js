@@ -64,6 +64,14 @@ class Archives extends Component {
         })
     }
 
+    // handlePrevious = index => {
+    //     if (this.state.index === 0) {
+    //         this.setState({index: this.state.archives.length - 1})
+    //     } else {
+    //         this.setState({index: this.state.index - 1})
+    //     }
+    // }
+
     decrement = () => {
         this.setState({
             bigNum: this.state.bigNum - 10,
@@ -120,8 +128,12 @@ class Archives extends Component {
                         {/* <div class="overlay"></div> */}
                     </div>
                 }
-                <button onClick={() => this.decrement()} className="prev"></button>
-                <button onClick={() => this.increment()} className="next"></button>
+                {this.state.smallNum < 1 ? (
+                    null
+                ) : <button onClick={() => this.decrement()} className="prev"></button> 
+                }
+                {this.state.bigNum > this.state.archives.length - 1 ? (null) : <button onClick={() => this.increment()} className="next"></button>}
+                
             </div>
         )
     }
