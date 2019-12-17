@@ -20,7 +20,7 @@ summary
 'Darth Plagueis', 
 'James Luceno', 
 379, 
-'Darth Plagueis, Sheev Palpatine, Darth Maul, Padme Amidala, Obi-Wan Kenobi, Qui-Gon Jinn', 
+'Darth Plagueis, Sheev Palpatine, Darth Maul, Padmé Amidala, Obi-Wan Kenobi, Qui-Gon Jinn', 
 'Arch_DarthPlagueis.png',
 'R2-B_DarthPlagueis.png', 
 'Darth Plagueis: one of the most brilliant Sith Lords who ever lived. Possessing power is all he desires. Losing it is the only thing he fears. As an apprentice, he embraces the ruthless ways of the Sith. And when the time is right, he destroys his Master—but vows never to suffer the same fate. For like no other disciple of the dark side, Darth Plagueis learns to command the ultimate power... over life and death.  Darth Sidious: Plagueis'' chosen apprentice. Under the guidance of his Master, he secretly studies the ways of the Sith, while publicly rising to power in the galactic government, first as Senator, then as Chancellor, and eventually as Emperor.  Darth Plagueis and Darth Sidious, Master and acolyte, target the galaxy for domination — and the Jedi Order for annihilation. But can they defy the merciless Sith tradition? Or will the desire of one to rule supreme, and the dream of the other to live forever, sow the seeds of their destruction?'
@@ -119,7 +119,7 @@ summary
 'Episode I: The Phantom Menace',
 'Terry Brooks',
 324,
-'Qui-Gon Jinn, Obi-Wan Kenobi, Padme Amidala, Anakin Skywalker, Darth Sidious, Darth Maul, Watto, Nute Gunray, Mace Windu, Yoda, C-3P0, R2-D2',
+'Qui-Gon Jinn, Obi-Wan Kenobi, Padmé Amidala, Anakin Skywalker, Darth Sidious, Darth Maul, Watto, Nute Gunray, Mace Windu, Yoda, C-3P0, R2-D2',
 'Arch_PhantomMenace.png', 
 'R2-B_PhantomMenace.png', 
 'A long time ago in a galaxy far, far away, an evil legacy long believed dead is stirring. Now the dark side of the Force threatens to overwhelm the light, and only an ancient Jedi prophecy stands between hope and doom for the entire galaxy.  On the green, unspoiled world of Naboo, Jedi Master Qui-Gon Jinn and his apprentice, Obi-Wan Kenobi, arrive to protect the realm''s young queen as she seeks a diplomatic solution to end the siege of her planet by Trade Federation warships. At the same time, on desert-swept Tatooine, a slave boy named Anakin Skywalker, who possesses a strange ability for understanding the “rightness” of things, toils by day and dreams by night—of becoming  a Jedi Knight and finding a way to win freedom for himself and his beloved mother. It will be the unexpected meeting of Jedi, Queen, and a gifted boy that will mark the start of a drama that will become legend.'
@@ -129,7 +129,7 @@ summary
 'Episode II: Attack of the Clones',
 'R.A. Salvatore',
 336,
-'Obi-Wan Kenobi, Padme Amidala, Anakin Skywalker, Jango Fett, Darth Sidious, Count Dooku, Nute Gunray, Poggle the Lesser, Yoda, Mace Windu, C-3PO, R2-D2',
+'Obi-Wan Kenobi, Padmé Amidala, Anakin Skywalker, Jango Fett, Darth Sidious, Count Dooku, Nute Gunray, Poggle the Lesser, Yoda, Mace Windu, C-3PO, R2-D2',
 'Arch_AttackOfClones.png', 
 'R2-B_AttackOTClones.png', 
 'There is a great disturbance in the Force... From the sleek ships of the glimmering Coruscant skyscape to the lush gardens of pastoral Naboo, dissent is roiling. The Republic is failing, even under the leadership of Supreme Chancellor Palpatine, elected ten years earlier to save the crumbling government. Separatists threaten war, and the Senate is hopelessly divided, unable to determine whether to raise an army for battle or keep the fragile peace. It is a stalemate that once broken, could lead to galactic chaos.  Mischievous and resolved, courageous to the point of recklessness, Anakin Skywalker has come of age in a time of great upheaval. The nineteen-year-old apprentice to Obi-Wan Kenobi is an enigma to the Jedi Council, and a challenge to his Jedi Master. Time has not dulled Anakin''s ambition, nor has his Jedi training tamed his independent streak. When an attempt on Senator Padmé Amidala''s life brings them together for the first time in ten years, it is clear that time also has not dulled Anakin''s intense feelings for the beautiful diplomat.  The attack on Senator Amidala just before a crucial vote thrusts the Republic even closer to the edge of disaster. Masters Yoda and Mace Windu sense enormous unease. The dark side is growing, clouding the Jedi''s perception of the events. Unbeknownst to the Jedi, a slow rumble is building into the roar of thousands of soldiers readying for battle. But even as the Republic falters around them, Anakin and Padmé find a connection so intense that all else begins to fall away. Anakin will lose himself—and his way—in emotions a Jedi, sworn to hold allegiance only to the Order, is forbidden to have.  Based on the story by George Lucas and the screenplay by George Lucas and Jonathan Hales, this intense and revealing novel by bestselling author R. A. Salvatore sheds new light on the legend of Star Wars—and skillfully illuminates one of our most beloved sagas.'
@@ -139,7 +139,7 @@ summary
 'Episode III: Revenge of the Sith',
 'Matthew Stover',
 418,
-'Obi-Wan Kenobi, Padme Amidala, Anakin Skywalker, General Grievous, Darth Sidious, Count Dooku Yoda, Mace Windu, C-3PO, R2-D2',
+'Obi-Wan Kenobi, Padmé Amidala, Anakin Skywalker, General Grievous, Darth Sidious, Count Dooku Yoda, Mace Windu, C-3PO, R2-D2',
 'Arch_RevengeSith.png', 
 'R2-B_RevengeSith.png', 
 'The turning point for the entire Star Wars saga is at hand...  As combat escalates across the galaxy, the stage is set for an explosive endgame: Obi-Wan undertakes a perilous mission to destroy the dreaded Separatist military leader, General Grievous. Supreme Chancellor Palpatine continues to strip away constitutional liberties in the name of security while influencing public opinion to turn against the Jedi. And a conflicted Anakin fears that his secret love, Senator Padmé Amidala, will die. Tormented by unspeakable visions, Anakin edges closer to the brink of a galaxy-shaping decision. It remains only for Darth Sidious to strike the final staggering blow against the Republic–and to ordain a fearsome new Sith Lord: Darth Vader.  Based on the screenplay of the final film in George Lucas'' epic saga, bestselling Star Wars author Matthew Stover''s novel crackles with action, captures the iconic characters in all their complexity, and brings a space opera masterpiece full circle in stunning style.'
@@ -149,7 +149,7 @@ summary
 'Labyrinth of Evil',
 'James Luceno',
 362,
-'Obi-Wan Kenobi, Anakin Skywalker, Padme Amidala, General Grievous, Darth Sidious, Ki-Adi Mundi, Count Dooku, Nute Gunray, Yoda, C-3PO, R2-D2',
+'Obi-Wan Kenobi, Anakin Skywalker, Padmé Amidala, General Grievous, Darth Sidious, Ki-Adi Mundi, Count Dooku, Nute Gunray, Yoda, C-3PO, R2-D2',
 'Arch_LabyrinthEvil.png', 
 'R2-B_LabyrinthEvil.png', 
 'The war that erupted in Star Wars: Episode II Attack of the Clones is nearing its boiling point, as the dauntless Separatist forces continue their assault on the teetering Republic–and the diabolical triumvirate of Count Dooku, General Grievous, and their Master, Darth Sidious, fine-tune their strategy for conquest. In Episode III Revenge of the Sith the fates of key players on both sides of the conflict will be sealed. But first, crucial events that pave the way to that time of reckoning unfold in a labyrinth of evil...  Capturing Trade Federation Viceroy–and Separatist Councilmember–Nute Gunray is the mission that brings Jedi Knights Obi-Wan Kenobi and Anakin Skywalker, with a squad of clones in tow, to Neimoidia. But the treacherous ally of the Sith proves as slippery as ever, evading his Jedi pursuers even as they narrowly avoid deadly disaster. Still, their daring efforts yield an unexpected prize: a unique holotransceiver that bears intelligence capable of leading the Republic forces to their ultimate quarry, the ever-elusive Darth Sidious.  Swiftly taking up the chase, Anakin and Obi-Wan follow clues from the droid factories of Charros IV to the far-flung worlds of the Outer Rim... every step bringing them closer to pinpointing the location of the Sith Lord–whom they suspect has been manipulating every aspect of the Separatist rebellion. Yet somehow, in the escalating galaxy-wide chess game of strikes, counterstrikes, ambushes, sabotage, and retaliations, Sidious stays constantly one move ahead.  Then the trail takes a shocking turn. For Sidious and his minions have set in motion a ruthlessly orchestrated campaign to divide and overwhelm the Jedi forces–and bring the Republic to its knees.'
@@ -379,10 +379,10 @@ summary
 'The Clone Wars: Wild Space (The Clone Wars Series, Book 2)',
 'Karen Miller',
 368,
-'Anakin Skywalker, Ahsoka Tano, Obi-Wan Kenobi, Bail Organa, Padme Amidala, Yoda, Count Dooku, Sheev Palpatine, General Grievous',
+'Anakin Skywalker, Ahsoka Tano, Obi-Wan Kenobi, Bail Organa, Padmé Amidala, Yoda, Count Dooku, Sheev Palpatine, General Grievous',
 'Arch_CW-WildSpace.png',
 'R2-B_CW-WildSpace.png',
-'The Clone Wars have exploded across the galaxy as Republic forces and Separatists struggle to gain the upper hand. But while the Jedi generals work tirelessly to defeat Count Dooku and his rebels, Supreme Chancellor Palpatine is hatching his own dark plans.  The Separatists have launched a sneak attack on Coruscant.  Obi-Wan Kenobi, wounded in battle, insists that Anakin Skywalker and his rookie Padawan Ahsoka leave on a risky mission against General Grievous.  But when Senator Bail Organa reveals explosive intelligence that could turn the tide of war in the Republic''s favor, the Jedi Master agrees to accompany him to an obscure planet on the Outer Rim to verify the facts.  What Obi-Wan and Bail don''t realize is that they''re walking into a deadly trap concocted by Palpatine...  and that escape may not be an option.  Inspired by the full-length animated feature film Star Wars: The Clone Wars and the brand-new TV series, this thrilling adventure is filled with provocative, never-before-revealed insights into the characters of Obi-Wan, Anakin, Padme, Yoda, Count Dooku, and many other Star Wars favorites.'
+'The Clone Wars have exploded across the galaxy as Republic forces and Separatists struggle to gain the upper hand. But while the Jedi generals work tirelessly to defeat Count Dooku and his rebels, Supreme Chancellor Palpatine is hatching his own dark plans.  The Separatists have launched a sneak attack on Coruscant.  Obi-Wan Kenobi, wounded in battle, insists that Anakin Skywalker and his rookie Padawan Ahsoka leave on a risky mission against General Grievous.  But when Senator Bail Organa reveals explosive intelligence that could turn the tide of war in the Republic''s favor, the Jedi Master agrees to accompany him to an obscure planet on the Outer Rim to verify the facts.  What Obi-Wan and Bail don''t realize is that they''re walking into a deadly trap concocted by Palpatine...  and that escape may not be an option.  Inspired by the full-length animated feature film Star Wars: The Clone Wars and the brand-new TV series, this thrilling adventure is filled with provocative, never-before-revealed insights into the characters of Obi-Wan, Anakin, Padmé, Yoda, Count Dooku, and many other Star Wars favorites.'
 ),
 
 (
@@ -453,8 +453,208 @@ summary
 'Arch_RC-TrueColors.png',
 'R2-B_RC-TrueColors.png',
 'As the savage Clone Wars rage unchecked, the Republic''s deadliest warriors face the grim truth that the Separatists aren''t their only enemy – or even their worst.  In the Grand Army''s desperate fight to crush the Separatists, the secret special ops missions of its elite clone warriors have never been more critical...  or more dangerous.  A growing menace threatens Republic victory, and the members of Omega Squad make a shocking discovery that shakes their very loyalty.  As the lines continue to blur between friend and enemy, citizens – from civilians and sergeants to Jedi and generals – find themselves up against a new foe: the doubt in their own hearts and minds.  The truth is a fragile, shifting illusion – and only the approaching inferno will reveal both sides in their true colors.'
+),
+
+(
+'Medstar I: Battle Surgeons (A Clone Wars Novel)',
+'Michael Reeves and Steve Perry',
+309,
+'Barriss Offee, Jos Vondar, Tolk le Trene, Klo Merit, Zan Yant, I-5YQ, Den Dhur, Phow Ji',
+'Arch_CWN-M1-BattleSurgeons.png',
+'R2-B_CWN-M1-BattleSurgeons.png',
+'As Civil War between the Republic and the Separatists rages across the galaxy, nowhere is the fighting more fierce than on the swamp world of Drongar, where a beleaguered mobile hospital unit wages a never-ending war of its own..  A surgeon who covers his despair with wise-cracks; another who faces death and misery head-on, venting his emotions through beautiful music...  A nurse with her heart in her work and her eye on a doctor...  A Jedi Padawan on a healing mission without her Master...  These are the core members of a tiny med unit serving the jungle world of Drongar, where battle is waged over the control of a priceless native plant, and an endless line of medlifters brings in the wounded and dying—mostly clone troopers, but also soldiers of all species.  While the healers work desperately to save lives, others plot secretly to profit from the war — either by dealing on the black market or by manipulating the events of the war itself.  In the end, though, all will face individual tests, and only those of compassionate hearts and staunch spirits can hope to survive to fight another day.'
+),
+
+(
+'MedStar II: Jedi Healer',
+'Michael Reeves and Steve Perry',
+302,
+'Barriss Offee, Jos Vondar, Kornell “Uli” Divini, Tolk le Trene, Klo Merit, I-5YQ, Den Dhur, Kaird',
+'Arch_CWN-M2-JediHealer.png',
+'R2-B_CWN-M2-JediHealer.png',
+'While the Clone Wars wreak havoc throughout the galaxy, the situation on the far world of Drongar is desperate, as Republic forces engage in a fierce fight with the Separatists...  The threatened enemy offensive begins as the Separatists employ legions of droids into their attack.  Even with reinforcements, the flesh and blood of the Republic forces are just no match for battle droids'' durasteel.  Nowhere is this point more painfully clear than in the steaming Jasserak jungle, where the doctors and nurses of a small med unit face an impossible situation.  As the dead and wounded start to pile up, surgeons Jos Vandar and Kornell “Uli” Divini know that time is running out.  Even the Jedi abilities of Padawan Barriss Offee have been stretched to the limit.  Ahead lies a test for Barriss that could very well lead to her death – and that of countless others.  For the conflict is growing – and for this obscure mobile med unit, there''s only one resolution.  Shocking, bold, unprecedented, it''s the only option Jos and his colleagues really have.  The unthinkable has become the inevitable.  Whether it kills them or not remains to be seen.'
+),
+
+(
+'Yoda: Dark Rendezvous (A Clone Wars Novel)',
+'Sean Stewart',
+329,
+'Yoda, Count Dooku, Jai Maruk, Maks Leem, Obi-Wan Kenobi, Anakin Skywalker, Sheev Palpatine / Darth Sidious',
+'Arch_CWN-Y-DarkRendezvous.png',
+'R2-B_CWN-Y-DarkRendezvous.png',
+'As the Clone Wars rage, Jedi Master Yoda must once again face one of his greatest adversaries: Count Dooku...  The savage Clone Wars have forced the Republic to the edge of collapse.  During the height of the battle, one Jedi Knight escapes the carnage to deliver a message to Yoda on Coruscant.  It appears that Dooku wants peace and demands a rendezvous.  Chances are slim that the treacherous Count is sincere but, with a million lives at stake, Yoda has no choice.  The meeting will take place on Djun, a planet steeped in evil. The challenge could not be more difficult.  Can Yoda win back his once promising pupil from the dark side or will Count Dooku unleash his sinister forces against his former mentor?  Either way, Yoda is sure of one thing: this battle will be one of the fiercest he''ll ever face.'
+),
+
+(
+'Republic Commando, Book 4: Order 66',
+'Karen Traviss',
+432,
+'Kal Skirata, Etain Tur-Mukan, Niner, Darman, Corr, Atin, Boss, Scorch, Fixer, Sev, Mereel, Jaing, Ordo, A''den, Prudii, Kom''rk',
+'Arch_RCN-Order66.png',
+'R2-B_RCN-Order66.png',
+'The Clone Wars rage to their bloody climax.  Treachery reigns.  Treason takes courage.  Commandos, Jedi, and the entire Galactic Republic must face the end of life as they know it...  and the dreaded dawn of a new empire.  Even as the Clone Wars are about to reach an explosive climax, no one knows whether victory will favor the Grand Army of the Republic (GAR) or the Separatists.  But no matter who wins, the stakes are highest for elite Special Ops clones like the Republic Commandos in Omega and Delta squads – and the notorious renegade Advance Recon Commando troopers known as Null ARCs.  And now even the deadliest weapon may not be powerful enough to defeat the real menace: the apocalyptic horror to be unleashed when Palpatine utters the chilling words "The time has come. Execute Order 66."  Translation: The Jedi have tried to stage a coup, and all must be shot on sight.  With their faith in the Republic and their loyalty to their Jedi allies put to the ultimate test, how will the men of Omega and Delta squads react to the most infamous command in galactic history?'
+),
+
+(
+'Dark Lord: The Rise of Darth Vader',
+'James Luceno',
+338,
+'Roan Shryne, Bol Chatak, Olee Starstone, Darth Vader, Bail Organa, Mon Mothma',
+'Arch_DarkLord.png',
+'R2-B_DarkLord.png',
+'Throughout the galaxy, it was believed that Jedi Knight Anakin Skywalker – the Chosen One – had died on Coruscant during the siege of the Jedi Temple.  And, to some extent, that was true. Anakin was dead.  From the site of Anakin Skywalker''s last stand – on the molten surface of the planet Mustafar, where he sought to destroy his friend and former master, Obi-Wan Kenobi – a fearsome specter in black has risen.  Once the most powerful Knight ever known to the Jedi Order, he is now a disciple of the dark side, a lord of the dreaded Sith, and the avenging right hand of the galaxy''s ruthless new Emperor.  Seduced, deranged, and destroyed by the machinations of the Dark Lord Sidious, Anakin Skywalker is dead...  and Darth Vader lives.  Word of the events that created him – the Jedi Council''s failed mutiny against Supreme Chancellor Palpatine, the self-crowned Emperor''s retaliatory command to exterminate the Jedi Order, and Anakin''s massacre of his comrades and Masters in the Jedi Temple – has yet to reach all quarters.  On the Outer Rim world of Murkhana, Jedi Masters Roan Shryne and Bol Chatak and Padawan Olee Starstone are leading a charge on a Separatist stronghold, unaware that the tide, red with Jedi blood, has turned suddenly against them.  When the three narrowly elude execution – and become the desperate prey in a hunt across space – it''s neither clone soldiers, nor the newly deployed stormtroopers, nor even the wrath of the power-hungry Emperor himself they must fear most.  The deadliest threat rests in the hideously swift and lethal crimson lightsaber of Darth Vader – behind whose brooding mask lies a shattered heart, a poisoned soul, and a cunning, twisted mind hell-bent on vengeance.  For the handful of scattered Jedi, survival is imperative if the light side of the Force is to be protected and the galaxy somehow, someday reclaimed.  Yet more important still is the well-being of the twin infants, Leia and Luke Skywalker, the children of Anakin and his doomed bride, Padmé Amidala.  Separated after Padmé''s death, they must be made safe at all costs, lest the hope they represent for the future be turned to horror by the new Sith regime – and the unspeakable power of the dark side.'
+),
+
+(
+'501st (An Imperial Commando Novel)',
+'Karen Traviss',
+464,
+'Darman, Mereel, Kal Skirata, Niner, Ordo, Prudii, Boss, Hallena Davis',
+'Arch_IC-501st.png',
+'R2-B_IC-501st.png',
+'The Clone Wars are over, but for those with reason to run from the new galactic Empire, the battle to survive has only just begun...  The Jedi have been decimated in the Great Purge, and the Republic has fallen.  Now the former Republic Commandos – the galaxy''s finest special forces troops, cloned from Jango Fett – find themselves on opposing sides and in very different armor.  Some have deserted and fled to Mandalore with the mercenaries, renegade clone troopers, and rogue Jedi who make up Kal Skirata''s ragtag resistance to Imperial occupation.  Others – including men from Delta and Omega squads – now serve as Imperial Commandos, a black ops unit within Vader''s own 501st Legion, tasked to hunt down fugitive Jedi and clone deserters.  For Darman, grieving for his Jedi wife and separated from his son, it''s an agonizing test of loyalty.  But he''s not the only one who''ll be forced to test the ties of brotherhood.  On Mandalore, clone deserters and the planet''s own natives, who have no love for the Jedi, will have their most cherished beliefs challenged.  In the savage new galactic order, old feuds may have to be set aside to unite against a far bigger threat, and nobody can take old loyalties for granted.'
+),
+
+(
+'Coruscant Nights I: Jedi Twilight',
+'Michael Reaves',
+368,
+'Jax Pavan, Den Dhur, I-5YQ',
+'Arch_CN1-JediTwilight.png',
+'R2-B_CN1-JediTwilight.png',
+'With the dark ascension of the Empire, and the Jedi Knights virtually wiped out, one Jedi who escaped the massacre is slated for a date with destiny – and a confrontation with Darth Vader.  Jax Pavan is one of the few Jedi Knights who miraculously survived the slaughter that followed Palpatine''s ruthless Order 66.  Now, deep in Coruscant''s Blackpit Slums, Jax ekes out a living as a private investigator, trying to help people in need while concealing his Jedi identity and staying one step ahead of the killers out for Jedi blood.  And they''re not the only ones in search of the elusive Jax.  Hard-boiled reporter Den Dhur and his buddy, the highly unorthodox droid I-5YQ, have shocking news to bring Jax – about the father he never knew.  But when Jax learns that his old Jedi Master has been killed, leaving behind the request that Jax finish a mission critical to the resistance, Jax has no choice but to emerge from hiding – and risk detection by Darth Vader – to fulfill his Master''s dying wish.'
+),
+
+(
+'Coruscant Nights II: Street of Shadows',
+'Michael Reeves',
+320,
+'Jax Pavan, Dejah Duare, Den Dhur, I-5YQ',
+'Arch_CN2-StreetShadows.png',
+'R2-B_CN2-StreetShadows.png',
+'With the Jedi all but wiped out in the grim aftermath of Order 66, the Empire''s power seems unchecked.  But one lone Knight continues to fight the good fight – against all odds and when all else fails.  Deep in the bowels of Coruscant, Jedi Jax Pavan ekes out a living as a private investigator, a go-to, can-do guy for the downtrodden.  Now a mysterious Zeltron knockout named Dejah approaches Jax with a case that needs to be cracked: to find out who killed her artist lover Volette, brutally murdered hours after his triumphant unveiling of a dazzling new light sculpture with obvious links to lightsaber pyrotechnics.  Finding Volette''s killer won’t be easy – too many secrets, too many suspects, and all kinds of motives.  But with the droid I-5YQ’s help, and ex-reporter Den Dhur''s excellent snooping skills, the investigation is soon operating like a well-oiled machine.  Unfortunately, there''s a far more efficient machine hunting Jax.  It''s a deadly game of cat-and-mouse as the clock starts ticking toward the final explosive showdown...  to see who strikes first and who will die first.'
+),
+
+(
+'Coruscant Nights III: Patterns of Force',
+'Michael Reaves',
+304,
+'Jax Pavan, Den Dhur, I-5YQ, Dejah Duare, Darth Vader',
+'Arch_CN3-PatternsForce.png',
+'R2-B_CN3-PatternsForce.png',
+'After the Empire''s bloody purge of the Jedi, one lone Knight still fights for those who cannot, unaware that he''s about to be swept into a cataclysmic battle against the Master of Darkness himself.  Throughout the galaxy, a captured Jedi is a dead Jedi, even in Coruscant''s most foul subterranean slums, where Jedi Knight Jax Pavan champions the causes of the oppressed with the help of hard-nosed reporter Den Dhur and the wisecracking droid I-5YQ.  But Jax is also involved in another struggle – to unlock the secrets of his father''s death and his own past.  While Jax believes that I-5YQ holds some of those answers, he never imagines that the truth could be shocking enough to catapult him to the frontlines of a plot to kill Emperor Palpatine.  Worse yet, Darth Vader''s relentless search for Jax is about to end...  in triumph.  The future looming over the valiant Jedi and his staunch pals promises to be dark and brief, because there''s no secret whatsoever about the harshest truth of all:  Few indeed are those who tangle with Darth Vader... and live to tell the tale.'
+),
+
+(
+'The Last Jedi',
+'Michael Reaves and Maya Kaathryn Bohnhoff',
+480,
+'Jax Pavan, Den Dhur, I-5YQ, Darth Vader',
+'Arch_LastJedi.png',
+'R2-B_LastJedi.png',
+'The Emperor''s ruthless Order 66 has all but exterminated the Jedi.  The few remaining who still wield the Force for good have been driven into exile or hiding.  But not Jax Pavan, who’s been steadily striking blows against the Empire — as a lone guerrilla fighter and a valued partner of Whiplash, a secret Coruscant-based resistance group.  Now he''s taking on his most critical mission: transporting a valued Whiplash leader, targeted for assassination, from Coruscant to safety on a distant world.  It''s a risky move under any circumstances, but Jax and his trusted crew aboard the Far Ranger, including the irrepressible droid I-Five, are prepared to pit their combat skills and their vessel''s firepower against all Imperial threats — except the one Jax fears most.  Reports have raced across the galaxy that the dark lord of the Sith has fallen in a duel to the death with a Rebel freedom fighter.  But Jax discovers the chilling truth when he reaches out with the Force...  only to touch the dark, unmistakable, and malignantly alive presence that is Darth Vader.  And Jax knows that Vader will stop at nothing until the last Jedi has fallen.'
+),
+
+(
+'Thrawn',
+'Timothy Zahn',
+496,
+'Mitth''raw''nuruodo / Thrawn, Eli Vanto, Arihnda Pryce, Talmoor Pryce, Elainye Pryce, Emperor Palpatine, Mosh Barris',
+'Arch_Thrawn.png',
+'R2-B_Thrawn.png',
+'In this definitive novel, readers will follow Thrawn''s rise to power — uncovering the events that created one of the most iconic villains in Star Wars history.  One of the most cunning and ruthless warriors in the history of the Galactic Empire, Grand Admiral Thrawn is also one of the most captivating characters in the Star Wars universe, from his introduction in bestselling author Timothy Zahn''s classic Heir to the Empire through his continuing adventures in Dark Force Rising, The Last Command, and beyond.  But Thrawn''s origins and the story of his rise in the Imperial ranks have remained mysterious.  Now, in Star Wars: Thrawn, Timothy Zahn chronicles the fateful events that launched the blue-skinned, red-eyed master of military strategy and lethal warfare into the highest realms of power — and infamy.'
+),
+
+(
+'Thrawn: Alliances',
+'Timothy Zahn',
+496,
+'Mitth''raw''nuruodo / Thrawn, Darth Vader / Anakin Skywalker, Padmé Amidala, Karyn Faro, Emperor Palpatine',
+'Arch_ThrawnAlliances.png',
+'R2-B_ThrawnAlliances.png',
+'“I have sensed a disturbance in the Force.”  Ominous words under any circumstances, but all the more so when uttered by Emperor Palpatine.  On Batuu, at the edges of the Unknown Regions, a threat to the Empire is taking root — its existence little more than a glimmer, its consequences as yet unknowable.  But it is troubling enough to the Imperial leader to warrant investigation by his most powerful agents: ruthless enforcer Lord Darth Vader and brilliant strategist Grand Admiral Thrawn.  Fierce rivals for the emperor''s favor, and outspoken adversaries on Imperial affairs — including the Death Star project — the formidable pair seem unlikely partners for such a crucial mission.  But the Emperor knows it''s not the first time Vader and Thrawn have joined forces.  And there''s more behind his royal command than either man suspects.  In what seems like a lifetime ago, General Anakin Skywalker of the Galactic Republic, and Commander Mitth''raw''nuruodo, officer of the Chiss Ascendancy, crossed paths for the first time.  One on a desperate personal quest, the other with motives unknown...  and undisclosed.  But facing a gauntlet of dangers on a far-flung world, they forged an uneasy alliance — neither remotely aware of what their futures held in store. Now, thrust together once more, they find themselves bound again for the planet where they once fought side by side.  There they will be doubly challenged — by a test of their allegiance to the Empire...  and an enemy that threatens even their combined might.'
+),
+
+(
+'Thrawn: Treason',
+'Timothy Zahn',
+320,
+'Mitth''raw''nuruodo / Thrawn, Orson Krennic, Emperor Palpatine, Eli Vanto, Karyn Faro, Arihnda Pryce, Wilhuff Tarkin',
+'Arch_ThrawnTreason.png',
+'R2-B_ThrawnTreason.png',
+'Grand Admiral Thrawn faces the ultimate test of his loyalty to the Empire in this epic Star Wars novel from bestselling author Timothy Zahn.  "If I were to serve the Empire, you would command my allegiance."  Such was the promise Grand Admiral Thrawn made to Emperor Palpatine at their first meeting.  Since then, Thrawn has been one of the Empire''s most effective instruments, pursuing its enemies to the very edges of the known galaxy.  But as keen a weapon as Thrawn has become, the Emperor dreams of something far more destructive.  Now, as Thrawn''s TIE defender program is halted in favor of Director Krennic''s secret Death Star project, he realizes that the balance of power in the Empire is measured by more than just military acumen or tactical efficiency.  Even the greatest intellect can hardly compete with the power to annihilate entire planets.  As Thrawn works to secure his place in the Imperial hierarchy, his former protégé Eli Vanto returns with a dire warning about Thrawn''s homeworld. Thrawn''s mastery of strategy must guide him through an impossible choice: duty to the Chiss Ascendancy, or fealty to the Empire he has sworn to serve.  Even if the right choice means committing treason.'
+),
+
+(
+'The Paradise Snare (The Han Solo Trilogy: Book 1)',
+'A.C. Crispin',
+338,
+'Han Solo, Garris Shrike, Dewlanna, Bria Tharen',
+'Arch_HST1-ParadiseSnare.png',
+'R2-B_HST1-ParadiseSnare.png',
+'Han Solo was a child without a past, a Corellian street urchin, abandoned, foraging for scraps of food, when the cruel Garris Shrike whisked him away to a nomadic band of spacefaring criminals.  Now, years later, Han fights his way free.  His goal: to become an Imperial Navy pilot.  But first he needs hand-on experience flying spacecraft, and for that he takes a job on the planet Ylesia — a steaming world of religious fanaticism, illicit drugs, and alluring sensuality...  where dreams are destroyed and escape is impossible.'
+),
+
+(
+'The Hutt Gambit (The Han Solo Trilogy: Book 2)',
+'A.C. Crispin',
+352,
+'Han Solo, Chewbacca, Boba Fett, Jiliac the Hutt, Jabba the Hutt',
+'Arch_HST2-HuttGambit.png',
+'R2-B_HST2-HuttGambit.png',
+'Here is the second novel in the blockbuster new trilogy that reveals the never-before-told story of the young Han Solo.  Set before the Star Wars movie adventures, these books chronicle the coming-of-age of the galaxy''s most famous con man, smuggler and thief.  Solo is now a fugitive from the Imperial Navy.  But he has made a valuable friend in a former Wookiee slave named Chewbacca, who has sworn Han a life debt.  Han will need all the help he can get.  For the Ylesian Hutts have dispatched the dreaded bounty hunter Boba Fett to track down the man who already outsmarted them once.  But Han and Chewie find themselves in even bigger trouble when they agree to lend their services to the crime lords Jiliac and Jabba the Hutt.  Suddenly the two smugglers are thrust into the middle of a battle between the might of the Empire and the treachery of their outlaw allies...  a battle where even victory means death!'
+),
+
+(
+'Rebel Dawn (The Han Solo Trilogy: Book 3)',
+'A.C. Crispin',
+400,
+'Han Solo, Chewbacca, Lando Calrissian, Dash Rendar, Boba Fett',
+'Arch_HST3-RebelDawn.png',
+'R2-B_HST3-RebelDawn.png',
+'Here is the explosive conclusion of the blockbuster trilogy that chronicles the never-before-told story of the young Han Solo.  Set before the Star Wars movie adventures, these books chronicle the coming-of-age of the galaxy''s most famous con man, smuggler, and thief.  The Millennium Falcon is "the fastest hunk of junk in the galaxy."  So when Han Solo wins it in a game of sabacc, he and Chewbacca become kings of the smugglers — uncatchable, unstoppable.  But with the Empire clamping down, Han knows his luck can''t last.  Still, when an old girlfriend who is now the leader of an insurgent Rebel group offers him a shot at an incredible fortune, Han can''t resist.  The plan seems a sure thing.  The resistance will be light and the take enormous.  Han and his friends will divide it equally with the Rebels.  Too bad for Han that the planet of Ylesia is far from a pushover, that the Rebels have an agenda of their own, and that smuggler friends can often turn into enemies... quicker than lightspeed.'
+),
+
+(
+'Battlefront: Twilight Company',
+'Alexander Freed',
+496,
+'Hazram Namir, Tabor Seitaron, Gadren, Everi Chalis, Hober, Roach, Han Solo, Darth Vader',
+'Arch_BF1-TwilightCompany.png',
+'R2-B_BF1-TwilightCompany.png',
+'The bravest soldiers. The toughest warriors. The ultimate survivors.  Among the stars and across the vast expanses of space, the Galactic Civil War rages.  On the battlefields of multiple worlds in the Mid Rim, legions of ruthless stormtroopers — bent on crushing resistance to the Empire wherever it arises — are waging close and brutal combat against an armada of freedom fighters.  In the streets and alleys of ravaged cities, the front-line forces of the Rebel Alliance are taking the fight to the enemy, pushing deeper into Imperial territory and grappling with the savage flesh-and-blood realities of war on the ground.  Leading the charge are the soldiers — men and women, human and nonhuman — of the Sixty-First Mobile Infantry, better known as Twilight Company.  Hard-bitten, war-weary, and ferociously loyal to one another, the members of this renegade outfit doggedly survive where others perish, and defiance is their most powerful weapon against the deadliest odds.  When orders come down for the rebels to fall back in the face of superior opposition numbers and firepower, Twilight reluctantly complies.  Then an unlikely ally radically changes the strategic equation — and gives the Alliance''s hardest-fighting warriors a crucial chance to turn retreat into resurgence.  Orders or not, alone and outgunned but unbowed, Twilight Company locks, loads, and prepares to make its boldest maneuver — trading down-and-dirty battle in the trenches for a game-changing strike at the ultimate target: the very heart of the Empire''s military machine.'
+),
+
+(
+'Battlefront II: Inferno Squad',
+'Christie Golden',
+400,
+'Iden Versio, Kela Neerik, Gideon Hask, Del Meeko, Seyn Marana, Jaccun Pereez, Adiana Caton, Weston Morro',
+'Arch_BF2-InfernoSquad.png',
+'R2-B_BF2-InfernoSquad.png',
+'After the humiliating theft of the Death Star plans and the destruction of the battle station, the Empire is on the defensive.  But not for long.  In retaliation, the elite Imperial soldiers of Inferno Squad have been called in for the crucial mission of infiltrating and eliminating the Partisans — the rebel faction once led by notorious Republic freedom fighter Saw Gerrera.  Following the death of their leader, the Partisans have carried on his extremist legacy, determined to thwart the Empire — no matter the cost.  Now Inferno Squad must prove its status as the best of the best and take down the Partisans from within.  But the growing threat of being discovered in their enemy''s midst turns an already dangerous operation into a do-or-die acid test they dare not fail.  To protect and preserve the Empire, to what lengths will Inferno Squad go...  and how far beyond them?  The Rebellion may have heroes like Jyn Erso and Luke Skywalker.  But the Empire has Inferno Squad.'
+),
+
+(
+'The Force Unleashed',
+'Sean Williams',
+368,
+'Galen Marek / Starkiller, Juno Eclipse, PROXY, Rahm Kota, Darth Vader, Sheev Palpatine, Kazdan Paratus, Shaak Ti, Mon Mothma, Maris Brood, Leia Organa, Ozzik Sturn',
+'Arch_ForceUnleashed.png',
+'R2-B_ForceUnleashed.png',
+'“The Sith always betray one another...  I''m sure you''ll learn that soon enough.”  The overthrow of the Republic is complete.  Absolute power now rests in the iron fist of Darth Sidious – the cunning Sith Lord better known as Emperor Palpatine.  But more remains to be done.  Pockets of resistance in the galaxy must still be defeated and missing Jedi accounted for...  and dealt with.  These crucial tasks fall to the Emperor''s ruthless enforcer, Darth Vader, who in turn has groomed a lethal, nameless Sith apprentice to secretly dispatch the last of his masters'' enemies.  This acolyte''s journey will take him across the far reaches of the galaxy and test him with shattering revelations that strike at the very heart of all he believes, stirring within him long-forgotten hopes of reclaiming his name...  and changing his destiny.'
+),
+
+(
+'The Force Unleashed II',
+'Sean Williams',
+368,
+'Galen Marek / Starkiller, Juno Eclipse, PROXY, Rahm Kota, Darth Vader, Yoda, Bail Organa, Boba Fett',
+'Arch_ForceUnleashed2.png',
+'R2-B_ForceUnleashed2.png',
+'The dark side could not seduce him.  The Empire could not control him.  Death could not defeat him.  And now, nothing can stop him from seizing his destiny.  As apprentice to Darth Vader, Starkiller was mercilessly schooled in the ways of the dark side and groomed for the ultimate Sith power play: assassination of the Emperor.  He served without question, killed without remorse, and lost his heart without warning to beautiful Imperial fighter pilot Juno Eclipse, never suspecting that he was just a tool in the schemes of his masters — until it was too late to escape their lethal betrayal.  Juno mourned Starkiller as dead, but now he is back, purged of all memories and programmed to kill — and this time, Darth Vader is determined not to lose his assassin.  As fate brings Juno and Starkiller closer to reuniting, they will both have to make a stand.  The prize could be freedom.  The punishment for failing will be eternal enslavement to the dark side of the Force.'
 )
 
-
+-- Han Solo At Star's End
 
 -- Crucible comes last after the Fate of the Jedi series!!!
