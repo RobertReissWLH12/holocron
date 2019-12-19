@@ -653,8 +653,58 @@ summary
 'Arch_ForceUnleashed2.png',
 'R2-B_ForceUnleashed2.png',
 'The dark side could not seduce him.  The Empire could not control him.  Death could not defeat him.  And now, nothing can stop him from seizing his destiny.  As apprentice to Darth Vader, Starkiller was mercilessly schooled in the ways of the dark side and groomed for the ultimate Sith power play: assassination of the Emperor.  He served without question, killed without remorse, and lost his heart without warning to beautiful Imperial fighter pilot Juno Eclipse, never suspecting that he was just a tool in the schemes of his masters — until it was too late to escape their lethal betrayal.  Juno mourned Starkiller as dead, but now he is back, purged of all memories and programmed to kill — and this time, Darth Vader is determined not to lose his assassin.  As fate brings Juno and Starkiller closer to reuniting, they will both have to make a stand.  The prize could be freedom.  The punishment for failing will be eternal enslavement to the dark side of the Force.'
+),
+
+(
+'Lando Calrissian and the Mindharp of Sharu',
+'L. Neil Smith',
+182,
+'Lando Calrissian, Arun Feb, Vett Fori, Rokur Gepta, Myle Jandler',
+'Arch_LandoCalrissianMindharpSharu.png',
+'R2-B_LandoCalrissianMindharpSharu.png',
+'Gambler, rogue, and con-artiste, Lando Calrissian was born with a well-developed taste for the good life.  More comfortable at the dealer''s end of a fast shuffle than at the rear end of a blaster, Lando always had his sensors scanning for the chance to pick up easy credits.  So when he heard that the planets of the Rafa System were practically buried in ancient alien treasure, he hopped aboard the Millennium Falcon and brushed up on his rusty astrogation.  He never stopped to think that someone might be conning the con man...'
+),
+
+(
+'Lando Calrissian and the Flamewind of Oseon',
+'L. Neil Smith',
+192,
+'Lando Calrissian, Rokur Gepta, Vuffi Raa, Lob Doluff, Bassi Vobah, Waywa Fybot',
+'Arch_LandoCalrissianFlamewindOseon.png',
+'R2-B_LandoCalrissianFlamewindOseon.png',
+'A solar system with little more than luxury hotels catering to the underemployed filthy-rich, the Oseon was every gambler''s dream come true.  And so it was for Lando Calrissian, gambler, rogue, and con-artiste.  Until he broke the gambler''s cardinal rule: never beat a cop at high-stake games of chance.  Soon Lando and his feckless five-armed robot companion were being stalked by two enemies — one they knew but could not see, and one they saw but did not recognize...  until it was too late.'
+),
+
+(
+'Lando Calrissian and the Starcave of ThonBoka',
+'L. Neil Smith',
+192,
+'Lando Calrissian, Vuffi Raa, Rokur Gepta',
+'Arch_LandoCalrissianStarcaveThonBoka.png',
+'R2-B_LandoCalrissianStarcaveThonBoka.png',
+'For a year Lando Calrissian and Vuffi Raa, his five-armed robot astrogator, had roamed space in the Millennium Falcon, seeking or creating opportunities to turn an easy, but not too dishonest, credit.  But now their partnership seemed doomed — for Lando''s uncharacteristic impulse to help a race of persecuted aliens had suddenly made him and Vuffi vulnerable to several sets of their own enemies...  not least of whom was the evil Rokur Gepta, the Sorcerer of Tund!'
+),
+
+(
+'Death Star',
+'Michael Reaves and Steve Perry',
+448,
+'Atour Riten, Celot Ratua Dil, Conan Antonio Motti, Daala, Darth Vader, Wilhuff Tarkin, Memah Roothes',
+'Arch_DeathStar.png',
+'R2-B_DeathStar.png',
+'The Death Star''s name says it all, with bone-chilling accuracy.  It is a virtual world unto itself – equipped with uncanny power for a singularly brutal purpose: to obliterate entire planets in the blink of an eye.  Its annihilation of the planet Alderaan, at the merciless command of Grand Moff Tarkin, lives in infamy.  And its own ultimate destruction, at the hands of Luke Skywalker, is the stuff of legend.  But what is the whole story, and who are the players, behind the creation of this world-killing satellite of doom?  The near extermination of the Jedi order cleared the way for Palpatine – power-hungry Senator and Sith Lord – to seize control of the Republic, declare himself Emperor, and usher in a fearsome, totalitarian regime.  But even with the dreaded Darth Vader enforcing Palpatine''s sinister will, the threat of rebellion still looms.  And the Emperor knows that only abject fear – and the ability to punish dissent with devastating consequences – can ensure his unchallenged control of the galaxy.  Enter ambitious and ruthless government official Wilhuff Tarkin, architect of the Emperor''s terrifying dream come true.  From inception to completion, construction of the unprecedented Death Star is awash in the intrigues, hidden agendas, unexpected revelations, and daring gambits of those involved on every level.  The brightest minds and boldest egos, the most ambitious and corrupt, the desperate and the devious, all have a stake in the Death Star – and its potential to control the fate of the galaxy.  Soldiers and slaves, loyalists and Rebels, spies and avengers, the innocent and the evil – all their paths and fates will cross and intertwine as the Death Star moves from its maiden voyage to its final showdown.  And a shadowy chapter of Star Wars history is stunningly illuminated in a thrilling, unforgettable adventure.'
+),
+
+(
+'Catalyst (A Rogue One Novel)',
+'James Luceno',
+496,
+'Orson Krennic, Galen Erso, Saw Gerrera, Wilhuff Tarkin, Has Obitt, Lyra Erso, Jyn Erso',
+'Arch_Catalyst.png',
+'R2-B_Catalyst.png',
+'War is tearing the galaxy apart.  For years the Republic and the Separatists have battled across the stars, each building more and more deadly technology in an attempt to win the war.  As a member of Chancellor Palpatine''s top secret Death Star project, Orson Krennic is determined to develop a superweapon before the Republic''s enemies can. And an old friend of Krennic''s, the brilliant scientist Galen Erso, could be the key.  Galen''s energy-focused research has captured the attention of both Krennic and his foes, making the scientist a crucial pawn in the galactic conflict.  But after Krennic rescues Galen, his wife, Lyra, and their young daughter, Jyn, from Separatist kidnappers, the Erso family is deeply in Krennic''s debt.  Krennic then offers Galen an extraordinary opportunity: to continue his scientific studies with every resource put utterly at his disposal.  While Galen and Lyra believe that his energy research will be used purely in altruistic ways, Krennic has other plans that will finally make the Death Star a reality.  Trapped in their benefactor''s tightening grasp, the Ersos must untangle Krennic''s web of deception to save themselves and the galaxy itself.'
 )
 
--- Han Solo At Star's End
+
 
 -- Crucible comes last after the Fate of the Jedi series!!!
