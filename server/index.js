@@ -16,6 +16,8 @@ app.use(require("body-parser").text());
 // TOP-LEVEL MIDDLEWARE
 app.use(express.json())
 
+app.use( express.static( `${__dirname}/../build` ) );
+
 app.use(session({
     resave: true,
     saveUninitialized: false,
