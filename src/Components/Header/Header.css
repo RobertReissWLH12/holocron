@@ -199,8 +199,10 @@
 }
 
 .navbar-container {
+    position: relative;
     width: 1130px;
     height: 58px;
+    margin-bottom: 0vh;
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;

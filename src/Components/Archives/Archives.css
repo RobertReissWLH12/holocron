@@ -22,8 +22,8 @@
     position: absolute;
     width: 65vw;
     height: 63vh;
-    bottom: 100px;
-    left: 250px;
+    bottom: 10vh;
+    left: 18.5%;
     /* padding-top: 150px; */
     /* padding-left: 250px; */
     display: flex;
@@ -197,8 +197,8 @@
     position: absolute;
     height: 40px;
     width: 100px;
-    top: 650px;
-    left: 600px;
+    top: 90vh;
+    left: 40vw;
     color: transparent;
     background: transparent;
     border: transparent;
@@ -216,11 +216,11 @@
 }
 
 .next {
-    position: relative;
+    position: absolute;
     height: 40px;
     width: 100px;
-    top: 650px;
-    left: 800px;
+    top: 90vh;
+    left: 55vw;
     color: transparent;
     background: transparent;
     border: transparent;
@@ -259,4 +259,10 @@
     background-image: url('/assets/Buttons/Add_HL.png');
     background-size: 100%;
     cursor:pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+
 }

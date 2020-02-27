@@ -703,8 +703,197 @@ summary
 'Arch_Catalyst.png',
 'R2-B_Catalyst.png',
 'War is tearing the galaxy apart.  For years the Republic and the Separatists have battled across the stars, each building more and more deadly technology in an attempt to win the war.  As a member of Chancellor Palpatine''s top secret Death Star project, Orson Krennic is determined to develop a superweapon before the Republic''s enemies can. And an old friend of Krennic''s, the brilliant scientist Galen Erso, could be the key.  Galen''s energy-focused research has captured the attention of both Krennic and his foes, making the scientist a crucial pawn in the galactic conflict.  But after Krennic rescues Galen, his wife, Lyra, and their young daughter, Jyn, from Separatist kidnappers, the Erso family is deeply in Krennic''s debt.  Krennic then offers Galen an extraordinary opportunity: to continue his scientific studies with every resource put utterly at his disposal.  While Galen and Lyra believe that his energy research will be used purely in altruistic ways, Krennic has other plans that will finally make the Death Star a reality.  Trapped in their benefactor''s tightening grasp, the Ersos must untangle Krennic''s web of deception to save themselves and the galaxy itself.'
+),
+
+(
+'Dark Disciple',
+'Christie Golden',
+400,
+'Asajj Ventress, Quinlan Vos, Count Dooku, Obi-Wan Kenobi, Yoda',
+'Arch_DarkDisciple.png',
+'R2-B_DarkDisciple.png',
+'The only way to bring down the Sith''s most dangerous warrior may be to join forces with the dark side.  In the war for control of the galaxy between the armies of the dark side and the Republic, former Jedi Master turned ruthless Sith Lord Count Dooku has grown ever more brutal in his tactics. Despite the powers of the Jedi and the military prowess of their clone army, the sheer number of fatalities is taking a terrible toll. And when Dooku orders the massacre of a flotilla of helpless refugees, the Jedi Council feels it has no choice but to take drastic action: targeting the man responsible for so many war atrocities, Count Dooku himself.  But the ever-elusive Dooku is dangerous prey for even the most skilled hunter. So the Council makes the bold decision to bring both sides of the Force''s power to bear — pairing brash Jedi Knight Quinlan Vos with infamous one-time Sith acolyte Asajj Ventress. Though Jedi distrust for the cunning killer who once served at Dooku''s side still runs deep, Ventress''s hatred for her former master runs deeper. She''s more than willing to lend her copious talents as a bounty hunter — and assassin — to Vos''s quest.  Together, Ventress and Vos are the best hope for eliminating Dooku — as long as the emerging feelings between them don''t compromise their mission.  But Ventress is determined to have her retribution and at last let go of her dark Sith past.  Balancing the complicated emotions she feels for Vos with the fury of her warrior''s spirit, she resolves to claim victory on all fronts — a vow that will be mercilessly tested by her deadly enemy...  and her own doubt.'
+),
+
+(
+'Ahsoka',
+'E.K. Johnston',
+368,
+'Ahsoka Tano, Kaeden Larte, The Grand Inquisitor, Bail Organa, Leia Organa, C-3PO, R2-D2',
+'Arch_Ahsoka.png',
+'R2-B_Ahsoka.png',
+'Fans have long wondered what happened to Ahsoka after she left the Jedi Order near the end of the Clones Wars, and before she re-appeared as the mysterious Rebel operative Fulcrum in Rebels.  Finally, her story will begin to be told.  Following her experiences with the Jedi and the devastation of Order 66, Ahsoka is unsure she can be part of a larger whole ever again.  But her desire to fight the evils of the Empire and protect those who need it will lead her right to Bail Organa, and the Rebel Alliance...'
+),
+
+(
+'Lords of the Sith',
+'Paul S. Kemp',
+368,
+'Darth Vader, Sheev Palpatine, Cham Syndulla, Isval, Orn Free Taa, Belkor Dray',
+'Arch_LordSith.png',
+'R2-B_LordSith.png',
+'Anakin Skywalker, Jedi Knight, is just a memory.  Darth Vader, newly anointed Sith Lord, is ascendant.  The Emperor''s chosen apprentice has swiftly proven his loyalty to the dark side.  Still, the history of the Sith Order is one of duplicity, betrayal, and acolytes violently usurping their Masters — and the truest measure of Vader''s allegiance has yet to be taken.  Until now.  On Ryloth, a planet crucial to the growing Empire as a source of slave labor and the narcotic known as “spice,” an aggressive resistance movement has arisen, led by Cham Syndulla, an idealistic freedom fighter, and Isval, a vengeful former slave.  But Emperor Palpatine means to control the embattled world and its precious resources — by political power or firepower — and he will be neither intimidated nor denied.  Accompanied by his merciless disciple, Darth Vader, he sets out on a rare personal mission to ensure his will is done.  For Syndulla and Isval, it''s the opportunity to strike at the very heart of the ruthless dictatorship sweeping the galaxy.  And for the Emperor and Darth Vader, Ryloth becomes more than just a matter of putting down an insurrection: When an ambush sends them crashing to the planet''s surface, where inhospitable terrain and an army of resistance fighters await them, they will find their relationship tested as never before.  With only their lightsabers, the dark side of the Force, and each other to depend on, the two Sith must decide if the brutal bond they share will make them victorious allies or lethal adversaries.'
+),
+
+(
+'Tarkin',
+'James Luceno',
+352,
+'Wilhuff Tarkin, Darth Vader, Darth Sidious, Sheev Palpatine, Jova Tarkin, Wullf Yularen, Kendal Ozzel',
+'Arch_Tarkin.png',
+'R2-B_Tarkin.png',
+'He''s the scion of an honorable and revered family.  A dedicated soldier and distinguished legislator.  Loyal proponent of the Republic and trusted ally of the Jedi Order.  Groomed by the ruthless politician and Sith Lord who would be Emperor, Governor Wilhuff Tarkin rises through the Imperial ranks, enforcing his authority ever more mercilessly... and zealously pursuing his destiny as the architect of absolute dominion.  Rule through the fear of force rather than force itself, he advises his Emperor.  Under Tarkin''s guidance, an ultimate weapon of unparalleled destruction moves ever closer to becoming a terrifying reality.  When the so-called Death Star is completed, Tarkin is confident that the galaxy''s lingering pockets of Separatist rebellion will be brought to heel — by intimidation... or annihilation.  Until then, however, insurgency remains a genuine threat.  Escalating guerrilla attacks by resistance forces and newfound evidence of a growing Separatist conspiracy are an immediate danger the Empire must meet with swift and brutal action.  And to bring down a band of elusive freedom fighters, the Emperor turns to his most formidable agents: Darth Vader, the fearsome new Sith enforcer as remorseless as he is mysterious; and Tarkin — whose tactical cunning and cold-blooded efficiency will pave the way for the Empire''s supremacy... and its enemies'' extinction.'
+),
+
+(
+'Han Solo At Stars'' End',
+'Brian Daley',
+187,
+'Han Solo, Chewbacca, Jessa Vandangante, Bollux, Blue Max, Klaus "Doc" Vandangante, Rekkon, Atuarre',
+'Arch_HanSoloStarsEnd.png',
+'R2-B_HanSoloStarsEnd.png',
+'Han Solo trusts no one, and does no favors.  But when the best illegal ship rebuilder in the galaxy disappears, Han and Chewbacca agree to go after him — after all, the Millennium Falcon needs some very special repairs.  Their search pits them against powerful and ruthless enemies out to destroy them, and finally leads them to an airless speck of desolate asteroid — the Authority prison planet known as Stars'' End.'
+),
+
+(
+'Han Solo''s Revenge',
+'Brian Daley',
+180,
+'Han Solo, Chewbacca, Bollux, Blue Max, Fiolla, Gallandro',
+'Arch_HanSolosRevenge.png',
+'R2-B_HanSolosRevenge.png',
+'For a cool ten thousand credits, Han and Chewbacca will do just about anything — except transport slaves.  For one thing, it means an instant death sentence.  So when a high-paying cargo shipment turns out to be a consignment of slaves, Han and Chewie have to think fast.  But Han forms a plan to turn the tables on the slavers and free the captives.  Then, good deed accomplished, he scours the skies for the nasty joker who set him up — because revenge can be so sweet.'
+),
+
+(
+'Han Solo and the Lost Legacy',
+'Brian Daley',
+187,
+'Han Solo, Chewbacca, Bollux, Blue Max, Alexsandr "Trooper" Badure, Hasti Troujow, Gallandro',
+'Arch_HanSoloLostLegacy.png',
+'R2-B_HanSoloLostLegacy.png',
+'There''s a fabled treasure at stake and a price on Han''s head.  So he and Chewbacca head for a planet rumored to hide undreamed-of riches.  But once they get there, Han''s beloved spacecraft, the Millennium Falcon, is hijacked by a band of assassins and killer robots.  Their chances for survival are so slim, they might as well risk it all.'
+),
+
+(
+'Lost Stars',
+'Claudia Gray',
+551,
+'Thane Kyrell, Ciena Ree, Berisse Sai, Ved Foslo, Wilhuff Tarkin, Darth Vader, Wedge Antilles, Leia Organa',
+'Arch_LostStars.png',
+'R2-B_LostStars.png',
+'The reign of the Galactic Empire has reached the Outer Rim planet of Jelucan, where aristocratic Thane Kyrell and rural villager Ciena Ree bond over their love of flying. Enrolling at the Imperial Academy is nothing less than a dream come true for both of them.  But Thane sours on the dream when he sees firsthand the horrific tactics the Empire uses to maintain its ironclad rule.  Bitter and disillusioned, he joins the fledgling Rebellion -- putting Ciena in an unbearable position between her loyalty to the Empire and her love for the man she''s known since childhood.  Now on opposite sides of the war, will these friends turned foes ever find a way to be together, or will duty tear them -- and the galaxy -- apart?'
+),
+
+(
+'A New Dawn',
+'John Jackson Miller',
+383,
+'Kanan Jarrus, Hera Syndulla, Rae Sloane, Denetrius Vidian, Okadiah Garson, Skelly',
+'Arch_NewDawn.png',
+'R2-B_NewDawn.png',
+'For a thousand generations, the Jedi Knights brought peace and order to the Galactic Republic, aided by their connection to the mystical energy field known as the Force. But they were betrayed — and the entire galaxy has paid the price.  It is the Age of the Empire.  Now Emperor Palpatine, once Chancellor of the Republic and secretly a Sith follower of the dark side of the Force, has brought his own peace and order to the galaxy.  Peace through brutal repression, and order through increasing control of his subjects'' lives.  But even as the Emperor tightens his iron grip, others have begun to question his means and motives.  And still others, whose lives were destroyed by Palpatine''s machinations, lay scattered about the galaxy like unexploded bombs, waiting to go off...  The first Star Wars novel created in collaboration with the Lucasfilm Story Group, Star Wars: A New Dawn is set during the legendary “Dark Times” between Episodes III and IV and tells the story of how two of the lead characters from the animated series Star Wars Rebels first came to cross paths. Featuring a foreword by Dave Filoni.'
+),
+
+(
+'Heir to the Jedi',
+'Kevin Hearne',
+320,
+'Luke Skywalker, Leia Organa, C-3PO, R2-D2, Nakari Kelen, Drusil Bephorin, Gial Ackbar, Bren Derlin',
+'Arch_HeirJedi.png',
+'R2-B_HeirJedi.png',
+'A thrilling new adventure set between A New Hope and The Empire Strikes Back, and — for the first time ever — written entirely from Luke Skywalker''s first-person point of view.  Luke Skywalker''s game-changing destruction of the Death Star has made him not only a hero of the Rebel Alliance but a valuable asset in the ongoing battle against the Empire.  Though he''s a long way from mastering the power of the Force, there''s no denying his phenomenal skills as a pilot — and in the eyes of Rebel leaders Princess Leia Organa and Admiral Ackbar, there''s no one better qualified to carry out a daring rescue mission crucial to the Alliance cause.  A brilliant alien cryptographer renowned for her ability to breach even the most advanced communications systems is being detained by Imperial agents determined to exploit her exceptional talents for the Empire''s purposes.  But the prospective spy''s sympathies lie with the Rebels, and she''s willing to join their effort in exchange for being reunited with her family.  It''s an opportunity to gain a critical edge against the Empire that''s too precious to pass up.  It''s also a job that demands the element of surprise.  So Luke and the ever-resourceful droid R2-D2 swap their trusty X-wing fighter for a sleek space yacht piloted by brash recruit Nakari Kelen, daughter of a biotech mogul, who''s got a score of her own to settle with the Empire.  Challenged by ruthless Imperial bodyguards, death-dealing enemy battleships, merciless bounty hunters, and monstrous brain-eating parasites, Luke plunges head-on into a high-stakes espionage operation that will push his abilities as a Rebel fighter and would-be Jedi to the limit.  If ever he needed the wisdom of Obi-Wan Kenobi to shepherd him through danger, it''s now.  But Luke will have to rely on himself, his friends, and his own burgeoning relationship with the Force to survive.'
+),
+
+(
+'Shadow Games',
+'Michael Reaves',
+351,
+'Dash Rendar, Eaden Vrill, Han Solo, Javul Charn Arno D''Vox',
+'Arch_ShadowGames.png',
+'R2-B_ShadowGames.png',
+'Javul Charn is the most famous pop star in the galaxy — and the runaway bride of a violent lieutenant in Black Sun, the crime syndicate commanded by Prince Xizor.  Or so Javul says.  Soon after Dash Rendar, broke and desperate, agrees to be Javul''s bodyguard, he realizes that openness is not her strong suit — and that murder is stalking her tour. Between the discovery of dead bodies in a cargo hold and an attack by an unidentified warship, Dash and co-pilot Eaden Vrill desperately try to understand who is terrorizing Javul''s tour and why.  When Han Solo suddenly joins Javul''s road show, the stakes are raised even higher.  Now Dash, who has a history with Han and an even worse history with Prince Xizor, follows his instincts, his discoveries, and Javul herself — straight into a world that may be too dangerous to survive.'
+),
+
+(
+'Allegiance',
+'Timothy Zahn',
+324,
+'Han Solo, Chewbacca, Leia Organa, Luke Skywalker, Mara Jade, Sheev Palpatine, Daric LaRone, Kendal Ozzel',
+'Arch_Allegiance.png',
+'R2-B_Allegiance.png',
+'Never before has the incendiary mix of action, politics, and intrigue that has become Timothy Zahn''s trademark, been more evident than in this new Star Wars epic.  On the heels of the stunning events chronicled in Star Wars: A New Hope, the newly minted heroes of the Rebellion – fledgling Jedi Luke Skywalker, smuggler turned reluctant freedom-fighter Han Solo, and Princess Leia Organa, a bold leader with a world to avenge – must face the harsh realities of the cataclysmic conflict into which they have so bravely plunged.  From this point forward, legends will grow, treachery will abound, and lives will be irrevocably altered, in the long, hard fight to counter the fist of tyranny and restore hope to a galaxy too long in darkness.  The destruction of the Death Star by the Rebel Alliance was a decisive blow against the Empire, but Palpatine and his monstrous enforcer, Darth Vader, are no less of a threat.  The brutal extermination of Alderaan not only demonstrated the magnitude of their murderous power, but served as a chilling testament to their resolve to crush the Rebel uprising.  Standing against them, Skywalker, Solo, and the Princess remain uncertain opponents.  Luke is gifted and brave, but unschooled in the power he possesses.  Han has doubts about waging someone else’s war – and his contentiousness is one more burden for Leia to bear as she struggles to help keep the Rebellion alive.  The three have been sent to mediate a dispute between Rebel Alliance factions in Shelsha Sector – agitating matters by forcing Han to deal not only with pirates, but with his more dreaded enemy, politics.  At the same time, Mara Jade – all of eighteen and years away from her fateful meeting with Luke – is serving her evil master, Palpatine, well in her role as the Emperor''s Hand: tracking suspected treachery in the Empire to what may be high places – while trying to stay out of Darth Vader''s way.  But the Rebels will prove to be only one of the Empire''s concerns.  For Imperial Stormtrooper Daric LaRone, his faith in the Empire shaken by the wanton destruction of Alderaan, will commit a sudden and violent act of defiance, and take four other enforcers with him, in a desperate bid to elude their masters'' wrath.  Each of these fateful actions, whether sanctioned, secret, or scandalous, will expose brutality and corruption, spur upheavals destined to shake the Empire to its core, and shape momentous events yet to come.'
+),
+
+(
+'Choices of One',
+'Timothy Zahn',
+355,
+'Luke Skywalker, Leia Organa, Han Solo, Chewbacca, Mara Jade, Nuso Esva, Gilad Pellaeon, Carlist Rieekan',
+'Arch_ChoiceOne.png',
+'R2-B_ChoiceOne.png',
+'The fate of the Rebellion rests on Luke Skywalker''s next move.
+But have the rebels entered a safe harbor or a death trap?  Eight months after the Battle of Yavin, the Rebellion is in desperate need of a new base. So when Governor Ferrouz of Candoras Sector proposes an alliance, offering the Rebels sanctuary in return for protection against the alien warlord Nuso Esva, Luke, Leia, Han, and Chewie are sent to evaluate the deal.  Mara Jade, the Emperor''s Hand, is also heading for Candoras, along with the five renegade stormtroopers known as the Hand of Judgment.  Their mission: to punish Ferrouz''s treason and smash the Rebels for good.  But in this treacherous game of betrayals within betrayals, a wild card is waiting to be played.'
+),
+
+(
+'Honor Among Thieves',
+'James S.A. Corey',
+288,
+'Han Solo, Chewbacca, Leia Organa, Luke Skywalker, C-3PO, R2-D2, Wedge Antilles, Baasen Ray, Essio Galassian, Hunter Maas, Scarlet Hark',
+'Arch_HonorAmongThieves.png',
+'R2-B_HonorAmongThieves.png',
+'When the Empire threatens the galaxy''s new hope, will Han, Luke, and Leia become its last chance?  When the mission is to extract a high-level rebel spy from the very heart of the Empire, Leia Organa knows the best man for the job is Han Solo — something the princess and the smuggler can finally agree on.  After all, for a guy who broke into an Imperial cell block and helped destroy the Death Star, the assignment sounds simple enough.  But when Han locates the brash rebel agent, Scarlet Hark, she''s determined to stay behind enemy lines.  A pirate plans to sell a cache of stolen secrets that the Empire would destroy entire worlds to protect — including the planet where Leia is currently meeting with rebel sympathizers.  Scarlet wants to track down the thief and steal the bounty herself, and Han has no choice but to go along if he''s to keep everyone involved from getting themselves killed.  From teeming city streets to a lethal jungle to a trap-filled alien temple, Han, Chewbacca, Leia, and their daring new comrade confront one ambush, double cross, and firestorm after another as they try to keep crucial intel out of Imperial hands.  But even with the crack support of Luke Skywalker''s x-wing squadron, the Alliance heroes may be hopelessly outgunned in their final battle for the highest of stakes: the power to liberate the galaxy from tyranny or ensure the Empire''s reign of darkness forever.'
+),
+
+(
+'Splinter of the Mind''s Eye',
+'Alan Dean Foster',
+216,
+'Luke Skywalker, Leia Organa, C-3PO, R2-D2, Darth Vader, Obi-Wan Kenobi',
+'Arch_SplinterMindsEye.png',
+'R2-B_SplinterMindsEye.png',
+'Luke Skywalker expected trouble when he volunteered to follow Princess Leia on her mission to the planet Circarpous.  But he discovered that hidden on the planet was the Kaiburr crystal, a mysterious gem that would give the one who possessed it such powers over the Force that he would be all but invincible. In the wrong hands, the crystal could be deadly.  So Luke had to find this treasure and find it fast...'
+),
+
+(
+'Razor''s Edge',
+'Martha Wells',
+288,
+'Luke Skywalker, Leia Organa, Han Solo, Chewbacca, C-3PO, R2-D2',
+'Arch_RazorsEdge.png',
+'R2-B_RazorsEdge.png',
+'Times are desperate for the Rebel Alliance.  Harassment by the Empire and a shortage of vital supplies are hindering completion of a new secret base on the ice planet Hoth.  So when Mid Rim merchants offer much-needed materials for sale, Princess Leia Organa and Han Solo lead an Alliance delegation to negotiate a deal.  But when treachery forces the rebel ship to flee into territory controlled by pirates, Leia makes a shocking discovery: the fierce marauders come from Leia''s homeworld of Alderaan, recently destroyed by the Death Star.  These refugees have turned to pillaging and plundering to survive — and they are in debt to a pirate armada, which will gladly ransom the princess to the vengeful Empire... if they find out her true identity.  Struggling with intense feelings of guilt, loyalty, and betrayal, Leia is determined to help her wayward kinspeople, even as Imperial forces are closing in on her own crippled ship.  Trapped between lethal cutthroats and brutal oppressors, Leia and Han, along with Luke, Chewbacca, and a battle-ready crew, must defy death — or embrace it — to keep the rebellion alive.'
+),
+
+(
+'The Bounty Hunter Wars, Book 1: The Mandalorian Armor',
+'K.W. Jeter',
+387,
+'Boba Fett, Dengar, Neelah, Bossk, Zuckuss, Sheev Palpatine, Darth Vader, Prince Xizor, Kuat',
+'Arch_BHW-B1-MandalorianArmor.png',
+'R2-B_BHW-B1-MandalorianArmor.png',
+'He''s the most feared and successful bounty hunter in the galaxy.  He is Boba Fett, and even the most hardened criminals tremble at his name.  Now he faces the deadliest challenge of his infamous career — an all-out war against his most dangerous enemies.  As the Rebellion gathers force, Prince Xizor proposes a cunning plan to the Emperor and Darth Vader: smash the power of the Bounty Hunters Guild by turning its members against each other.  Only the strongest and most ruthless will survive, and they can be used against the Rebellion.  It''s a job for the fiercely independent Boba Fett, who jumps at the chance to destroy his rivals.  But Fett soon realizes the game is rigged, as he finds himself the target of murderous factions, criminal conspiracies, and the evil at the Empire''s dark heart.  Boba Fett has always finished first.  And in this game, anything less is death.'
+),
+
+(
+'The Bounty Hunter Wars, Book 2: Slave Ship',
+'K.W. Jeter',
+324,
+'Boba Fett, Bossk, Dengar, Neelah, Kuat, Sheev Palpatine, Darth Vader, Prince Xizor',
+'Arch_BHW-B2-SlaveShip.png',
+'R2-B_BHW-B2-SlaveShip.png',
+'He''s both feared and admired, respected and despised.  Boba Fett is the galaxy''s most successful bounty hunter.  Now he finds himself the hunted in the oldest game of all: survival of the fittest.  The once powerful Bounty Hunter''s Guild has been shattered into warring factions.  Now the posting of an enormous bounty on a renegade Imperial stormtrooper is about to start a frenzy of murderous greed.  Hoping to fuel rumors of his death, Boba Fett abandons his ship, Slave I, and sets out to claim the prize.  Yet his every move leads him closer to a trap set by the cunning Prince Xizor.  Fett will die before becoming Xizor''s pawn in the Emperor''s war against the Rebels.  And he may have to.  For in order to gain his freedom he must outwit a sentient weapon that feeds on human spirits.  Then he must escape a galaxy of deadly enemies who want to make the rumors of his death a reality.'
+),
+
+(
+'The Bounty Hunter Wars, Book 3: Hard Merchandise',
+'K.W. Jeter',
+338,
+'Boba Fett, Bossk, Neelah, Zuckuss, Dengar',
+'Arch_BHW-B3-HardMerchandise.png',
+'R2-B_BHW-B3-HardMerchandise.png',
+'Boba Fett fears only one enemy — the one he cannot see...  Feared and admired, respected and despised, Boba Fett enjoys a dubious reputation as the galaxy''s most successful bounty hunter.  Yet even a man like Boba Fett can have one too many enemies...  When Boba Fett stumbles across evidence implicating Prince Xizor in the murder of Luke Skywalker''s aunt and uncle, Fett makes himself an enemy even he fears: the unknown mastermind behind a monstrous deception, who will kill to hide his tracks.  Fett also finds himself in possession of an amnesiac young woman named Neelah, who may be the key to the mystery — or a decoy leading Fett into a murderous ambush.  Fett''s last hope is to run through the list of Xizor''s hidden enemies.  And since Xizor''s hidden enemies are almost as legion as Fett''s, the chance of survival is slim — even for someone as skilled and relentless as Boba Fett.'
 )
-
-
 
 -- Crucible comes last after the Fate of the Jedi series!!!

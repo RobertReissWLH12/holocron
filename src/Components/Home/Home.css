@@ -5,7 +5,8 @@ body, html {
 }
 
 #home-background{
-    background-image: url('/assets/Backgrounds/Home_BG_empty.jpg') ;
+    /* background-image: url('/assets/Backgrounds/Home_BG_empty.jpg') ; */
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +21,7 @@ body, html {
 .rocks-left {
     position: absolute;
     height: 95vh;
-    width: 40%;
+    width: 25vw;
     left: 0px;
     /* border: 3px red solid; */
 }
@@ -28,7 +29,8 @@ body, html {
 #rock-left1 {
     height: 400px;
     width: 200px;
-    margin-top: 120px;
+    margin-top: 10vh;
+    margin-left: 2vw;
     background-image: url('/assets/Home/Rock_Left1.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -40,8 +42,8 @@ body, html {
 #rock-left2 {
     height: 150px;
     width: 180px;
-    margin-top: -20px;
-    margin-left: 150px;
+    margin-top: 14vh;
+    margin-left: 5vw;
     background-image: url('/assets/Home/Rock_Left2.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -53,8 +55,8 @@ body, html {
 #rock-left3 {
     height: 180px;
     width: 100px;
-    margin-top: -460px;
-    margin-left: 250px;
+    margin-top: -45vh;
+    margin-left: 15vw;
     background-image: url('/assets/Home/Rock_Left3.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -66,29 +68,29 @@ body, html {
 .rocks-right {
     position: absolute;
     height: 95vh;
-    width: 40%;
+    width: 25vw;
     right: 0px;
     /* border: 3px blue solid; */
 }
 
 #rock-right1 {
-    height: 350px;
+    height: 440px;
     width: 150px;
     margin-top: 120px;
-    margin-left: 440px;
+    margin-left: 13vw;
     background-image: url('/assets/Home/Rock_Right1.png');
     background-size: 100%;
     background-repeat: no-repeat;
     -webkit-animation: mover 1.2s infinite  alternate;
     animation: mover 1.2s infinite  alternate;
-    /* border: 3px green solid; */
+    /* border: 1px green solid; */
 }
 
 #rock-right2 {
     height: 180px;
     width: 50px;
-    margin-top: -230px;
-    margin-left: 300px;
+    margin-top: -30vh;
+    margin-left: 7vw;
     background-image: url('/assets/Home/Rock_Right2.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -98,10 +100,10 @@ body, html {
 }
 
 #rock-right3 {
-    height: 220px;
+    height: 240px;
     width: 120px;
-    margin-top: 30px;
-    margin-left: 320px;
+    margin-top: 17vh;
+    margin-left: 6vw;
     background-image: url('/assets/Home/Rock_Right3.png');
     background-size: 100%;
     background-repeat: no-repeat;
@@ -121,14 +123,15 @@ body, html {
 
 
 .welcome {
-    height: 120px;
+    position: absolute;
+    height: 13vh;
     width: 52%;
-    /* margin-top: 100px; */
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 72px;
     color: gold;
     z-index: 2;
-    margin-top: -50px;
+    top: 18vh;
+    margin-bottom: 5vh;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -147,20 +150,22 @@ body, html {
 }
 
 .paragraph {
+    position: relative;
     width: 52%;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 30px;
+    font-size: 34px;
+    letter-spacing: .04em;
     color: gold;
     z-index: 2;
-    margin-top: 40px;
+    margin-top: 20vh;
     /* border: 1px red solid; */
 }
 
 .holocron-gif {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    margin-top: 250px;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    top: 5vh;
     background-image: url('/assets/Home/Holocron_BlackBG.gif');
     background-repeat: no-repeat;
     background-size: 100%;
