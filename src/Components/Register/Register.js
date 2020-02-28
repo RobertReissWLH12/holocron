@@ -44,9 +44,11 @@ class Register extends Component {
     return (
       <div className="register-background">
         <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"></link>
-        <div className="box-artwork"></div>
-        <div className='register-container' alt=''>
-          <h1>" Who is this?  What's your operating number? "</h1>
+        {/* <div className="register-container"></div> */}
+          <h1>" Who is this?  What's your operating number? "
+          <div id="officer-line"></div>
+          </h1>
+        <div className='box-artwork' alt=''>
           <div className="four-inputs">
             <input id="email"
               value={this.state.email}
