@@ -103,7 +103,7 @@ class Archives extends Component {
                             {/* Modal Body */}
                             <div className="modal-body">
                                 <div className="modal-header">
-                                    <span className="close" onClick={() => this.setState({
+                                    <span className="close"  data-dismiss="modal-content" onClick={() => this.setState({
                                         modalActivate: false
                                     })
                                     }>&times;</span>
