@@ -81,7 +81,7 @@
     height: 75vh;
     width: 40%;
     left: 0px;
-    margin-top: 150px;
+    margin-top: 20vh;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -96,7 +96,7 @@
     height: 75vh;
     width: 40%;
     right: 0px;
-    margin-top: 150px;
+    margin-top: 20vh;
     display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -129,21 +129,20 @@
 .contracts-text {
     background-image: url('/assets/Boxes/Y-Box1.png');
     background-size: 100%;
-    background-repeat: no-repeat;
-    width: 450px;
-    height: 150px;
     position: absolute;
-    top: 190px;
-    left: 70px;
-    padding-left: 12px;
-    padding-right: 12px;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 27%;
+    top: 35%;
+    left: 12%;
+    /* padding-left: 12%;
+    padding-right: 12%; */
     color: gold;
     visibility: hidden;
     opacity: 0;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 26px;
     letter-spacing: 1px;
-    /* border: 3px blue solid; */
     z-index: 5;
     display: flex;
 	flex-direction: row;
@@ -151,6 +150,7 @@
 	justify-content: center;
 	align-items: center;
     align-content: stretch;
+    /* border: 3px blue solid; */
 }
 
 #contracts-button:hover {
@@ -189,21 +189,18 @@
 .guests-text {
     background-image: url('/assets/Boxes/Y-Box1.png');
     background-size: 100%;
-    background-repeat: no-repeat;
-    width: 450px;
-    height: 155px;
     position: absolute;
-    top: 190px;
-    left: 70px;
-    padding-left: 18px;
-    padding-right: 18px;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 27%;
+    top: 35%;
+    left: 12%;
     color: gold;
     visibility: hidden;
     opacity: 0;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 1px;
-    /* border: 1px blue solid; */
     z-index: 5;
     display: flex;
 	flex-direction: row;
@@ -211,6 +208,7 @@
 	justify-content: center;
 	align-items: center;
     align-content: stretch;
+    /* border: 3px blue solid; */
 }
 
 #guests-button:hover {
@@ -250,18 +248,18 @@
     background-image: url('/assets/Boxes/Y-Box1.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 450px;
-    height: 150px;
     position: absolute;
-    top: 190px;
-    left: 70px;
+    width: 73%;
+    height: 27%;
+    top: 35%;
+    left: 12%;
     padding-left: 15px;
     padding-right: 15px;
     color: gold;
     visibility: hidden;
     opacity: 0;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 24px;
+    font-size: 23px;
     letter-spacing: 1px;
     /* border: 1px blue solid; */
     z-index: 5;
@@ -310,11 +308,11 @@
     background-image: url('/assets/Boxes/Y-Box1.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 450px;
-    height: 155px;
     position: absolute;
-    top: 190px;
-    left: 70px;
+    width: 73%;
+    height: 27%;
+    top: 35%;
+    left: 12%;
     padding-left: 18px;
     padding-right: 18px;
     color: gold;
@@ -323,7 +321,6 @@
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 26px;
     letter-spacing: 1px;
-    /* border: 1px blue solid; */
     z-index: 5;
     display: flex;
 	flex-direction: row;
@@ -331,6 +328,7 @@
 	justify-content: center;
 	align-items: center;
     align-content: stretch;
+    /* border: 1px blue solid; */
 }
 
 #treasures-button:hover {

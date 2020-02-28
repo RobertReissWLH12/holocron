@@ -15,8 +15,8 @@
     position: absolute;
     width: 65vw;
     height: 63vh;
-    bottom: 100px;
-    left: 250px;
+    bottom: 10vh;
+    left: 18.5%;
     display: flex;
     flex-wrap: wrap;
     /* border: red 1px solid; */

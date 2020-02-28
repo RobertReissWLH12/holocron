@@ -12,14 +12,20 @@
 
 .donate-background h1 {
     position: absolute;
-    width: 1000px;
-    height: 100px;
-    margin-top:  190px;
-    margin-left: 500px;
+    width: 62vw;
+    height: auto;
+    top: 20%;
+    right: 5%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
     box-sizing: border-box;
     color: gold;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    font-size: 42px;
+    font-size: 50px;
     // border: 1px solid red;
 }
 
@@ -33,10 +39,10 @@
 
 .donate-background h2 {
     position: absolute;
-    width: 440px;
-    height: 120px;
-    margin-top:  40px;
-    margin-left: 95px;
+    width: 80%;
+    height: 30%;
+    top: 10%;
+    left: 13%;
     box-sizing: border-box;
     color: gold;
     font-family: 'Russo One', sans-serif;
@@ -57,10 +63,10 @@
     background-image:url('/assets/Boxes/B-Box3.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 600px;
-    height: 330px;
-    margin-left: 700px;
-    margin-top: 320px;
+    width: 31%;
+    height: 35%;
+    right: 20%;
+    top: 40%;
     // border: 1px red solid;
 }
 
@@ -69,10 +75,10 @@
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
-    height: 120px;
-    width: 400px;
-    margin-top: 160px;
-    margin-left: 110px;
+    height: 40%;
+    width: 70%;
+    top: 50%;
+    left: 16%;
     padding: 0;
     box-sizing: border-box;
     border-radius: 4px;

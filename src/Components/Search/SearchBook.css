@@ -1,8 +1,8 @@
 .search-book-cover {
-    width: 250px;
+    width: 100%;
     height: auto;
     margin-left: 0px;
-    /* border: red 1px solid; */
+    /* border: blue 1px solid; */
 }
 
 /* .book-cover:hover {
