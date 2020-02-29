@@ -48,7 +48,9 @@ class Hideout extends Component {
                                 <div id="warning-container">
                                     <p id="hondo-warning">Hello there, my friend!  My name is Hondo, and this is my hideout!  What?!  You do not know of the great pirate, Hondo?  Well, that actually does not matter.  What is more important is that I do not know YOU!  Please login so that you may be allowed to see all the treasures that await you in Hondo's Hideout!</p>
                                 </div>
+                                <div className="finger-container">
                                 <div id="fingerWave"></div>
+                                </div>
                             </div>
                         ) : (
                             <div className="hideout-background-Login">

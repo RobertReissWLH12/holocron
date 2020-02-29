@@ -76,7 +76,7 @@ class Search extends Component {
 
     displayBeam() {
         return (
-            <div>
+            <div className="R2-beam-outer">
             <div className="R2-beam"></div>
             {this.state.smallNum < 1 ? (null) : <button onClick={() => this.decrement()} className="search-prev"></button>}
                 {this.state.bigNum > this.state.archives.length - 1 ? (null) : <button onClick={() => this.increment()} className="search-next"></button>}
@@ -103,6 +103,7 @@ class Search extends Component {
                         onChange={e => this.handleChange(e)}
                     />
                 </div>
+                <div className="books-hologram-container">
                 <div id="books-hologram">
                     {filteredArchives.map((book, i) => {
                         // console.log(book)
@@ -112,6 +113,7 @@ class Search extends Component {
                                 book={book} />
                         )
                     })}
+                </div>
                 </div>
                 <div className="R2"></div>
 
