@@ -16,10 +16,10 @@
     background-image: url('/assets/Boxes/Y-Box3.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 390px;
-    width: 47%;
-    top: 50%;
-    left: 72%;
+    height: 510px;
+    width: 950px;
+    top: 25%;
+    right: 5%;
     position: absolute;
     display: flex;
 	flex-direction: column;
@@ -27,7 +27,7 @@
     justify-content: space-around;
 	align-items: center;
     align-content: space-around;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     /* border: blue 1px solid; */
 }
 
