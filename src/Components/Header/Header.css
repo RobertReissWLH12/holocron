@@ -286,6 +286,23 @@
     cursor:pointer;
 }
 
+@media only screen and (min-width: 768px) {
+    .mobile-donate-button {
+    display: none;
+    visibility: hidden;
+    }
+
+    #holocron-profilePicture {
+        display: none;
+        visibility: hidden;
+    }
+
+    .mobile-pictureFrame {
+        display: none;
+        visibility: hidden;
+    }
+}
+
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 /* @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
@@ -300,3 +317,348 @@
       border: 1px solid #ccc;
     }
   } */
+
+  /* MOBILE RESPONSIVENESS FOR TABLETS */
+/* @media screen and (max-width: 1024) {
+
+} */
+
+/* MOBILE RESPONSIVENESS FOR PHONES */
+@media screen and (max-width: 479px) {
+
+    .header {
+        width: 100%;
+        height: 200px;
+        color: yellow;
+        background: transparent;
+        font-family: "Open Sans", sans-serif;
+        top: 0px;
+        position: absolute;
+        display: flex;
+        justify-content: default;
+        flex-direction: row;
+        align-items: default;
+        align-content: default;
+        z-index: 10;
+        /* border: 1px purple solid; */
+    }
+    
+    .header-topHalf-container {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: default;
+        align-items: flex-start;
+        align-content: stretch;
+        /* border: orange 1px solid; */
+    }
+    
+    .donate-button {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 155px;
+        height: 45px;
+        display: none;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url("/assets/Buttons/Donation.png");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        /* border: 2px green solid;   */
+    }
+    
+    .title-div {
+        position: relative;
+        height: 40px;
+        width: 375px;
+        margin-left: 0px;
+        margin-top: -30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        background-image: url("/assets/Buttons/Holocron_Title.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        /* border: green 2px solid; */
+    }
+    
+    
+    /* .profile_img {
+        display: flex;
+        position: fixed;
+    } */
+    
+    .login-div {
+        position: absolute;
+        height: 80px;
+        width: 89%;
+        margin-left: 0px;
+        margin-top: -7px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        /* border: yellow 1px solid; */
+    }
+
+    .loggedOutLayout {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: stretch;
+        /* border: 1px red solid; */
+    }
+
+    .mobile-donate-button {
+        position: absolute;
+        left: 0px;
+        top: 25%;
+        width: 145px;
+        height: 40px;
+        display: flex;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url("/assets/Buttons/DonateMobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%; 
+        /* border: 1px green solid;   */
+    }
+    
+    .mobile-donate-button:hover {
+        /* -webkit-transition-duration: 0.6s; */
+        transition-duration: 0.5s;
+        background-image: url("/assets/Buttons/DonateMobile_HL.png");
+        cursor:pointer;
+    }
+
+    #holocron-profilePicture {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        margin-top: 10px; 
+        left: 37%;
+        background-image: url('/assets/ProfilePics/Holocron_Ring.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* border: 1px red solid; */
+    }
+    
+    #login-button {
+        width: 60px;
+        height: 35px;
+        margin-top: 10px;
+        margin-right: 2px;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url('/assets/Buttons/Login.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* border: red 2px solid; */
+    }
+    
+    #login-button:hover {
+        transition-duration: 0.5s;
+        background-image: url('/assets/Buttons/Login_HL.png');
+        background-size: 100%;
+        cursor:pointer;
+    }
+    
+    #register-button {
+        width: 89px;
+        height: 35px;
+        margin-top: 10px;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url('/assets/Buttons/Register.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* border: blue 2px solid; */
+    }
+    
+    #register-button:hover {
+        transition-duration: 0.5s;
+        background-image: url('/assets/Buttons/Register_HL.png');
+        background-size: 100%;
+        cursor:pointer;
+    }
+    
+    /* .profile-section {
+        width: 300px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: stretch;
+        border: 1px green solid;
+    } */
+
+    .loggedInLayout {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+        border: 1px red solid;
+    }
+
+    .mobile-pictureFrame {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-image: url('/assets/ProfilePics/Blue_Circle_Frame.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .header-portrait {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top: 1vh; 
+        right: 33%;
+        z-index: 1;
+        /* border: 1px red solid; */
+    }
+    
+    /* #portrait-ring {
+        background-image: url('/assets/profilePics/BlueCircle_hollow_Frame.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+        z-index: 2;
+        border: 1px red solid;
+    } */
+    
+    #logout-button {
+        right: 0;
+        width: 130px;
+        height: 35px;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url('/assets/Buttons/LogoutMobile.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: 1px blue solid;
+    }
+    
+    #logout-button:hover {
+        transition-duration: 0.5s;
+        background-image: url('/assets/Buttons/LogoutMobile_HL.png');
+        background-size: 100%;
+    }
+    
+    .navbar-container {
+        position: relative;
+        width: 100%;
+        height: 58px;
+        margin-bottom: 0vh;
+        display: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: 20%;
+        border: green 3px solid;
+    }
+    
+    /* background-image: url("/assets/ProfilePics/Holocron_Ring.png"); */
+    
+    #home-button {
+        width: 110px;
+        height: 29px;
+        margin-left: 90px;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url("/assets/Buttons/Home.png");
+        background-size: 100%;
+    }
+    
+    #home-button:hover {
+        transition-duration: 0.5s;
+        background-image: url('/assets/Buttons/Home_HL.png');
+        background-size: 100%;
+        cursor:pointer;
+    }
+    
+    #search-button {
+        width: 152px;
+        height: 29px;
+        margin-left: -20px;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url("/assets/Buttons/Search.png");
+        background-size: 100%;    
+    }
+    
+    #search-button:hover {
+        transition-duration: 0.5s;
+        background-image: url('/assets/Buttons/Search_HL.png');
+        background-size: 100%;
+        cursor:pointer;
+    }
+    
+    #archives-button {
+        width: 185px;
+        height: 29px;
+        margin-right: 20px;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url("/assets/Buttons/Archives.png");
+        background-size: 100%;
+    }
+    
+    #archives-button:hover {
+        transition-duration: 0.5s;
+        background-image: url('/assets/Buttons/Archives_HL.png');
+        background-size: 100%;
+        cursor:pointer;
+    }
+    
+    #hideout-button {
+        width: 167px;
+        height: 29px;
+        margin-right: 108px;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url("/assets/Buttons/Hideout.png");
+        background-size: 100%;
+    }
+    
+    #hideout-button:hover {
+        transition-duration: 0.5s;
+        background-image: url('/assets/Buttons/Hideout_HL.png');
+        background-size: 100%;
+        cursor:pointer;
+    }
+
+}

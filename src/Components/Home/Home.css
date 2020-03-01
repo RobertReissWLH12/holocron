@@ -180,3 +180,193 @@ body, html {
         bottom: 100px;
     }
 } */
+
+/* MOBILE RESPONSIVENESS FOR TABLETS */
+/* @media screen and (max-width: 1024px) {
+
+} */
+
+/* MOBILE RESPONSIVENESS FOR PHONES */
+@media screen and (max-width: 479px) {
+
+    body, html {
+        margin: 0;
+        width: 100%;
+        height: 100%;    
+    }
+    
+    #home-background{
+        /* background-image: url('/assets/Backgrounds/Home_BG_empty.jpg') ; */
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+    } 
+    
+    /* ROCK POSITIONING */
+.rocks-left {
+    position: absolute;
+    height: 95vh;
+    width: 29vw;
+    left: 0px;
+    /* border: 3px red solid; */
+}
+
+#rock-left1 {
+    position: absolute;
+    height: 150px;
+    width: 70px;
+    bottom: 160px;
+    margin-left: 2vw;
+    background-image: url('/assets/Home/Rock_Left1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: mover 1.8s infinite  alternate;
+    animation: mover 1.8s infinite  alternate;
+    /* border: 2px green solid; */
+}
+
+#rock-left2 {
+    position: absolute;
+    height: 70px;
+    width: 80px;
+    bottom: 1vh;
+    margin-left: 2vw;
+    background-image: url('/assets/Home/Rock_Left2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    /* border: 3px green solid; */
+}
+
+#rock-left3 {
+    position: absolute;
+    height: 60px;
+    width: 30px;
+    bottom: 12vh;
+    margin-left: 18vw;
+    background-image: url('/assets/Home/Rock_Left3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: mover 1.4s infinite  alternate;
+    animation: mover 1.4s infinite  alternate;
+    /* border: 3px green solid; */
+}
+
+.rocks-right {
+    position: absolute;
+    height: 95vh;
+    width: 29vw;
+    right: 0px;
+    /* border: 3px blue solid; */
+}
+
+#rock-right1 {
+    position: absolute;
+    height: 140px;
+    width: 50px;
+    bottom: 13vh;
+    right: 1vw;
+    background-image: url('/assets/Home/Rock_Right1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: mover 1.2s infinite  alternate;
+    animation: mover 1.2s infinite  alternate;
+    /* border: 1px green solid; */
+}
+
+#rock-right2 {
+    position: absolute;
+    height: 80px;
+    width: 20px;
+    bottom: 25vh;
+    margin-left: 1vw;
+    background-image: url('/assets/Home/Rock_Right2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: mover 1.6s infinite  alternate;
+    animation: mover 1.6s infinite  alternate;
+    /* border: 2px green solid; */
+}
+
+#rock-right3 {
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    bottom: 1vh;
+    margin-left: 4vw;
+    background-image: url('/assets/Home/Rock_Right3.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-animation: mover 1.7s infinite  alternate;
+    animation: mover 1.7s infinite  alternate;
+    /* border: 1px green solid; */
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+
+.welcome {
+    position: absolute;
+    height: 60px;
+    width: 85%;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 40px;
+    color: gold;
+    z-index: 2;
+    top: 23%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    /* border: 1px red solid; */
+}
+
+#welcome-line {
+    height: 20px;
+    width: 100%;
+    background-image: url('/assets/Boxes/B-Line2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: green 1px solid; */
+}
+
+.paragraph {
+    position: absolute;
+    width: 85%;
+    top: 15%;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 20px;
+    letter-spacing: .04em;
+    color: gold;
+    z-index: 2;
+    margin-top: ;
+    /* border: 1px red solid; */
+}
+
+.holocron-gif {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 65%;
+    background-image: url('/assets/Home/Holocron_BlackBG.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* border: 1px blue solid; */
+}
+}

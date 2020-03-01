@@ -64,7 +64,12 @@ class Header extends Component {
                             {
                                 this.props.user_id ?
                                     (
+                                        <div className="loggedInLayout">
+                                            <Link to="/donate">
+                                <button className="mobile-donate-button" onClick={this.donate}></button>
+                            </Link>
                                         <Link to="/">
+                                            <div className="mobile-pictureFrame"></div>
                                             <div>
                                                 <img
                                                     className="header-portrait"
@@ -76,8 +81,13 @@ class Header extends Component {
                                                 <button id="logout-button" onClick={() => this.logout()}></button>
                                             {/* </div> */}
                                         </Link>
+                                        </div>
                                     ) : (
-                                        <div>
+                                        <div className="loggedOutLayout">
+                                            <Link to="/donate">
+                                <button className="mobile-donate-button" onClick={this.donate}></button>
+                            </Link>
+                                            <div id="holocron-profilePicture"></div>
                                             <Link to="/login">
                                                 <button id="login-button" onClick={this.login}></button>
                                             </Link>
@@ -90,6 +100,7 @@ class Header extends Component {
                         </div>
                     </div>
                     <div className="navbar-container">
+
                         <Link to="/">
                             <button id="home-button" onClick={this.home}></button>
                         </Link>
