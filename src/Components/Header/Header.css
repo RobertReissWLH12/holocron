@@ -323,6 +323,12 @@
 
 } */
 
+@media (min-width: 478px) {
+    .mobile-hamburger {
+        display: none;
+    }
+}
+
 /* MOBILE RESPONSIVENESS FOR PHONES */
 @media screen and (max-width: 479px) {
 

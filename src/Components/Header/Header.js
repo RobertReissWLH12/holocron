@@ -5,16 +5,30 @@ import { connect } from 'react-redux'
 import { updateUserInfo } from '../../ducks/reducer'
 import axios from 'axios';
 import LoggedInUser from './LoggedInUser'
+import Toolbar from './Toolbar/Toolbar';
+import SideDrawer from './SideDrawer/SideDrawer';
+import Backdrop from './Backdrop/Backdrop';
 
 class Header extends Component {
     constructor() {
         super()
         this.state = {
             username: '',
-            user_id: ''
+            user_id: '',
+            sideDrawerOpen: false
         }
         this.getUser = this.getUser.bind(this)
     }
+
+    drawerToggleClickHandler = () => {
+        this.setState((prevState) => {
+            return {sideDrawerOpen: !prevState.sideDrawerOpen};
+        });
+    };
+
+    backdropClickHandler = () => {
+        this.setState({sideDrawerOpen: false});
+    };
 
     componentDidMount() {
         this.getUser();
@@ -47,9 +61,20 @@ class Header extends Component {
     }
 
     render() {
+        let backdrop;
+
+        if(this.state.sideDrawerOpen) {
+            backdrop = <Backdrop click={this.backdropClickHandler} />
+        }
         // console.log(this.props)
         return (
             <div>
+                <div style={{height: '100%'}}>
+                    <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+                    <SideDrawer show={this.state.sideDrawerOpen} />
+                    {backdrop}
+                    {/* <main style={{marginTop: '64px'}}></main> */}
+                </div>
                 <div className="header">
                     {/* <img src={whateverItsCalled} className="whateverItsCalled" alt="" /> */}
                     <div className="header-topHalf-container">
