@@ -16,7 +16,7 @@ class Archives extends Component {
             modalActivate: false,
             book: '',
             smallNum: 0,
-            bigNum: 10
+            bigNum: 6
         }
 
         this.getArchives = this.getArchives.bind(this)
@@ -40,14 +40,14 @@ class Archives extends Component {
 
     addFavorite = (id) => {
         axios
-        .post("/api/archives", {archives_id: id})
+            .post("/api/archives", { archives_id: id })
         Swal.fire(
             'Added book to favorites!',
             `You can view your favorites list in the Contracts section of Hondo's Hideout.`,
             'success'
-          )
-        }
-    
+        )
+    }
+
 
     modalFn = (currentBook) => {
         // console.log(currentBook)
@@ -59,8 +59,8 @@ class Archives extends Component {
 
     increment = () => {
         this.setState({
-            bigNum: this.state.bigNum + 10,
-            smallNum: this.state.smallNum + 10
+            bigNum: this.state.bigNum + 6,
+            smallNum: this.state.smallNum + 6
         })
     }
 
@@ -74,8 +74,8 @@ class Archives extends Component {
 
     decrement = () => {
         this.setState({
-            bigNum: this.state.bigNum - 10,
-            smallNum: this.state.smallNum - 10
+            bigNum: this.state.bigNum - 6,
+            smallNum: this.state.smallNum - 6
         })
     }
 
@@ -98,18 +98,21 @@ class Archives extends Component {
 
                 {/* MODAL */}
                 {this.state.modalActivate &&
-                    <div>
+                    <div className="modal-master">
                         <div className="modal-content">
                             {/* Modal Body */}
                             <div className="modal-body">
                                 <div className="modal-header">
-                                    <span className="close"  data-dismiss="modal-content" onClick={() => this.setState({
+                                    <span className="close" data-dismiss="modal-content" onClick={() => this.setState({
                                         modalActivate: false
                                     })
                                     }>&times;</span>
                                     <h2>{this.state.book.title}</h2>
                                 </div>
                                 <div className="modal-bookInfo">
+                                    <div className="mobile-modal-image">
+                                        <img className="popup-image" src={`/assets/Archives_Books/${this.state.book.image}`} alt="book-cover" />
+                                    </div>
                                     <p>Author: {this.state.book.author}</p>
                                     <p>{this.state.book.pages} pages</p>
                                     <p>Major Characters: {this.state.book.characters}</p>
@@ -119,10 +122,17 @@ class Archives extends Component {
                                     <img className="popup-image" src={`/assets/Archives_Books/${this.state.book.image}`} alt="book-cover" />
                                 </div>
                                 {this.props.user_id &&
-                                    <button className="add"
-                                    onClick={() => this.addFavorite(this.state.book.archives_id)}    
-                                    ></button>
-                                } 
+                                    <div>
+                                        <button className="add"
+                                            onClick={() => this.addFavorite(this.state.book.archives_id)}
+                                        ></button>
+                                        <div className="mobile-addContainer">
+                                            <button className="mobile-add"
+                                                onClick={() => this.addFavorite(this.state.book.archives_id)}
+                                            ></button>
+                                        </div>
+                                    </div>
+                                }
                             </div>
                         </div>
                         {/* <div class="overlay"></div> */}
@@ -130,10 +140,10 @@ class Archives extends Component {
                 }
                 {this.state.smallNum < 1 ? (
                     null
-                ) : <button onClick={() => this.decrement()} className="prev"></button> 
+                ) : <button onClick={() => this.decrement()} className="prev"></button>
                 }
                 {this.state.bigNum > this.state.archives.length - 1 ? (null) : <button onClick={() => this.increment()} className="next"></button>}
-                
+
             </div>
         )
     }

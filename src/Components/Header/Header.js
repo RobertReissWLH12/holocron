@@ -22,12 +22,12 @@ class Header extends Component {
 
     drawerToggleClickHandler = () => {
         this.setState((prevState) => {
-            return {sideDrawerOpen: !prevState.sideDrawerOpen};
+            return { sideDrawerOpen: !prevState.sideDrawerOpen };
         });
     };
 
     backdropClickHandler = () => {
-        this.setState({sideDrawerOpen: false});
+        this.setState({ sideDrawerOpen: false });
     };
 
     componentDidMount() {
@@ -63,13 +63,13 @@ class Header extends Component {
     render() {
         let backdrop;
 
-        if(this.state.sideDrawerOpen) {
+        if (this.state.sideDrawerOpen) {
             backdrop = <Backdrop click={this.backdropClickHandler} />
         }
         // console.log(this.props)
         return (
             <div>
-                <div style={{height: '100%'}}>
+                <div style={{ height: '100%' }}>
                     <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
                     <SideDrawer show={this.state.sideDrawerOpen} />
                     {backdrop}
@@ -79,39 +79,46 @@ class Header extends Component {
                     {/* <img src={whateverItsCalled} className="whateverItsCalled" alt="" /> */}
                     <div className="header-topHalf-container">
                         {/* <h4 className="donate-button-styling"> */}
-                            <Link to="/donate">
-                                <button className="donate-button" onClick={this.donate}></button>
-                            </Link>
+                        <Link to="/donate">
+                            <button className="donate-button" onClick={this.donate}></button>
+                        </Link>
                         {/* </h4> */}
                         <div className="title-div"></div>
                         <div className="login-div">
-
                             {
                                 this.props.user_id ?
                                     (
                                         <div className="loggedInLayout">
                                             <Link to="/donate">
-                                <button className="mobile-donate-button" onClick={this.donate}></button>
-                            </Link>
-                                        <Link to="/">
-                                            <div className="mobile-pictureFrame"></div>
+                                                <button className="mobile-donate-button" onClick={this.donate}></button>
+                                            </Link>
+                                            <div className="mobile-pictureFrameContainer">
+                                                <div className="mobile-pictureFrame"></div>
+                                            </div>
                                             <div>
                                                 <img
                                                     className="header-portrait"
                                                     alt=''
                                                     src={`/assets/ProfilePics/${this.props.profile_img}`} />
                                             </div>
-                                            {/* <div className="profile-section"> */}
+                                            <div className="mobile-header-portraitContainer">
+                                                <img
+                                                    className="mobile-header-portrait"
+                                                    alt=''
+                                                    src={`/assets/ProfilePics/${this.props.profile_img}`} />
+                                            </div>
+                                            <Link to="/">
+                                                {/* <div className="profile-section"> */}
                                                 {/* <div id="portrait-ring"></div> */}
                                                 <button id="logout-button" onClick={() => this.logout()}></button>
-                                            {/* </div> */}
-                                        </Link>
+                                                {/* </div> */}
+                                            </Link>
                                         </div>
                                     ) : (
                                         <div className="loggedOutLayout">
                                             <Link to="/donate">
-                                <button className="mobile-donate-button" onClick={this.donate}></button>
-                            </Link>
+                                                <button className="mobile-donate-button" onClick={this.donate}></button>
+                                            </Link>
                                             <div id="holocron-profilePicture"></div>
                                             <Link to="/login">
                                                 <button id="login-button" onClick={this.login}></button>

@@ -2,10 +2,18 @@
     width: 10vw;
     height: auto;
     margin-left: 40px;
-    /* border: red 1px solid; */
+    /* border: green 1px solid; */
 }
 
 .book-cover:hover {
     cursor:pointer;
 }
 
+@media screen and (max-width: 479px) {
+    .book-cover {
+        width: 25vw;
+        height: auto;
+        padding-left: 17%;
+        /* border: green 1px solid; */
+    }
+}
