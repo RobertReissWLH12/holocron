@@ -138,3 +138,157 @@
     font-size: 36px;
     // border: 1px solid red;
 }
+
+@media screen and (max-width: 479px) {
+
+    .donate-background{
+        background-image: url('/assets/Backgrounds/Empty_Donation_BG.jpg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        height: 100vh;
+    } 
+    
+    .donate-background h1 {
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        top: 25%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        box-sizing: border-box;
+        color: gold;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        font-size: 20px;
+        text-align: center;
+        // border: 1px solid red;
+    }
+    
+    #watto-line {
+        height: 30px;
+        width: 100%;
+        background-image: url('/assets/Boxes/B-Line3.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .donate-background h2 {
+        position: absolute;
+        width: 85%;
+        height: 30%;
+        top: 10%;
+        left: 10%;
+        box-sizing: border-box;
+        color: gold;
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: 1.5px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        text-align: center;
+        // border: 1px solid blue;
+    }
+    
+    .donation-display {
+        position: absolute;
+        background-image:url('/assets/Boxes/B-Box3.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 220px;
+        left: 0;
+        top: 40%;
+        // border: 1px red solid;
+    }
+    
+    .donate {
+        background-image: url('/assets/Boxes/Donate_CardBox.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        height: 40%;
+        width: 80%;
+        top: 50%;
+        left: 10%;
+        padding: 0;
+        box-sizing: border-box;
+        border-radius: 4px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: stretch;
+        // border: 1px solid red;
+    }
+    
+    // .donate-mobile {
+    //     width: 150px;
+    //     height: 50px;
+    //     margin-top: 20px;
+    //     margin-left: 70px;
+    //     color: transparent;
+    //     background: transparent;
+    //     background-image: url('/assets/Buttons/Donate_CardButton.png');
+    //     background-repeat: no-repeat;
+    //     border: transparent;
+    //     background-size: 100%; 
+    //     border: 1px blue solid;  
+    // }
+    
+    .donate-mobile:hover {
+        transition-duration: 0.2s;
+        background-image: url('/assets/Buttons/Donate_CardButton_HL.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        cursor:pointer;
+    }
+    
+    .checkout {
+        position: relative;
+        height: 20px;
+        width: 150px;
+        margin-top: 13px;
+        // display: flex;
+        // flex-direction: row;
+        // flex-wrap: nowrap;
+        // justify-content: flex-end;
+        // align-items: center;
+        // align-content: stretch;
+        // border: 1px green solid;
+    }
+    
+    .complete {
+        position: absolute;
+        margin-top:  60px;
+        margin-left: 4px;
+        box-sizing: border-box;
+        color: black;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        font-size: 36px;
+        // border: 1px solid red;
+    }
+
+    .watto-character {
+        position: absolute;
+        background-image:url('/assets/Characters/Watto_Donate.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 210px;
+        height: 200px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        // border: 1px red solid;
+    }
+}

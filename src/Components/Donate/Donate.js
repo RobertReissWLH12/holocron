@@ -23,6 +23,7 @@ export default class Donate extends Component {
                         </div>
                     </StripeProvider>
                 </div>
+                <div className="watto-character"></div>
             </div>
         )
     }

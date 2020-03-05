@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { CardElement, injectStripe } from 'react-stripe-elements';
-import './CheckoutForm.js'
+import './CheckoutForm.css'
 // import Swal from 'sweetalert2'
 // import swal from '@sweetalert/with-react'
 // import withReactContent from 'sweetalert2-react-content'
