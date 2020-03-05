@@ -1,14 +1,14 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
-.register-background{
-    background-image: url('/assets/Backgrounds/Register_BG.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-} 
+.register-background {
+  background-image: url("/assets/Backgrounds/Register_BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
 
 /* 
 .register-container {
@@ -28,122 +28,289 @@
 */
 
 .register-background h1 {
-    height: 15vh;
-    width: 900px;
-    top: 20%;
-    right: 10%;
-    position: absolute;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: stretch;
-    color: white;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    color: skyblue;
-    font-size: 50px;
-    /* border: blue 1px solid; */
+  height: 15vh;
+  width: 900px;
+  top: 20%;
+  right: 10%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  color: white;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: skyblue;
+  font-size: 50px;
+  /* border: blue 1px solid; */
 }
 
 #officer-line {
-    height: 120px;
-    width: 100%;
-    background-image: url('/assets/Boxes/Y-Line2.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
+  height: 120px;
+  width: 100%;
+  background-image: url("/assets/Boxes/Y-Line2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .box-artwork {
-    width: 600px;
-    height: 600px;
-    top: 32%;
-    right: 20%;
-    position: absolute;
-    background-image: url('/assets/Boxes/Y-Box2.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /* border: 1px purple solid; */
+  width: 600px;
+  height: 600px;
+  top: 32%;
+  right: 20%;
+  position: absolute;
+  background-image: url("/assets/Boxes/Y-Box2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* justify-content: space-around; */
+  align-items: center;
+  align-content: space-around;
+  /* border: 1px purple solid; */
 }
 
-.four-inputs {
+/* .four-inputs {
+  position: absolute;
+  height: 40%;
+  width: 50%;
+  top: 50px;
+  left: 170px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+  border: 1px green solid;
+} */
+
+#email {
+  margin-top: 70px;
+  height: 30px;
+  width: 260px;
+  /* font-size: 26px; */
+}
+
+#username-register {
+  margin-top: 20px;
+  height: 30px;
+  width: 260px;
+  /* font-size: 26px; */
+}
+
+#password1 {
+  margin-top: 20px;
+  height: 30px;
+  width: 260px;
+  /* font-size: 26px; */
+}
+
+#password2 {
+  margin-top: 20px;
+  height: 30px;
+  width: 260px;
+  /* font-size: 26px; */
+}
+
+.register-submit {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  bottom: 220px;
+  left: 225px;
+  color: transparent;
+  background: transparent;
+  background-image: url("/assets/Buttons/Register.png");
+  background-repeat: no-repeat;
+  border: transparent;
+  background-size: 100%;
+  /* border: 1px blue solid;  */
+}
+
+.register-submit:hover {
+  transition-duration: 0.5s;
+  background-image: url("/assets/Buttons/Register_HL.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.register-background h4 {
+  position: absolute;
+  width: 65%;
+  bottom: 90px;
+  left: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: gold;
+  font-size: 30px;
+  /* border: 1px red solid; */
+}
+
+@media screen and (max-width: 479px) {
+  .register-background {
+    background-image: url("/assets/Backgrounds/Empty_RegisterBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  /* 
+    .register-container {
+        height: 60vh;
+        width: 60vw;
+        top: 20%;
+        right: 5%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        transform: translate(-50%, -50%);
+        color: white;
+        border: blue 3px solid;
+    } 
+    */
+
+  .register-officer {
     position: absolute;
-    height: 40%;
-    width: 50%;
-    top: 50px;
-    left: 170px;
-    /* transform: translate(50%, 50%); */
+    background-image: url("/assets/Characters/Register_Officer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: none;
+    width: 30vh;
+    height: 65vh;
+    right: 25%;
+    bottom: 0;
+    padding: 13%;
+    /* border: 1px blue solid; */
+  }
+
+  .register-background h1 {
+    height: 80px;
+    width: 80%;
+    top: 25%;
+    position: absolute;
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    font-family: "ZCOOL QingKe HuangYou", cursive;
+    color: skyblue;
+    font-size: 26px;
+    text-align: center;
+    /* border: blue 1px solid; */
+  }
+
+  #officer-line {
+    height: 20px;
+    width: 100%;
+    background-image: url("/assets/Boxes/Y-Line2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+  }
+
+  .box-artwork {
+    height: 50%;
+    width: 85%;
+    top: 40%;
+    right: 7%;
+    position: absolute;
+    background-image: url("/assets/Boxes/Y-Box2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: default;
+    align-items: center;
+    align-content: space-around;
+    /* border: 1px purple solid; */
+  }
+
+  /* .four-inputs {
+    position: absolute;
+    height: 44%;
+    width: 80%;
+    top: 50px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     align-content: space-around;
-    /* border: 1px green solid; */
-}
+    border: 1px green solid;
+  } */
 
-
-#email {
-    margin-top: 0px;
-    height: 12%;
-    width: 90%;
+  #email {
+    margin-top: 10%;
+    height: 20px;
+    width: 200px;
     /* font-size: 26px; */
-}
+  }
 
-#username-register {
+  #username-register {
     margin-top: 20px;
-    height: 12%;
-    width: 90%;
+    height: 20px;
+    width: 200px;
     /* font-size: 26px; */
-}
+  }
 
-#password1 {
+  #password1 {
     margin-top: 20px;
-    height: 12%;
-    width: 90%;
+    height: 20px;
+    width: 200px;
     /* font-size: 26px; */
-}
+  }
 
-#password2 {
+  #password2 {
     margin-top: 20px;
-    height: 12%;
-    width: 90%;
+    height: 20px;
+    width: 200px;
     /* font-size: 26px; */
-}
+  }
 
-.register-submit {
-    position: absolute;
-    width: 150px;
-    height: 50px;
-    bottom: 220px;
-    left: 240px;
+  .register-submit {
+    position: static;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
     color: transparent;
     background: transparent;
-    background-image: url('/assets/Buttons/Register.png');
+    background-image: url("/assets/Buttons/Register.png");
     background-repeat: no-repeat;
     border: transparent;
-    background-size: 100%; 
+    background-size: 100%;
     /* border: 1px blue solid;  */
-}
+  }
 
-.register-submit:hover {
+  .register-submit:hover {
     transition-duration: 0.5s;
-    background-image: url('/assets/Buttons/Register_HL.png');
+    background-image: url("/assets/Buttons/Register_HL.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    cursor:pointer;
-}
+    cursor: pointer;
+  }
 
-.register-background h4 {
-    position: absolute;
-    width: 65%;
-    bottom: 90px;
-    left: 120px;
+  .register-background h4 {
+    position: static;
+    width: 75%;
+    margin-left: 45px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     text-align: center;
     color: gold;
-    font-size: 30px;
+    font-size: 20px;
     /* border: 1px red solid; */
+  }
 }
