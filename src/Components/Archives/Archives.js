@@ -16,7 +16,9 @@ class Archives extends Component {
             modalActivate: false,
             book: '',
             smallNum: 0,
-            bigNum: 6
+            bigNum: 10,
+            mobileSmallNum: 0,
+            mobileBigNum: 6
         }
 
         this.getArchives = this.getArchives.bind(this)
@@ -59,8 +61,15 @@ class Archives extends Component {
 
     increment = () => {
         this.setState({
-            bigNum: this.state.bigNum + 6,
-            smallNum: this.state.smallNum + 6
+            bigNum: this.state.bigNum + 10,
+            smallNum: this.state.smallNum + 10
+        })
+    }
+
+    incrementMobile = () => {
+        this.setState({
+            mobileBigNum: this.state.mobileBigNum + 6,
+            mobileSmallNum: this.state.mobileSmallNum + 6
         })
     }
 
@@ -74,14 +83,23 @@ class Archives extends Component {
 
     decrement = () => {
         this.setState({
-            bigNum: this.state.bigNum - 6,
-            smallNum: this.state.smallNum - 6
+            bigNum: this.state.bigNum - 10,
+            smallNum: this.state.smallNum - 10
+        })
+    }
+
+    decrementMobile = () => {
+        this.setState({
+            mobileBigNum: this.state.mobileBigNum - 6,
+            mobileSmallNum: this.state.mobileSmallNum - 6
         })
     }
 
     render() {
         // console.log(this.props)
         let filteredArchives = this.state.archives.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
+
+        let mobileFilteredArchives = this.state.archives.filter((book, i) => i < this.state.mobileBigNum && i >= this.state.mobileSmallNum)
         return (
             <div className="archives-background">
                 <div id="books-display">
@@ -95,6 +113,18 @@ class Archives extends Component {
                         )
                     })}
                 </div>
+                <div id="mobile-books-display">
+                    {mobileFilteredArchives.map((book, i) => {
+                        // console.log(book)
+                        return (
+                            <Book
+                                onClick={this.modalFn}
+                                book={book} />
+
+                        )
+                    })}
+                </div>
+
 
                 {/* MODAL */}
                 {this.state.modalActivate &&
@@ -138,11 +168,18 @@ class Archives extends Component {
                         {/* <div class="overlay"></div> */}
                     </div>
                 }
+
                 {this.state.smallNum < 1 ? (
                     null
                 ) : <button onClick={() => this.decrement()} className="prev"></button>
                 }
                 {this.state.bigNum > this.state.archives.length - 1 ? (null) : <button onClick={() => this.increment()} className="next"></button>}
+
+                {this.state.mobileSmallNum < 1 ? (
+                    null
+                ) : <button onClick={() => this.decrementMobile()} className="mobile-prev"></button>
+                }
+                {this.state.mobileBigNum > this.state.archives.length - 1 ? (null) : <button onClick={() => this.incrementMobile()} className="mobile-next"></button>}
 
             </div>
         )

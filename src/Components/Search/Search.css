@@ -1,67 +1,274 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
-
-
 .search-background {
-    background-image: url("/assets/Backgrounds/Search_BG.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-}  
+  background-image: url("/assets/Backgrounds/Search_BG.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  z-index: -10;
+}
 
 .R2 {
+  position: absolute;
+  width: 1550px;
+  height: 77%;
+  overflow: hidden;
+  background-image: url("/assets/Search/R2&Table_cropped.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-size: 100%;
+  right: 0px;
+  bottom: 0px;
+  /* border: 1px blue solid; */
+}
+
+.R2-beam-outer {
+  position: absolute;
+  width: 1550px;
+  height: 720px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  /* border: 1px red solid; */
+}
+
+.R2-beam {
+  position: absolute;
+  width: 46%;
+  height: 95%;
+  background-image: url("/assets/Search/R2BeamFlicker.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  background-size: 86%;
+  right: 11%;
+  top: -17.6%;
+  z-index: 0;
+  /* border: 1px pink solid; */
+}
+
+.lightsaber-hilt {
+  width: 180px;
+  height: 150px;
+  background-image: url("/assets/Search/lightsaber_hilt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  position: absolute;
+  /* justify-content: flex-end; */
+  /* align-items: flex-end; */
+  background-size: 100%;
+  z-index: 5;
+  left: 100px;
+  top: 200px;
+  /* border: 1px blue solid; */
+}
+
+.magnifying-glass {
+  width: 30px;
+  height: 30px;
+  margin-top: 59px;
+  margin-left: 62px;
+  /* border: 1px purple solid; */
+}
+
+.lightsaber-blade {
+  width: 500px;
+  height: 100px;
+  background-image: url("/assets/Search/lightsaber_blade.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  position: absolute;
+  background-size: 110%;
+  left: 155px;
+  top: 222px;
+  /* border: 1px green solid; */
+}
+
+.searchbar {
+  position: absolute;
+  width: 330px;
+  height: 25px;
+  left: 130px;
+  top: 40px;
+  display: flex;
+  /* border: 1px red solid; */
+}
+
+.books-hologram-container {
+  position: absolute;
+  width: 1550px;
+  height: 720px;
+  right: 0px;
+  bottom: 0px;
+  /* border: blue 1px solid; */
+}
+
+#books-hologram {
+  position: absolute;
+  width: 320px;
+  height: 500px;
+  top: 2%;
+  right: 30%;
+  z-index: 5;
+  display: flex;
+  flex-wrap: nowrap;
+  /* border: red 1px solid; */
+}
+
+.search-prev {
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  bottom: 20vh;
+  right: 53%;
+  color: transparent;
+  background: transparent;
+  border: transparent;
+  background-image: url("/assets/Buttons/Prev.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* border: 1px red solid; */
+}
+
+.search-prev:hover {
+  transition-duration: 0.5s;
+  background-image: url("/assets/Buttons/Prev_HL.png");
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.search-next {
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  bottom: 20vh;
+  right: 16%;
+  color: transparent;
+  background: transparent;
+  border: transparent;
+  background-image: url("/assets/Buttons/Next.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* border: 1px red solid; */
+}
+
+.search-next:hover {
+  transition-duration: 0.5s;
+  background-image: url("/assets/Buttons/Next_HL.png");
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.search-add {
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 52vh;
+  left: 3.2vw;
+  color: transparent;
+  background: transparent;
+  border: transparent;
+  background-image: url("/assets/Buttons/Add.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 10;
+  /* border: 1px red solid; */
+}
+
+.search-add:hover {
+  transition-duration: 0.5s;
+  background-image: url("/assets/Buttons/Add_HL.png");
+  background-size: 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 478px) {
+  .MobileR2 {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* .MobileR2_Beam {
+        display: none;
+        visibility: hidden;
+    } */
+}
+
+@media screen and (max-width: 479px) {
+  .R2 {
+    display: none;
+  }
+
+  .R2-beam-outer {
     position: absolute;
-    width: 1550px;
-    height: 77%;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    bottom: 0px;
+    /* z-index: 15; */
+    /* border: 1px red solid; */
+  }
+
+  .MobileR2 {
+    position: absolute;
+    width: 400px;
+    height: 520px;
     overflow: hidden;
-    background-image: url("/assets/Search/R2&Table_cropped.png");
-    background-repeat: no-repeat;
+    background-image: url("/assets/Search/MobileR2.png");
+    /* background-attachment: fixed; */
+    background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     background-size: 100%;
-    right: 0px;
-    bottom: 0px;
-    /* border: 1px blue solid; */
-}
-
-.R2-beam-outer {
-    position: absolute;
-    width: 1550px;
-    height: 720px;
-    right: 0px;
-    bottom: 0px;
+    bottom: 0;
+    right: 0;
     z-index: 1;
-    /* border: 1px red solid; */
-}
+    /* border: 1px blue solid; */
+  }
 
-.R2-beam {
+  .MobileR2_Beam {
     position: absolute;
-    width: 46%;
-    height: 95%;
-    background-image: url("/assets/Search/R2BeamFlicker.gif");
+    width: 400px;
+    height: 520px;
+    overflow: hidden;
+    background-image: url("/assets/Search/MobileR2_Beam.png");
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-position: center;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-    background-size: 86%;
-    right: 11%;
-    top: -17.6%;
-    z-index: 0;
-    /* border: 1px pink solid; */
-}
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-size: 100%;
+    bottom: 0;
+    right: 0;
+    /* z-index: 1; */
+    /* border: 1px purple solid; */
+  }
 
-.lightsaber-hilt {
-    width: 180px;
-    height: 150px;
+  .R2-beam {
+    display: none;
+  }
+
+  .lightsaber-hilt {
+    width: 100px;
+    height: 50px;
     background-image: url("/assets/Search/lightsaber_hilt.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -71,111 +278,123 @@
     /* align-items: flex-end; */
     background-size: 100%;
     z-index: 5;
-    left: 100px;
-    top: 200px;
+    left: 2%;
+    top: 175px;
     /* border: 1px blue solid; */
-}
+  }
 
-.magnifying-glass {
-    width: 30px;
-    height: 30px;
-    margin-top: 59px;
-    margin-left: 62px;
+  .magnifying-glass {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 50;
     /* border: 1px purple solid; */
-}
+  }
 
-.lightsaber-blade {
-    width: 500px;
-    height: 100px;
+  .lightsaber-blade {
+    position: absolute;
+    width: 100%;
+    height: 60px;
     background-image: url("/assets/Search/lightsaber_blade.png");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    position: absolute;
-    background-size: 110%;
-    left: 155px;
-    top: 222px;
+    background-size: 100%;
+    left: 0;
+    top: 168px;
     /* border: 1px green solid; */
-}
+  }
 
-.searchbar {
+  .searchbar {
     position: absolute;
-    width: 330px;
-    height: 25px;
-    left: 130px;
-    top: 40px;
+    width: 60%;
+    height: 19px;
+    left: 29%;
+    top: 33%;
     display: flex;
+    z-index: 10;
     /* border: 1px red solid; */
-}
+  }
 
-.books-hologram-container {
+  .books-hologram-container {
     position: absolute;
-    width: 1550px;
-    height: 720px;
-    right: 0px;
-    bottom: 0px;
-    /* border: blue 1px solid; */
+    width: 400px;
+    height: 520px;
+    bottom: 0;
+    right: 0;
+    /* z-index: 50; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-content: stretch;
+    /* z-index: 5; */
+    /* border: green 1px solid; */
+  }
 
-}
-
-#books-hologram {
+  #books-hologram {
     position: absolute;
-    width: 320px;
-    height: 500px;
-    top: 2%;
-    right: 30%;
-    z-index: 5;
+    width: 180px;
+    height: 285px;
+    /* z-index: 2; */
+    right: 28%;
+    top: 70px;
     display: flex;
     flex-wrap: nowrap;
+    z-index: 5;
     /* border: red 1px solid; */
-}
+  }
 
-.search-prev {
+  .search-prev {
     position: absolute;
     height: 40px;
     width: 100px;
-    bottom: 20vh ;
-    right: 53%;
+    bottom: 15vh;
+    left: 16%;
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('/assets/Buttons/Prev.png');
+    background-image: url("/assets/Buttons/Prev.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    z-index: 100;
     /* border: 1px red solid; */
-}
+  }
 
-.search-prev:hover {
+  .search-prev:hover {
     transition-duration: 0.5s;
-    background-image: url('/assets/Buttons/Prev_HL.png');
+    background-image: url("/assets/Buttons/Prev_HL.png");
     background-size: 100%;
-    cursor:pointer;
-}
+    cursor: pointer;
+  }
 
-.search-next {
+  .search-next {
     position: absolute;
     height: 40px;
     width: 100px;
-    bottom: 20vh;
+    bottom: 15vh;
     right: 16%;
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('/assets/Buttons/Next.png');
+    background-image: url("/assets/Buttons/Next.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    z-index: 100;
     /* border: 1px red solid; */
+  }
 
-}
-
-.search-next:hover {
+  .search-next:hover {
     transition-duration: 0.5s;
-    background-image: url('/assets/Buttons/Next_HL.png');
+    background-image: url("/assets/Buttons/Next_HL.png");
     background-size: 100%;
-    cursor:pointer;
-}
+    cursor: pointer;
+  }
 
-.search-add {
+  .search-add {
     position: absolute;
     height: 10%;
     width: 25%;
@@ -184,16 +403,17 @@
     color: transparent;
     background: transparent;
     border: transparent;
-    background-image: url('/assets/Buttons/Add.png');
+    background-image: url("/assets/Buttons/Add.png");
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 10;
     /* border: 1px red solid; */
-}
+  }
 
-.search-add:hover {
+  .search-add:hover {
     transition-duration: 0.5s;
-    background-image: url('/assets/Buttons/Add_HL.png');
+    background-image: url("/assets/Buttons/Add_HL.png");
     background-size: 100%;
-    cursor:pointer;
+    cursor: pointer;
+  }
 }

@@ -1,7 +1,7 @@
 .book-cover {
-    width: 10vw;
+    width: 12vw;
     height: auto;
-    margin-left: 40px;
+    margin-left: 10px;
     /* border: green 1px solid; */
 }
 
@@ -11,9 +11,9 @@
 
 @media screen and (max-width: 479px) {
     .book-cover {
-        width: 25vw;
+        width: 28vw;
         height: auto;
-        padding-left: 17%;
+        padding-left: 5%;
         /* border: green 1px solid; */
     }
 }

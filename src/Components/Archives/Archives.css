@@ -24,13 +24,17 @@ html {
 #books-display {
   position: absolute;
   width: 65vw;
-  height: 63vh;
+  height: 72vh;
   bottom: 10vh;
-  left: 18.5%;
+  left: 17%;
   /* padding-top: 150px; */
   /* padding-left: 250px; */
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   /* border: red 1px solid; */
 }
 
@@ -287,6 +291,26 @@ html {
     display: none;
     visibility: hidden;
   }
+
+  .mobile-add {
+    display: none;
+    visibility: hidden;
+  }
+
+  .mobile-next {
+    display: none;
+    visibility: hidden;
+  }
+
+  .mobile-prev {
+    display: none;
+    visibility: hidden;
+  }
+
+  #mobile-books-display {
+    display: none;
+    visibility: hidden;
+  }
 }
 /* MEDIA QUERIES */
 
@@ -299,8 +323,21 @@ html {
     left: 0;
     /* padding-top: 150px; */
     /* padding-left: 250px; */
+    display: none;
+    flex-wrap: wrap;
+    /* border: red 1px solid; */
+  }
+
+  #mobile-books-display {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    bottom: 25vh;
+    /* padding-top: 150px; */
+    /* padding-left: 250px; */
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: space-evenly; */
     /* border: red 1px solid; */
   }
 
@@ -533,6 +570,22 @@ html {
     width: 100px;
     bottom: 10vh;
     left: 20vw;
+    display: none;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url("/assets/Buttons/Prev.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+  }
+
+  .mobile-prev {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    bottom: 10vh;
+    left: 20vw;
     color: transparent;
     background: transparent;
     border: transparent;
@@ -555,6 +608,7 @@ html {
     width: 100px;
     bottom: 10vh;
     right: 20vw;
+    display: none;
     color: transparent;
     background: transparent;
     border: transparent;
@@ -569,6 +623,21 @@ html {
     background-image: url("/assets/Buttons/Next_HL.png");
     background-size: 100%;
     cursor: pointer;
+  }
+
+  .mobile-next {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    bottom: 10vh;
+    right: 20vw;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url("/assets/Buttons/Next.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
   }
 
   .add {

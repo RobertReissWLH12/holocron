@@ -78,6 +78,7 @@ class Search extends Component {
         return (
             <div className="R2-beam-outer">
             <div className="R2-beam"></div>
+            <div className="MobileR2_Beam"></div>
             {this.state.smallNum < 1 ? (null) : <button onClick={() => this.decrement()} className="search-prev"></button>}
                 {this.state.bigNum > this.state.archives.length - 1 ? (null) : <button onClick={() => this.increment()} className="search-next"></button>}
                 
@@ -116,6 +117,7 @@ class Search extends Component {
                 </div>
                 </div>
                 <div className="R2"></div>
+                <div className="MobileR2"></div>
 
                 {/* CONDITIONAL RENDERING FOR R2 BEAM */}
                     <div>
