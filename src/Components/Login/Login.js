@@ -42,6 +42,7 @@ class Login extends Component {
   render() {
     return (
       <div className="login-background">
+        <div className="login-troopers"></div>
         <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet"></link>
         <div className="login-container" alt=''>
         <h1>" Let me see your identification. "</h1>

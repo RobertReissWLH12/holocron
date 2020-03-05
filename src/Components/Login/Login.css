@@ -1,78 +1,173 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 .login-background {
-        background-image: url('/assets/Backgrounds/Login_BG.jpg') ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        height: 100vh;
-} 
-
-
+  background-image: url("/assets/Backgrounds/Login_BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
 
 .login-container {
-    background-image: url('/assets/Boxes/Y-Box3.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 510px;
-    width: 950px;
-    top: 25%;
-    right: 5%;
-    position: absolute;
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-    justify-content: space-around;
-	align-items: center;
-    align-content: space-around;
-    /* transform: translate(-50%, -50%); */
-    /* border: blue 1px solid; */
+  background-image: url("/assets/Boxes/Y-Box3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 510px;
+  width: 950px;
+  top: 25%;
+  right: 5%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  /* transform: translate(-50%, -50%); */
+  /* border: blue 1px solid; */
 }
 
 #username {
-    margin-top: 20px;
-    height: 30px;
-    width: 200px;
+  margin-top: 20px;
+  height: 30px;
+  width: 200px;
 }
 
 #password {
-    margin-top: 20px;
-    height: 30px;
-    width: 200px;
+  margin-top: 20px;
+  height: 30px;
+  width: 200px;
 }
 
 .login-background h1 {
-    margin-top: 30px;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-    color: gold;
-    font-size: 56px;
+  margin-top: 30px;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: gold;
+  font-size: 56px;
 }
 
 .login-submit {
-    width: 130px;
-    height: 65px;
-    margin: 10px;
+  width: 130px;
+  height: 65px;
+  margin: 10px;
+  color: transparent;
+  background: transparent;
+  background-image: url("/assets/Buttons/Login.png");
+  background-repeat: no-repeat;
+  border: transparent;
+  background-size: 100%;
+  /* border: 1px blue solid;  */
+}
+
+.login-submit:hover {
+  transition-duration: 0.5s;
+  background-image: url("/assets/Buttons/Login_HL.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.login-background h4 {
+  margin-bottom: 20px;
+  color: skyblue;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 479px) {
+  .login-background {
+    background-image: url("/assets/Backgrounds/Empty_Login_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+
+  .login-troopers {
+      position: absolute;
+      background-image: url("/assets/Characters/Login_Troopers.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      width: 58vh;
+      height: 65vh;
+      right: 25%;
+      bottom: 0;
+      padding: 13%;
+      /* border: 1px purple solid; */
+  }
+
+  .login-container {
+    background-image: url("/assets/Boxes/Y-Box2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 85%;
+    top: 40%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    /* transform: translate(-50%, -50%); */
+    /* border: blue 1px solid; */
+  }
+
+  #username {
+    margin-top: 0;
+    height: 30px;
+    width: 200px;
+  }
+
+  #password {
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+  }
+
+  .login-background h1 {
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "ZCOOL QingKe HuangYou", cursive;
+    color: gold;
+    font-size: 32px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    /* border: 1px green solid; */
+  }
+
+  .login-submit {
+    width: 100px;
+    height: 70px;
+    margin: 5px;
     color: transparent;
     background: transparent;
-    background-image: url('/assets/Buttons/Login.png');
+    background-image: url("/assets/Buttons/Login.png");
     background-repeat: no-repeat;
     border: transparent;
     background-size: 100%;
     /* border: 1px blue solid;  */
-}
+  }
 
-.login-submit:hover {
+  .login-submit:hover {
     transition-duration: 0.5s;
-    background-image: url('/assets/Buttons/Login_HL.png');
+    background-image: url("/assets/Buttons/Login_HL.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    cursor:pointer;
-}
+    cursor: pointer;
+  }
 
-.login-background h4 {
-    margin-bottom: 20px;
+  .login-background h4 {
+    width: 75%;
+    margin-left: 15%;
+    margin-bottom: 40px;
     color: skyblue;
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px green solid; */
+  }
 }
