@@ -1,6 +1,8 @@
-* {
-    margin: 0;
-    
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .contracts-background {
@@ -12,15 +14,21 @@
     height: 100vh;
 } 
 
-#favorites_display {
-    position: absolute;
-    width: 65vw;
-    height: 63vh;
-    bottom: 100px;
-    left: 250px;
-    display: flex;
-    flex-wrap: wrap;
-    border: red 1px solid;
+#favorites-display {
+  position: absolute;
+  width: 65vw;
+  height: 72vh;
+  bottom: 10vh;
+  left: 17%;
+  /* padding-top: 150px; */
+  /* padding-left: 250px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  /* border: red 1px solid; */
 }
 
 .remove {
@@ -45,6 +53,33 @@
     cursor:pointer;
 }
 
+@media screen and (min-width: 478px) {
+    .mobile-modal-image {
+        display: none;
+        visibility: hidden;
+      }
+    
+      .mobile-remove {
+        display: none;
+        visibility: hidden;
+      }
+    
+      .mobile-next {
+        display: none;
+        visibility: hidden;
+      }
+    
+      .mobile-prev {
+        display: none;
+        visibility: hidden;
+      }
+    
+      #mobile-favorites-display {
+        display: none;
+        visibility: hidden;
+      }
+}
+
 @media screen and (max-width: 479px) {
     
     .contracts-background {
@@ -52,20 +87,357 @@
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center center;
+        background-position: center top;
         height: 100vh;
     } 
     
-    #favorites_display {
+    #favorites-display {
         position: absolute;
         width: 65vw;
-        height: 63vh;
-        bottom: 100px;
-        left: 250px;
+        height: 72vh;
+        bottom: 10vh;
+        left: 17%;
+        /* padding-top: 150px; */
+        /* padding-left: 250px; */
+        display: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        /* border: red 1px solid; */
+    }
+
+    #mobile-favorites-display {
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        bottom: 25vh;
+        /* padding-top: 150px; */
+        /* padding-left: 250px; */
         display: flex;
         flex-wrap: wrap;
-        border: red 1px solid;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: space-around;
+        /* border: red 1px solid; */
     }
+
+    /* MODAL */
+  .modal-master {
+    position: absolute;
+    width: 90%;
+    height: 75%;
+    left: 5%;
+    bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    z-index: 60;
+    /* transform: translate(20%, 20%); */
+    /* border: 1px purple solid; */
+  }
+
+  .modal-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 60;
+    /* transform: translate(-50%, -50%); */
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-animation: fadein 1s;
+    animation: fadein 1s;
+    /* border: 1px salmon solid; */
+  }
+
+  /* Modal Body */
+  .modal-body {
+    position: relative;
+    overflow-y: scroll;
+    height: 95%;
+    width: 98%;
+    background-color: black;
+    color: gold;
+    margin-top: 0px;
+    margin-right: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y: auto;
+    /* border: 1px green solid; */
+  }
+
+  /* Modal Header */
+  .modal-header {
+    position: fixed;
+    width: 80%;
+    height: 50px;
+    margin-left: 0;
+    /* padding: 2px 16px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    background-color: black;
+    color: gold;
+    z-index: 10;
+    /* border: 1px yellow solid; */
+  }
+
+  .modal-header h2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    font-size: 4vw;
+    text-align: center;
+    background-color: black;
+    /* border: 1px blue solid; */
+  }
+
+  /* close button */
+  .close {
+    position: absolute;
+    right: 1%;
+    color: #aaa;
+    /* display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch; */
+    margin-top: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    z-index: 10;
+    /* -webkit-animation: fadeOut ease 1s;
+        animation: fadOut ease 1s; */
+    /* border: 1px red solid; */
+  }
+
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .mobile-modal-image {
+    position: relative;
+    height: auto;
+    width: 50%;
+    padding: 0px;
+    top: 2%;
+    margin-left: 6%;
+    background-color: black;
+    color: white;
+    /* border: 3px purple solid; */
+  }
+
+  .modal-bookInfo {
+    /* position: absolute; */
+    height: auto;
+    width: 90%;
+    margin-top: 15%;
+    padding: 1%;
+    font-size: 12px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content: space-around; */
+    align-items: center;
+    align-content: stretch;
+    float: right;
+    color: orange;
+    /* border: 1px red solid; */
+  }
+
+  #summary {
+    padding: 40px 0 60px 0;
+  }
+
+  /* Modal Footer */
+  .modal-image {
+    position: absolute;
+    height: auto;
+    display: none;
+    width: 50%;
+    padding: 0px;
+    margin-top: 2%;
+    margin-left: 6%;
+    background-color: black;
+    color: white;
+    /* border: 3px purple solid; */
+  }
+
+  .popup-image {
+    height: auto;
+    width: 100%;
+  }
+
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px) {
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  /* Animation */
+  /* @keyframes animateleft {
+        from {left: -300px; opacity: 0}
+        to {right: 0; opacity: 1}
+    } */
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeout {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @-webkit-keyframes fadeout {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .prev {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    bottom: 10vh;
+    left: 20vw;
+    display: none;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url("/assets/Buttons/Prev.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+  }
+
+  .mobile-prev {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    bottom: 10vh;
+    left: 20vw;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url("/assets/Buttons/Prev.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+  }
+
+  .prev:hover {
+    transition-duration: 0.5s;
+    background-image: url("/assets/Buttons/Prev_HL.png");
+    background-size: 100%;
+    cursor: pointer;
+  }
+
+  .next {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    bottom: 10vh;
+    right: 20vw;
+    display: none;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url("/assets/Buttons/Next.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+  }
+
+  .next:hover {
+    transition-duration: 0.5s;
+    background-image: url("/assets/Buttons/Next_HL.png");
+    background-size: 100%;
+    cursor: pointer;
+  }
+
+  .mobile-next {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    bottom: 10vh;
+    right: 20vw;
+    color: transparent;
+    background: transparent;
+    border: transparent;
+    background-image: url("/assets/Buttons/Next.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* border: 1px red solid; */
+  }
+
+  .mobile-removeContainer {
+    position: fixed;
+    width: 87%;
+    height: 40px;
+    bottom: 3%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    background-color: black;
+    /* border: 1px blue solid; */
+  }
     
     .remove {
         position: absolute;
@@ -73,6 +445,7 @@
         width: 20%;
         top: 51vh;
         left: 4.5vw;
+        display: none;
         color: transparent;
         background: transparent;
         border: transparent;
@@ -88,4 +461,19 @@
         background-size: 100%;
         cursor:pointer;
     }
+
+    .mobile-remove {
+        position: relative;
+        height: 35px;
+        width: 120px;
+        color: transparent;
+        background: transparent;
+        border: transparent;
+        background-image: url("/assets/Buttons/Remove.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index: 10;
+        /* border: 1px blue solid; */
+      }
+    
 }
