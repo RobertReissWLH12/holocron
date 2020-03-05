@@ -10,3 +10,14 @@
     background-position: center center;
     height: 100vh;
 } 
+
+@media screen and (max-width: 479px) {
+
+    .quiz-background {
+        background-image: url('/assets/Backgrounds/Mobile_Under_Construction_BG.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+    } 
+}
