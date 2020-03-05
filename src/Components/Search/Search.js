@@ -91,6 +91,7 @@ class Search extends Component {
         let filteredArchives = this.state.archives.filter((book, i) => i < this.state.bigNum && i >= this.state.smallNum)
         return (
             <div className="search-background">
+                <div className="lightsaber-container">
                 <div className="lightsaber-hilt">
                     <div className="magnifying-glass"
                         onClick={this.getBooks}>
@@ -103,6 +104,7 @@ class Search extends Component {
                         placeholder="Find an Entry..."
                         onChange={e => this.handleChange(e)}
                     />
+                </div>
                 </div>
                 <div className="books-hologram-container">
                 <div id="books-hologram">
@@ -132,36 +134,45 @@ class Search extends Component {
 
                 {/* MODAL */}
                 {this.state.modalActivate &&
-                    <div>
-                        <div className="modal-content">
-                            {/* Modal Body */}
-                            <div className="modal-body">
-                                <div className="modal-header">
-                                    <span className="close" onClick={() => this.setState({
-                                        modalActivate: false
-                                    })
-                                    }>&times;</span>
-                                    <h2>{this.state.book.title}</h2>
-                                </div>
-                                <div className="modal-bookInfo">
-                                    <p>Author: {this.state.book.author}</p>
-                                    <p>{this.state.book.pages} pages</p>
-                                    <p>Major Characters: {this.state.book.characters}</p>
-                                    <p id="summary">{this.state.book.summary}</p>
-                                </div>
-                                <div className="modal-image">
+                    <div className="modal-master">
+                    <div className="modal-content">
+                        {/* Modal Body */}
+                        <div className="modal-body">
+                            <div className="modal-header">
+                                <span className="close" data-dismiss="modal-content" onClick={() => this.setState({
+                                    modalActivate: false
+                                })
+                                }>&times;</span>
+                                <h2>{this.state.book.title}</h2>
+                            </div>
+                            <div className="modal-bookInfo">
+                                <div className="mobile-modal-image">
                                     <img className="popup-image" src={`/assets/Archives_Books/${this.state.book.image}`} alt="book-cover" />
                                 </div>
-                                {this.props.user_id &&
-                                    <button className="search-add"
-                                        onClick="this.addFavorite(this.state.book.archives_id);
-                                        this.setState({ modalActivate: false })"
-                                    ></button>
-                                }
+                                <p>Author: {this.state.book.author}</p>
+                                <p>{this.state.book.pages} pages</p>
+                                <p>Major Characters: {this.state.book.characters}</p>
+                                <p id="summary">{this.state.book.summary}</p>
                             </div>
+                            <div className="modal-image">
+                                <img className="popup-image" src={`/assets/Archives_Books/${this.state.book.image}`} alt="book-cover" />
+                            </div>
+                            {this.props.user_id &&
+                                <div>
+                                    <button className="add"
+                                        onClick={() => this.addFavorite(this.state.book.archives_id)}
+                                    ></button>
+                                    <div className="mobile-addContainer">
+                                        <button className="mobile-add"
+                                            onClick={() => this.addFavorite(this.state.book.archives_id)}
+                                        ></button>
+                                    </div>
+                                </div>
+                            }
                         </div>
-                        {/* <div class="overlay"></div> */}
                     </div>
+                    {/* <div class="overlay"></div> */}
+                </div>
                 }
                 {/* <button onClick={() => this.decrement()} className="search-prev"></button>
                 <button onClick={() => this.increment()} className="search-next"></button> */}

@@ -5,7 +5,7 @@
     /* border: blue 1px solid; */
 }
 
-@media screen and (max-width: 497px) {
+@media screen and (max-width: 479px) {
     .search-book-cover {
         position: absolute;
         width: 100%;

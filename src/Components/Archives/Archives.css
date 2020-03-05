@@ -354,6 +354,7 @@ html {
     justify-content: center;
     align-items: center;
     align-content: stretch;
+    z-index: 60;
     /* transform: translate(20%, 20%); */
     /* border: 1px purple solid; */
   }
@@ -369,7 +370,7 @@ html {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    z-index: 10;
+    z-index: 60;
     /* transform: translate(-50%, -50%); */
     overflow: auto;
     background-color: rgb(0, 0, 0);

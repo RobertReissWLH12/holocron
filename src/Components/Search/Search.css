@@ -266,6 +266,18 @@
     display: none;
   }
 
+  .lightsaber-container {
+      position: relative;
+      width: 100%;
+      height: 100px;
+      top: 145px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      z-index: 50;
+      /* border: 1px red solid; */
+  }
+
   .lightsaber-hilt {
     width: 100px;
     height: 50px;
@@ -277,9 +289,9 @@
     /* justify-content: flex-end; */
     /* align-items: flex-end; */
     background-size: 100%;
-    z-index: 5;
+    /* z-index: 5; */
     left: 2%;
-    top: 175px;
+    top: 20%;
     /* border: 1px blue solid; */
   }
 
@@ -289,7 +301,8 @@
     height: 50px;
     margin-top: 0;
     margin-left: 0;
-    z-index: 50;
+    /* z-index: 50; */
+    top: 0;
     /* border: 1px purple solid; */
   }
 
@@ -303,7 +316,7 @@
     display: flex;
     background-size: 100%;
     left: 0;
-    top: 168px;
+    top: 14%;
     /* border: 1px green solid; */
   }
 
@@ -314,7 +327,7 @@
     left: 29%;
     top: 33%;
     display: flex;
-    z-index: 10;
+    /* z-index: 10; */
     /* border: 1px red solid; */
   }
 
