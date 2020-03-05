@@ -87,6 +87,32 @@ class Hideout extends Component {
                                     </Link>
                                     </div>
                                 </div>
+
+                                {/* MOBILE VERSION (LOGGED IN) */}
+                                <div className="mobile-hideout-textbox">
+                                    <p>Unfortunately, my Fight Pit and Treasure Room are undergoing renovations right now.  In the meantime, you can choose a portrait for yourself in the Guests area as well as manage your favorite books in the Contracts section.  Enjoy your stay in Hondo's Hideout!</p>
+                                    </div>
+
+                                    <div className="hondoLogin-character"></div>
+                                <div className="mobile-links-container">
+                                    
+                                    <Link to="/contracts">
+                                        <button id="mobile-contracts-button" onClick={this.contracts}></button>
+                                    </Link>
+                                    
+                                    
+                                    <Link to="/guests">
+                                        <button id="mobile-guests-button" onClick={this.guests}></button>
+                                    </Link>
+                                    
+                                
+                                    <Link to="/quiz">
+                                        <button id="mobile-quiz-button" onClick={this.quiz}></button>
+                                    </Link>
+                                    <Link to="/treasures">
+                                        <button id="mobile-treasures-button" onClick={this.treasures}></button>
+                                    </Link>
+                                </div>
                             </div>
                         )
                 }
