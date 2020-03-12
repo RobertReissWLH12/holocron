@@ -1,3 +1,4 @@
+const path = require('path');
 require('dotenv').config();
 const express = require('express');
 const session = require('express-session')
@@ -10,8 +11,9 @@ const {SERVER_PORT, CONNECTION_STRING, SESSION_SECRET} = process.env;
 const app = express()
 const stripe = require("stripe")("sk_test_6RF2mu6OLiTwnXY0PVMaChbo00p4BjSGMJ");
 
-app.use(require("body-parser").text());
 
+
+app.use(require("body-parser").text());
 
 // TOP-LEVEL MIDDLEWARE
 app.use(express.json())
@@ -72,6 +74,11 @@ app.post("/charge", async (req, res) => {
 });
 
 //  MASSIVE
+app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname + '/../build/index.html'));
+});
+
+
 massive(CONNECTION_STRING)
 .then(dbInstance => {
     app.set('db', dbInstance);
